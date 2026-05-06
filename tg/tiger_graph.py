@@ -1,14 +1,15 @@
 import pyTigerGraph as tg
 import os
 from dotenv import load_dotenv
+import time
 
 
 load_dotenv(override=True)
 
-# Your TigerGraph instance details
+# TigerGraph instance details
 HOST = "https://tg-b07aa060-e3df-4207-94fc-971616eb7348.tg-2635877100.i.tgcloud.io"
 GRAPH = "HetionetGraph"
-API_KEY = os.getenv("TIGER_GRAPH_KEY")
+API_KEY = os.getenv("TG_API_KEY")
 
 conn = tg.TigerGraphConnection(
     host=HOST,
@@ -16,87 +17,108 @@ conn = tg.TigerGraphConnection(
     apiToken=API_KEY
 )
 
-# conn.getToken(conn.createSecret())
-print(conn.check_exist_graphs(GRAPH)) 
+# print(conn.check_exist_graphs(GRAPH)) 
 print("✅ Connected to TigerGraph")
 
 
-# def schema_upload():
+def schema_upload():
+    print("Dropping graph if exists...")
+    conn.gsql(f"DROP GRAPH {GRAPH} IF EXISTS")
 
-#     # If graph does NOT exist yet, Run this once:
-#     if not conn.graphExist(GRAPH):
-#         print(f"Graph {GRAPH} dosn't exist. Creating...")
-#         conn.gsql(
-#             """
-#                 DROP GRAPH HetionetGraph IF EXISTS;
-#                 CREATE GRAPH HetionetGraph();
-#             """
-#         )
+    with open("tg/data/hetionet_schema.gsql", "r") as f:
+        schema_query = f.read()
 
-#     with open("data/hetionet_schema.gsql", "r") as f:
-#         schema_query = f.read()
+    statements = [stmt.strip() for stmt in schema_query.split(";") if stmt.strip()]
 
-#     conn.gsql(schema_query)
+    print("Executing schema statements...")
+    for stmt in statements:
+        print(f"Executing: {stmt[:60]}...")
+        conn.gsql(stmt)
 
-#     print("✅ Schema executed")
+    print("Installing graph...")
+    conn.gsql(f"INSTALL GRAPH {GRAPH}")
 
-
-
-# def load_nodes():
-#     DATA_DIR = "data/nodes"
-#     for file in os.listdir(DATA_DIR):
-#         if not file.endswith(".csv"):
-#             continue
-
-#         # vertex files have no underscore
-#         if "_" in file:
-#             continue
-
-#         vtype = file.replace(".csv", "")
-#         path = os.path.join(DATA_DIR, file)
-
-#         print(f"📥 Loading vertex: {vtype}")
-
-#         conn.uploadFile(
-#             filepath=path,
-#             fileTag=vtype,
-#             jobName=f"load_{vtype}"
-#         )
+    print(conn.getSchema())
+    print("✅ Schema executed")
 
 
-# def load_edges(conn):
-#     DATA_DIR = "data/edges"
-#     for file in os.listdir(DATA_DIR):
-#         if not file.endswith(".csv"):
-#             continue
+def create_and_run_vertex_jobs():
+    """Create loading jobs for all vertex CSVs and run them"""
+    DATA_DIR = "/home/sidharth/Desktop/GraphRAG/graphRAG-tiger/tg/data/nodes"
+    for file in os.listdir(DATA_DIR):
+        if not file.endswith(".csv") or "_" in file:
+            continue
 
-#         # edge files have underscore
-#         if "_" not in file:
-#             continue
+        vtype = file.replace(".csv", "")
+        path = os.path.join(DATA_DIR, file)
+        job_name = f"load_{vtype}"
+        file_tag = "f1"  # single file tag for each job
+        
+        print(f"📥 Creating and loading vertex: {vtype}")
 
-#         etype = file.replace(".csv", "")
-#         path = os.path.join(DATA_DIR, file)
+        # Generate GSQL for loading job
+        gsql_job = f"""
+        USE GRAPH {GRAPH}
+        CREATE LOADING JOB {job_name} FOR GRAPH {GRAPH} {{
+            DEFINE FILENAME {file_tag};
+            LOAD {file_tag} TO VERTEX {vtype} VALUES ($0, $1) USING SEPARATOR=",";
+        }}
+        """
+        try:
+            conn.gsql(gsql_job)
+        except Exception as e:
+            print(f"⚠️ Could not create job {job_name}: {e}")
 
-#         print(f"🔗 Loading edge: {etype}")
+        conn.runLoadingJobWithFile(
+            filePath=path,
+            fileTag=file_tag,
+            jobName=job_name
+        )
 
-#         conn.uploadFile(
-#             filepath=path,
-#             fileTag=etype,
-#             jobName=f"load_{etype}"
-#         )
+def create_and_run_edge_jobs():
+    """Create loading jobs for all edge CSVs and run them"""
+    DATA_DIR = "/home/sidharth/Desktop/GraphRAG/graphRAG-tiger/tg/data/edges"
+    for file in os.listdir(DATA_DIR):
+        if not file.endswith(".csv") or "_" not in file:
+            continue
+
+        etype = file.replace(".csv", "")
+        path = os.path.join(DATA_DIR, file)
+        job_name = f"load_{etype}"
+        file_tag = "f1"
+        
+        print(f"🔗 Creating and loading edge: {etype}")
+
+        # For simplicity, assume all edges have 2 columns: from_id, to_id
+        gsql_job = f"""
+        USE GRAPH {GRAPH}
+        CREATE LOADING JOB {job_name} FOR GRAPH {GRAPH} {{
+            DEFINE FILENAME {file_tag};
+            LOAD {file_tag} TO EDGE {etype} VALUES ($0, $1) USING SEPARATOR=",";
+        }}
+        """
+        try:
+            conn.gsql(gsql_job)
+        except Exception as e:
+            print(f"⚠️ Could not create job {job_name}: {e}")
+
+        conn.runLoadingJobWithFile(
+            filePath=path,
+            fileTag=file_tag,
+            jobName=job_name
+        )
 
 
-# # Load all jobs
-# jobs = conn.getLoadingJobs()
+def main():
+    schema_upload()
+    time.sleep(5)
+    create_and_run_vertex_jobs()
+    create_and_run_edge_jobs()
+    print("✅ All data loaded")
 
-# for job in jobs:
-#     print(f"▶ Running: {job}")
-#     conn.runLoadingJob(job)
+main()
 
-# print("✅ All data loaded")
-
-
-# # Verification
-# print(conn.getVertexCount("Gene"))
-# print(conn.getVertexCount("Disease"))
+# Verification
+print(conn.getVertexCount("Gene"))
+print(conn.getVertexCount("Disease"))
 
