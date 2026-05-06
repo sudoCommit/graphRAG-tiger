@@ -23,7 +23,10 @@ classifiers = [
 dependencies = [
     "pyTigerGraph>=2.0.3",
     "python-dotenv>=1.2.2",
-    "typing-extensions>=4.15.0"
+    "typing-extensions>=4.15.0",
+    "langchain>=1.2.17",
+    "langchain-openai>=1.2.1",
+    "openai>=2.34.0"
 ]
 
 [project.optional-dependencies]
