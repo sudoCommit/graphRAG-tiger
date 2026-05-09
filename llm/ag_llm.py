@@ -1,56 +1,78 @@
 
+import time
+import os
 import logging
-from typing import Any, Optional
+from dataclasses import dataclass
 
-from openai import APIConnectionErrorm, RateLimitError
-from langchain_core.messages import BaseMessage
-from langchain_openai import ChatOpenAI
-from tenacity import (
-    before_sleep_log,
-    retry,
-    retry_if_exception_type,
-    stop_after_attempt,
-    wait_exponential_jitter,
-)
+from openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv(override=True)
 
 logger = logging.getLogger(__name__)
-LLM_ENDPOINT = "/large-language-models/{model_name}"
 
 
-class AGOpenAIChat(ChatOpenAI):
-    def __init__(self, model: str, **kwargs):
-        kwargs.setdefault(
-            "base_url", f"{AG_API_URL}/large-language-models-openai-compatible"
+PRICING = {
+    "gpt-4.1-mini": {"input": 0.40, "output": 1.60},
+    "gpt-4.1": {"input": 2.00, "output": 8.00},
+    "gpt-4o-mini": {"input": 0.15, "output": 0.60},
+    "gpt-4o": {"input": 2.50, "output": 10.00},
+}
+
+
+@dataclass
+class PipelineResult:
+    """Structured result for LLM queries, including token counts and cost."""
+    answer: str
+    prompt_tokens: int = 0
+    completion_tokens: int = 0
+    total_tokens: int = 0
+    latency_s: float = 0.0
+    cost: float = 0.0
+    model: str = ""
+    retrieved_context: str = ""
+
+
+class LLMClient:
+    """LLM client with token tracking and cost calculation."""
+    def __init__(self, model: str = "gpt-4.1-mini"):
+        self.client = OpenAI(
+            api_key=os.getenv("LLM_API_KEY"),
+            base_url=os.getenv("LLM_HOST_URL"),
+            timeout=60,
         )
-        kwargs.setdefault("api_key", AG_TOKEN)
-        kwargs.setdefault("temperature", 0)
-        kwargs.setdefault("max_tokens", 4096)
-        super().__init__(model=model, **kwargs)
+        self.model = model
 
-    async def _get_model_price(self, model_name: str) -> dict:
-        key = self.model_name.replace("-", "_").replace(".", "")
-        return await self.make_get_request(LLM_ENDPOINT.format(model_name=key))
+    def query(self, messages: list[dict], temperature: float = 0) -> PipelineResult:
+        start = time.time()
+        response = self.client.chat.completions.create(
+            model=self.model,
+            messages=messages,
+            temperature=temperature,
+        )
+        latency = time.time() - start
 
-    async def _compute_cost(self, model_name: str, in_tokens: int, out_tokens: int) -> float:
-        pricing = await self._get_model_price(model_name)
-        return in_tokens * (pricing.get("in_token_cost", 0.0)) + out_tokens * (pricing.get("out_token_cost", 0.0))
+        usage = response.usage
+        prompt_tokens = usage.prompt_tokens
+        completion_tokens = usage.completion_tokens
+        total_tokens = usage.total_tokens
 
-    @retry(
-            retry=retry_if_exception_type(RateLimitError),
-            wait=wait_exponential_jitter(initial=2, max=30),
-            stop=stop_after_attempt(3),
-            before_sleep=before_sleep_log(logger, logger.warning),
-            reraise=True,
-    )
-    async def ainvoke(self, input: Any, config: Optional[Any] = None, **kwargs: Any) -> BaseMessage:
-        try:
-            response = await super.ainvoke(input, config=config, **kwargs)
-        except APIConnectionErrorm as e:
-            logger.error(f"API connection error whe ncalling model {self.model_name}: {e}")
+        pricing = PRICING.get(self.model, {"input": 0.0, "output": 0.0})
+        cost = (
+            prompt_tokens * pricing["input"]
+            + completion_tokens * pricing["output"]
+        ) / 1_000_000
 
-        if hasattr(response, "response_metadata"):
-            token_usage = response.response_metadata.get("token_usage", {})
-            in_token = token_usage.get("prompt_tokens", 0)
-            out_token = token_usage.get("completion_tokens", 0)
-            try:
-                cost = await 
+        return PipelineResult(
+            answer=response.choices[0].message.content,
+            prompt_tokens=prompt_tokens,
+            completion_tokens=completion_tokens,
+            total_tokens=total_tokens,
+            latency_s=round(latency, 3),
+            cost=round(cost, 6),
+            model=self.model,
+        )
+
+    def embed(self, text: str, model: str = "text-embedding-3-small") -> list[float]:
+        response = self.client.embeddings.create(model=model, input=text)
+        return response.data[0].embedding
