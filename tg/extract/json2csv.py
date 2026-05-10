@@ -1,8 +1,12 @@
-import os
-import json
+import bz2
 import csv
+import json
+import os
 import re
 from collections import defaultdict
+
+
+_DESC_SKIP = {"license", "source", "url", "unbiased"}
 
 
 def normalize(name: str) -> str:
@@ -13,18 +17,60 @@ def make_uid(node_type, node_id):
     return f"{normalize(node_type)}_{node_id}"
 
 
-def extract_hetionet(path="data/hetionet.json", out_dir="data"):
-    os.makedirs(out_dir, exist_ok=True)
+def _serialize(value) -> str:
+    """Normalize a field value to a plain string for CSV output.
 
-    with open(path) as f:
+    Lists/tuples are joined with '|'. Booleans become lowercase strings.
+    Everything else is converted with str().
+    """
+    if isinstance(value, (list, tuple)):
+        return "|".join(str(v) for v in value)
+    if isinstance(value, bool):
+        return str(value).lower()
+    return str(value) if value is not None else ""
+
+
+def build_description(node: dict, ntype: str) -> str:
+    """Synthesize a human-readable description from a node's available fields.
+
+    Always starts with "<name> (<type>)".  Appends every meaningful field
+    from the data dict that isn't pure provenance metadata.
+
+    Examples:
+      Gene    → "SERPINF2 (Gene): chromosome: 17. description: serpin peptidase..."
+      Disease → "azoospermia (Disease)"
+      Compound→ "Caffeine (Compound): inchikey: InChIKey=RYYVLZVUVIJVGH..."
+      Anatomy → "subclavian artery (Anatomy): mesh_id: D013348"
+    """
+    name = node.get("name", "")
+    parts = [f"{name} ({ntype})"]
+
+    node_data = node.get("data", {})
+    for key in sorted(node_data.keys()):
+        if key in _DESC_SKIP:
+            continue
+        val = _serialize(node_data[key]).strip()
+        if val:
+            parts.append(f"{key}: {val}")
+
+    return ". ".join(parts)
+
+
+def extract_hetionet(
+    path: str = "tg/data/hetionet-v1.0.json.bz2",
+    out_dir: str = "tg/data",
+) -> None:
+    os.makedirs(os.path.join(out_dir, "nodes"), exist_ok=True)
+    os.makedirs(os.path.join(out_dir, "edges"), exist_ok=True)
+
+    opener = bz2.open if path.endswith(".bz2") else open
+    with opener(path, "rt", encoding="utf-8") as f:
         data = json.load(f)
 
     nodes = data["nodes"]
     edges = data["edges"]
 
-    # -------------------------
     # NODES → per type
-    # -------------------------
     node_groups = defaultdict(list)
     node_keys_by_type = defaultdict(set)
 
@@ -43,22 +89,21 @@ def extract_hetionet(path="data/hetionet.json", out_dir="data"):
         with open(file_path, "w", newline="") as f:
             writer = csv.writer(f)
 
-            header = ["id", "name"] + keys
+            header = ["id", "name", "text_blob"] + keys
             writer.writerow(header)
 
             for node in group:
                 node_id = node["identifier"]
                 name = node.get("name", "")
-                data = node.get("data", {})
+                node_data = node.get("data", {})
+                text_blob = build_description(node, ntype)
 
-                row = [node_id, name] + [data.get(k, "") for k in keys]
+                row = [node_id, name, text_blob] + [_serialize(node_data.get(k, "")) for k in keys]
                 writer.writerow(row)
 
         print(f"Vertex CSV: {file_path}")
 
-    # -------------------------
     # EDGES → per type
-    # -------------------------
     edge_groups = defaultdict(list)
     edge_keys_by_type = defaultdict(set)
 
@@ -99,9 +144,9 @@ def extract_hetionet(path="data/hetionet.json", out_dir="data"):
                 if etype.startswith(normalize(t_type)):
                     s_id, t_id = t_id, s_id
 
-                data = edge.get("data", {})
+                edge_data = edge.get("data", {})
 
-                row = [s_id, t_id] + [data.get(k, "") for k in keys]
+                row = [s_id, t_id] + [_serialize(edge_data.get(k, "")) for k in keys]
                 writer.writerow(row)
 
         print(f"Edge CSV: {file_path}")

@@ -2,7 +2,8 @@
 import time
 import os
 import logging
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from typing import Any
 
 from openai import OpenAI
 from dotenv import load_dotenv
@@ -31,6 +32,95 @@ class PipelineResult:
     cost: float = 0.0
     model: str = ""
     retrieved_context: str = ""
+    response_id: str = ""
+    created: int | None = None
+    service_tier: str = ""
+    system_fingerprint: str = ""
+    finish_reason: str = ""
+    completion_tokens_details: dict[str, Any] = field(default_factory=dict)
+    prompt_tokens_details: dict[str, Any] = field(default_factory=dict)
+    latency_checkpoint: dict[str, Any] = field(default_factory=dict)
+
+
+def _to_dict(value: Any) -> dict[str, Any]:
+    if value is None:
+        return {}
+    if isinstance(value, dict):
+        return value
+    if hasattr(value, "model_dump"):
+        try:
+            return value.model_dump(exclude_none=True)
+        except Exception:
+            return {}
+    if hasattr(value, "to_dict"):
+        try:
+            return value.to_dict()
+        except Exception:
+            return {}
+    return {}
+
+
+def _read_field(payload: Any, key: str, default: Any = None) -> Any:
+    if isinstance(payload, dict):
+        return payload.get(key, default)
+    return getattr(payload, key, default)
+
+
+def extract_usage_metrics(payload: Any) -> dict[str, Any]:
+    """Extract token and usage metadata from OpenAI or dict-like responses."""
+    usage = _read_field(payload, "usage")
+    usage_dict = _to_dict(usage)
+
+    prompt_tokens = _read_field(usage, "prompt_tokens", usage_dict.get("prompt_tokens"))
+    completion_tokens = _read_field(
+        usage,
+        "completion_tokens",
+        usage_dict.get("completion_tokens"),
+    )
+    total_tokens = _read_field(usage, "total_tokens", usage_dict.get("total_tokens"))
+
+    if prompt_tokens is None:
+        prompt_tokens = _read_field(payload, "prompt_tokens", 0)
+    if completion_tokens is None:
+        completion_tokens = _read_field(payload, "completion_tokens", 0)
+    if total_tokens is None:
+        total_tokens = _read_field(payload, "total_tokens", 0)
+
+    completion_details = _read_field(
+        usage,
+        "completion_tokens_details",
+        usage_dict.get("completion_tokens_details", {}),
+    )
+    prompt_details = _read_field(
+        usage,
+        "prompt_tokens_details",
+        usage_dict.get("prompt_tokens_details", {}),
+    )
+    latency_checkpoint = _read_field(
+        usage,
+        "latency_checkpoint",
+        usage_dict.get("latency_checkpoint", {}),
+    )
+
+    choices = _read_field(payload, "choices", []) or []
+    first_choice = choices[0] if choices else None
+
+    return {
+        "prompt_tokens": int(prompt_tokens or 0),
+        "completion_tokens": int(completion_tokens or 0),
+        "total_tokens": int(total_tokens or 0),
+        "completion_tokens_details": _to_dict(completion_details),
+        "prompt_tokens_details": _to_dict(prompt_details),
+        "latency_checkpoint": _to_dict(latency_checkpoint),
+        "response_id": str(_read_field(payload, "id", "") or ""),
+        "created": _read_field(payload, "created", None),
+        "service_tier": str(_read_field(payload, "service_tier", "") or ""),
+        "system_fingerprint": str(
+            _read_field(payload, "system_fingerprint", "") or ""
+        ),
+        "model": str(_read_field(payload, "model", "") or ""),
+        "finish_reason": str(_read_field(first_choice, "finish_reason", "") or ""),
+    }
 
 
 class LLMClient:
@@ -52,10 +142,10 @@ class LLMClient:
         )
         latency = time.time() - start
 
-        usage = response.usage
-        prompt_tokens = usage.prompt_tokens
-        completion_tokens = usage.completion_tokens
-        total_tokens = usage.total_tokens
+        usage_data = extract_usage_metrics(response)
+        prompt_tokens = usage_data["prompt_tokens"]
+        completion_tokens = usage_data["completion_tokens"]
+        total_tokens = usage_data["total_tokens"]
 
         pricing = PRICING.get(self.model, {"input": 0.0, "output": 0.0})
         cost = (
@@ -63,14 +153,27 @@ class LLMClient:
             + completion_tokens * pricing["output"]
         ) / 1_000_000
 
+        choices = getattr(response, "choices", []) or []
+        first_choice = choices[0] if choices else None
+        message = getattr(first_choice, "message", None)
+        answer = getattr(message, "content", "") or ""
+
         return PipelineResult(
-            answer=response.choices[0].message.content,
+            answer=answer,
             prompt_tokens=prompt_tokens,
             completion_tokens=completion_tokens,
             total_tokens=total_tokens,
             latency_s=round(latency, 3),
             cost=round(cost, 6),
-            model=self.model,
+            model=usage_data["model"] or self.model,
+            response_id=usage_data["response_id"],
+            created=usage_data["created"],
+            service_tier=usage_data["service_tier"],
+            system_fingerprint=usage_data["system_fingerprint"],
+            finish_reason=usage_data["finish_reason"],
+            completion_tokens_details=usage_data["completion_tokens_details"],
+            prompt_tokens_details=usage_data["prompt_tokens_details"],
+            latency_checkpoint=usage_data["latency_checkpoint"],
         )
 
     def embed(self, text: str, model: str = "text-embedding-3-small") -> list[float]:

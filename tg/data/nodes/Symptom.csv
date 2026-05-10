@@ -1,439 +1,439 @@
-id,name,license,source,url
-D020150,Chorea Gravidarum,CC0 1.0,MeSH,http://identifiers.org/mesh/D020150
-D006606,Hiccup,CC0 1.0,MeSH,http://identifiers.org/mesh/D006606
-D014826,Vocal Cord Paralysis,CC0 1.0,MeSH,http://identifiers.org/mesh/D014826
-D005221,Fatigue,CC0 1.0,MeSH,http://identifiers.org/mesh/D005221
-D000370,Ageusia,CC0 1.0,MeSH,http://identifiers.org/mesh/D000370
-D010292,Paresthesia,CC0 1.0,MeSH,http://identifiers.org/mesh/D010292
-D004172,Diplopia,CC0 1.0,MeSH,http://identifiers.org/mesh/D004172
-D054972,Postural Orthostatic Tachycardia Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D054972
-D059350,Chronic Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D059350
-D015354,"Vision, Low",CC0 1.0,MeSH,http://identifiers.org/mesh/D015354
-D002637,Chest Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D002637
-D005316,Fetal Distress,CC0 1.0,MeSH,http://identifiers.org/mesh/D005316
-D020886,Somatosensory Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D020886
-D006816,Huntington Disease,CC0 1.0,MeSH,http://identifiers.org/mesh/D006816
-D007565,Jaundice,CC0 1.0,MeSH,http://identifiers.org/mesh/D007565
-D018886,"Aphasia, Conduction",CC0 1.0,MeSH,http://identifiers.org/mesh/D018886
-D017624,WAGR Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D017624
-D012607,Scotoma,CC0 1.0,MeSH,http://identifiers.org/mesh/D012607
-D019547,Neck Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D019547
-D004614,Emaciation,CC0 1.0,MeSH,http://identifiers.org/mesh/D004614
-D050177,Overweight,CC0 1.0,MeSH,http://identifiers.org/mesh/D050177
-D055111,Failed Back Surgery Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D055111
-D015431,Weight Loss,CC0 1.0,MeSH,http://identifiers.org/mesh/D015431
-D012001,Hyperacusis,CC0 1.0,MeSH,http://identifiers.org/mesh/D012001
-D020183,Nocturnal Paroxysmal Dystonia,CC0 1.0,MeSH,http://identifiers.org/mesh/D020183
-D020237,"Alexia, Pure",CC0 1.0,MeSH,http://identifiers.org/mesh/D020237
-D003244,Consciousness Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D003244
-D012415,Rubinstein-Taybi Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D012415
-D020207,"Coma, Post-Head Injury",CC0 1.0,MeSH,http://identifiers.org/mesh/D020207
-D014823,Vitreous Hemorrhage,CC0 1.0,MeSH,http://identifiers.org/mesh/D014823
-D006942,Hypergammaglobulinemia,CC0 1.0,MeSH,http://identifiers.org/mesh/D006942
-D003639,"Hearing Loss, Sudden",CC0 1.0,MeSH,http://identifiers.org/mesh/D003639
-D009846,Oliguria,CC0 1.0,MeSH,http://identifiers.org/mesh/D009846
-D001416,Back Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D001416
-D010146,Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D010146
-D010591,Phantom Limb,CC0 1.0,MeSH,http://identifiers.org/mesh/D010591
-D009461,Neurologic Manifestations,CC0 1.0,MeSH,http://identifiers.org/mesh/D009461
-D053591,"Pain, Referred",CC0 1.0,MeSH,http://identifiers.org/mesh/D053591
-D020447,Parasomnias,CC0 1.0,MeSH,http://identifiers.org/mesh/D020447
-D059787,Acute Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D059787
-D009123,Muscle Hypotonia,CC0 1.0,MeSH,http://identifiers.org/mesh/D009123
-D055958,Piriformis Muscle Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D055958
-D003128,Coma,CC0 1.0,MeSH,http://identifiers.org/mesh/D003128
-D011697,"Purpura, Thrombotic Thrombocytopenic",CC0 1.0,MeSH,http://identifiers.org/mesh/D011697
-D014770,Virilism,CC0 1.0,MeSH,http://identifiers.org/mesh/D014770
-D006685,Hoarseness,CC0 1.0,MeSH,http://identifiers.org/mesh/D006685
-D012585,Sciatica,CC0 1.0,MeSH,http://identifiers.org/mesh/D012585
-D011695,"Purpura, Schoenlein-Henoch",CC0 1.0,MeSH,http://identifiers.org/mesh/D011695
-D037061,Metatarsalgia,CC0 1.0,MeSH,http://identifiers.org/mesh/D037061
-D009041,Motion Sickness,CC0 1.0,MeSH,http://identifiers.org/mesh/D009041
-D005334,Fever,CC0 1.0,MeSH,http://identifiers.org/mesh/D005334
-D016553,"Purpura, Thrombocytopenic, Idiopathic",CC0 1.0,MeSH,http://identifiers.org/mesh/D016553
-D009207,Myoclonus,CC0 1.0,MeSH,http://identifiers.org/mesh/D009207
-D010845,Obesity Hypoventilation Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D010845
-D004487,Edema,CC0 1.0,MeSH,http://identifiers.org/mesh/D004487
-D013746,Tetany,CC0 1.0,MeSH,http://identifiers.org/mesh/D013746
-D041781,"Jaundice, Obstructive",CC0 1.0,MeSH,http://identifiers.org/mesh/D041781
-D000849,Anomia,CC0 1.0,MeSH,http://identifiers.org/mesh/D000849
-D011537,Pruritus,CC0 1.0,MeSH,http://identifiers.org/mesh/D011537
-D059411,Lower Urinary Tract Symptoms,CC0 1.0,MeSH,http://identifiers.org/mesh/D059411
-D006313,"Hearing Loss, Central",CC0 1.0,MeSH,http://identifiers.org/mesh/D006313
-D018771,Arthralgia,CC0 1.0,MeSH,http://identifiers.org/mesh/D018771
-D013494,"Supranuclear Palsy, Progressive",CC0 1.0,MeSH,http://identifiers.org/mesh/D013494
-D004244,Dizziness,CC0 1.0,MeSH,http://identifiers.org/mesh/D004244
-D059245,Transient Tachypnea of the Newborn,CC0 1.0,MeSH,http://identifiers.org/mesh/D059245
-D020069,Shoulder Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D020069
-D016857,Hypocapnia,CC0 1.0,MeSH,http://identifiers.org/mesh/D016857
-D019462,"Syncope, Vasovagal",CC0 1.0,MeSH,http://identifiers.org/mesh/D019462
-D004454,Echolalia,CC0 1.0,MeSH,http://identifiers.org/mesh/D004454
-D001836,Body Weight Changes,CC0 1.0,MeSH,http://identifiers.org/mesh/D001836
-D019584,Hot Flashes,CC0 1.0,MeSH,http://identifiers.org/mesh/D019584
-D005158,Facial Paralysis,CC0 1.0,MeSH,http://identifiers.org/mesh/D005158
-D000270,Adie Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D000270
-D001259,Ataxia,CC0 1.0,MeSH,http://identifiers.org/mesh/D001259
-D013575,Syncope,CC0 1.0,MeSH,http://identifiers.org/mesh/D013575
-D001039,"Aphasia, Broca",CC0 1.0,MeSH,http://identifiers.org/mesh/D001039
-D038921,Coffin-Lowry Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D038921
-D012893,Sleep Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D012893
-D066190,Allesthesia,CC0 1.0,MeSH,http://identifiers.org/mesh/D066190
-D056844,Renal Colic,CC0 1.0,MeSH,http://identifiers.org/mesh/D056844
-D020828,Pseudobulbar Palsy,CC0 1.0,MeSH,http://identifiers.org/mesh/D020828
-D003371,Cough,CC0 1.0,MeSH,http://identifiers.org/mesh/D003371
-D008065,Lipoid Proteinosis of Urbach and Wiethe,CC0 1.0,MeSH,http://identifiers.org/mesh/D008065
-D020567,Fetal Weight,CC0 1.0,MeSH,http://identifiers.org/mesh/D020567
-D057178,Primary Progressive Nonfluent Aphasia,CC0 1.0,MeSH,http://identifiers.org/mesh/D057178
-D019569,Hemifacial Spasm,CC0 1.0,MeSH,http://identifiers.org/mesh/D019569
-D006935,Hypercapnia,CC0 1.0,MeSH,http://identifiers.org/mesh/D006935
-D018614,Sweating Sickness,CC0 1.0,MeSH,http://identifiers.org/mesh/D018614
-D006930,Hyperalgesia,CC0 1.0,MeSH,http://identifiers.org/mesh/D006930
-D019954,Neurobehavioral Manifestations,CC0 1.0,MeSH,http://identifiers.org/mesh/D019954
-D034381,Hearing Loss,CC0 1.0,MeSH,http://identifiers.org/mesh/D034381
-D015746,Abdominal Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D015746
-D002389,Catatonia,CC0 1.0,MeSH,http://identifiers.org/mesh/D002389
-D011141,Polyuria,CC0 1.0,MeSH,http://identifiers.org/mesh/D011141
-D020181,"Sleep Apnea, Obstructive",CC0 1.0,MeSH,http://identifiers.org/mesh/D020181
-D004415,Dyspepsia,CC0 1.0,MeSH,http://identifiers.org/mesh/D004415
-D020270,Alcohol Withdrawal Seizures,CC0 1.0,MeSH,http://identifiers.org/mesh/D020270
-D006628,Hirsutism,CC0 1.0,MeSH,http://identifiers.org/mesh/D006628
-D006319,"Hearing Loss, Sensorineural",CC0 1.0,MeSH,http://identifiers.org/mesh/D006319
-D010167,Pallor,CC0 1.0,MeSH,http://identifiers.org/mesh/D010167
-D020324,"Amnesia, Anterograde",CC0 1.0,MeSH,http://identifiers.org/mesh/D020324
-D004411,"Dyslexia, Acquired",CC0 1.0,MeSH,http://identifiers.org/mesh/D004411
-D005130,Eye Hemorrhage,CC0 1.0,MeSH,http://identifiers.org/mesh/D005130
-D011218,Prader-Willi Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D011218
-D059373,Mastodynia,CC0 1.0,MeSH,http://identifiers.org/mesh/D059373
-D059226,Nociceptive Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D059226
-D004410,Dyslexia,CC0 1.0,MeSH,http://identifiers.org/mesh/D004410
-D020235,Gait Apraxia,CC0 1.0,MeSH,http://identifiers.org/mesh/D020235
-D014313,Trismus,CC0 1.0,MeSH,http://identifiers.org/mesh/D014313
-D015518,Rett Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D015518
-D006970,Disorders of Excessive Somnolence,CC0 1.0,MeSH,http://identifiers.org/mesh/D006970
-D014202,Tremor,CC0 1.0,MeSH,http://identifiers.org/mesh/D014202
-D005311,Fetal Hypoxia,CC0 1.0,MeSH,http://identifiers.org/mesh/D005311
-D004433,Earache,CC0 1.0,MeSH,http://identifiers.org/mesh/D004433
-D011602,Psychophysiologic Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D011602
-D000425,Alcohol Amnestic Disorder,CC0 1.0,MeSH,http://identifiers.org/mesh/D000425
-D020336,"Paraparesis, Spastic",CC0 1.0,MeSH,http://identifiers.org/mesh/D020336
-D018476,Hypokinesia,CC0 1.0,MeSH,http://identifiers.org/mesh/D018476
-D054068,Livedo Reticularis,CC0 1.0,MeSH,http://identifiers.org/mesh/D054068
-D003655,Decerebrate State,CC0 1.0,MeSH,http://identifiers.org/mesh/D003655
-D006939,Hyperemesis Gravidarum,CC0 1.0,MeSH,http://identifiers.org/mesh/D006939
-D006396,Hematemesis,CC0 1.0,MeSH,http://identifiers.org/mesh/D006396
-D018437,Brown-Sequard Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D018437
-D048949,Labor Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D048949
-D062706,Prodromal Symptoms,CC0 1.0,MeSH,http://identifiers.org/mesh/D062706
-D020182,"Sleep Apnea, Central",CC0 1.0,MeSH,http://identifiers.org/mesh/D020182
-D020879,Neuromuscular Manifestations,CC0 1.0,MeSH,http://identifiers.org/mesh/D020879
-D003248,Constipation,CC0 1.0,MeSH,http://identifiers.org/mesh/D003248
-D004408,Dysgeusia,CC0 1.0,MeSH,http://identifiers.org/mesh/D004408
-D001264,Athetosis,CC0 1.0,MeSH,http://identifiers.org/mesh/D001264
-D007805,Language Development Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D007805
-D063806,Myalgia,CC0 1.0,MeSH,http://identifiers.org/mesh/D063806
-D011539,Pruritus Vulvae,CC0 1.0,MeSH,http://identifiers.org/mesh/D011539
-D004418,"Dyspnea, Paroxysmal",CC0 1.0,MeSH,http://identifiers.org/mesh/D004418
-D013009,Somnambulism,CC0 1.0,MeSH,http://identifiers.org/mesh/D013009
-D005926,Glossalgia,CC0 1.0,MeSH,http://identifiers.org/mesh/D005926
-D012913,Snoring,CC0 1.0,MeSH,http://identifiers.org/mesh/D012913
-D002832,Choroid Hemorrhage,CC0 1.0,MeSH,http://identifiers.org/mesh/D002832
-D020238,Prosopagnosia,CC0 1.0,MeSH,http://identifiers.org/mesh/D020238
-D010468,Perceptual Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D010468
-D019575,"Blindness, Cortical",CC0 1.0,MeSH,http://identifiers.org/mesh/D019575
-D010291,Paresis,CC0 1.0,MeSH,http://identifiers.org/mesh/D010291
-D020177,"Hypersomnolence, Idiopathic",CC0 1.0,MeSH,http://identifiers.org/mesh/D020177
-D005335,Fever of Unknown Origin,CC0 1.0,MeSH,http://identifiers.org/mesh/D005335
-D017827,Machado-Joseph Disease,CC0 1.0,MeSH,http://identifiers.org/mesh/D017827
-D020915,Korsakoff Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D020915
-D007706,Menkes Kinky Hair Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D007706
-D005183,Failure to Thrive,CC0 1.0,MeSH,http://identifiers.org/mesh/D005183
-D056128,"Obesity, Abdominal",CC0 1.0,MeSH,http://identifiers.org/mesh/D056128
-D051346,Mobility Limitation,CC0 1.0,MeSH,http://identifiers.org/mesh/D051346
-D053448,Prostatism,CC0 1.0,MeSH,http://identifiers.org/mesh/D053448
-D018908,Muscle Weakness,CC0 1.0,MeSH,http://identifiers.org/mesh/D018908
-D009903,Optical Illusions,CC0 1.0,MeSH,http://identifiers.org/mesh/D009903
-D001247,Asthenia,CC0 1.0,MeSH,http://identifiers.org/mesh/D001247
-D001041,"Aphasia, Wernicke",CC0 1.0,MeSH,http://identifiers.org/mesh/D001041
-D020385,Myokymia,CC0 1.0,MeSH,http://identifiers.org/mesh/D020385
-D013064,Speech Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D013064
-D014103,Torticollis,CC0 1.0,MeSH,http://identifiers.org/mesh/D014103
-D014884,Waterhouse-Friderichsen Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D014884
-D063766,Pediatric Obesity,CC0 1.0,MeSH,http://identifiers.org/mesh/D063766
-D011538,Pruritus Ani,CC0 1.0,MeSH,http://identifiers.org/mesh/D011538
-D007331,Insulin Coma,CC0 1.0,MeSH,http://identifiers.org/mesh/D007331
-D005483,Flushing,CC0 1.0,MeSH,http://identifiers.org/mesh/D005483
-D062026,Alice in Wonderland Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D062026
-D008998,Monoclonal Gammopathy of Undetermined Significance,CC0 1.0,MeSH,http://identifiers.org/mesh/D008998
-D001049,Apnea,CC0 1.0,MeSH,http://identifiers.org/mesh/D001049
-D020919,"Sleep Disorders, Intrinsic",CC0 1.0,MeSH,http://identifiers.org/mesh/D020919
-D053201,"Urinary Bladder, Overactive",CC0 1.0,MeSH,http://identifiers.org/mesh/D053201
-D018458,Persistent Vegetative State,CC0 1.0,MeSH,http://identifiers.org/mesh/D018458
-D009325,Nausea,CC0 1.0,MeSH,http://identifiers.org/mesh/D009325
-D053584,Urinoma,CC0 1.0,MeSH,http://identifiers.org/mesh/D053584
-D011596,Psychomotor Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D011596
-D012640,Seizures,CC0 1.0,MeSH,http://identifiers.org/mesh/D012640
-D009155,Mutism,CC0 1.0,MeSH,http://identifiers.org/mesh/D009155
-D001724,Birth Weight,CC0 1.0,MeSH,http://identifiers.org/mesh/D001724
-D053565,Hypercalciuria,CC0 1.0,MeSH,http://identifiers.org/mesh/D053565
-D010148,"Pain, Intractable",CC0 1.0,MeSH,http://identifiers.org/mesh/D010148
-D004421,Dystonia,CC0 1.0,MeSH,http://identifiers.org/mesh/D004421
-D002558,Cerebrospinal Fluid Otorrhea,CC0 1.0,MeSH,http://identifiers.org/mesh/D002558
-D017109,"Akathisia, Drug-Induced",CC0 1.0,MeSH,http://identifiers.org/mesh/D017109
-D000648,"Amnesia, Retrograde",CC0 1.0,MeSH,http://identifiers.org/mesh/D000648
-D013342,Stuttering,CC0 1.0,MeSH,http://identifiers.org/mesh/D013342
-D006469,Hemoptysis,CC0 1.0,MeSH,http://identifiers.org/mesh/D006469
-D013651,Taste Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D013651
-D059607,"Polydipsia, Psychogenic",CC0 1.0,MeSH,http://identifiers.org/mesh/D059607
-D002559,Cerebrospinal Fluid Rhinorrhea,CC0 1.0,MeSH,http://identifiers.org/mesh/D002559
-D006212,Hallucinations,CC0 1.0,MeSH,http://identifiers.org/mesh/D006212
-D006988,Hyphema,CC0 1.0,MeSH,http://identifiers.org/mesh/D006988
-D017699,Pelvic Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D017699
-D020189,Nocturnal Myoclonus Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D020189
-D010149,"Pain, Postoperative",CC0 1.0,MeSH,http://identifiers.org/mesh/D010149
-D006963,Hyperphagia,CC0 1.0,MeSH,http://identifiers.org/mesh/D006963
-D020233,"Gait Disorders, Neurologic",CC0 1.0,MeSH,http://identifiers.org/mesh/D020233
-D054062,Deaf-Blind Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D054062
-D015845,Tonic Pupil,CC0 1.0,MeSH,http://identifiers.org/mesh/D015845
-D000419,Albuminuria,CC0 1.0,MeSH,http://identifiers.org/mesh/D000419
-D008569,Memory Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D008569
-D059388,Pelvic Girdle Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D059388
-D020922,Sleep-Wake Transition Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D020922
-D009133,Muscular Atrophy,CC0 1.0,MeSH,http://identifiers.org/mesh/D009133
-D020078,Neurogenic Inflammation,CC0 1.0,MeSH,http://identifiers.org/mesh/D020078
-D053609,Lethargy,CC0 1.0,MeSH,http://identifiers.org/mesh/D053609
-D017593,Kleine-Levin Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D017593
-D009222,Myotonia,CC0 1.0,MeSH,http://identifiers.org/mesh/D009222
-D000326,Adrenoleukodystrophy,CC0 1.0,MeSH,http://identifiers.org/mesh/D000326
-D015877,Miosis,CC0 1.0,MeSH,http://identifiers.org/mesh/D015877
-D009755,Night Blindness,CC0 1.0,MeSH,http://identifiers.org/mesh/D009755
-D006941,Hyperesthesia,CC0 1.0,MeSH,http://identifiers.org/mesh/D006941
-D006261,Headache,CC0 1.0,MeSH,http://identifiers.org/mesh/D006261
-D006317,"Hearing Loss, Noise-Induced",CC0 1.0,MeSH,http://identifiers.org/mesh/D006317
-D011694,"Purpura, Hyperglobulinemic",CC0 1.0,MeSH,http://identifiers.org/mesh/D011694
-D053608,Stupor,CC0 1.0,MeSH,http://identifiers.org/mesh/D053608
-D002385,Cataplexy,CC0 1.0,MeSH,http://identifiers.org/mesh/D002385
-D006732,Horner Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D006732
-D020240,"Apraxia, Ideomotor",CC0 1.0,MeSH,http://identifiers.org/mesh/D020240
-D012817,"Signs and Symptoms, Digestive",CC0 1.0,MeSH,http://identifiers.org/mesh/D012817
-D006209,Halitosis,CC0 1.0,MeSH,http://identifiers.org/mesh/D006209
-D000860,Anoxia,CC0 1.0,MeSH,http://identifiers.org/mesh/D000860
-D007926,Lesch-Nyhan Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D007926
-D005207,Fasciculation,CC0 1.0,MeSH,http://identifiers.org/mesh/D005207
-D045262,Reticulocytosis,CC0 1.0,MeSH,http://identifiers.org/mesh/D045262
-D005600,Fragile X Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D005600
-D000334,Aerophagy,CC0 1.0,MeSH,http://identifiers.org/mesh/D000334
-D000788,"Angina Pectoris, Variant",CC0 1.0,MeSH,http://identifiers.org/mesh/D000788
-D001926,Brain Death,CC0 1.0,MeSH,http://identifiers.org/mesh/D001926
-D020236,"Amnesia, Transient Global",CC0 1.0,MeSH,http://identifiers.org/mesh/D020236
-D012877,Skin Manifestations,CC0 1.0,MeSH,http://identifiers.org/mesh/D012877
-D013851,Thinness,CC0 1.0,MeSH,http://identifiers.org/mesh/D013851
-D014549,Urinary Incontinence,CC0 1.0,MeSH,http://identifiers.org/mesh/D014549
-D012148,Restless Legs Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D012148
-D018888,"Aphasia, Primary Progressive",CC0 1.0,MeSH,http://identifiers.org/mesh/D018888
-D060050,"Angina, Stable",CC0 1.0,MeSH,http://identifiers.org/mesh/D060050
-D012133,Respiratory Paralysis,CC0 1.0,MeSH,http://identifiers.org/mesh/D012133
-D012135,Respiratory Sounds,CC0 1.0,MeSH,http://identifiers.org/mesh/D012135
-D005320,Fetal Macrosomia,CC0 1.0,MeSH,http://identifiers.org/mesh/D005320
-D053158,Nocturia,CC0 1.0,MeSH,http://identifiers.org/mesh/D053158
-D000550,Amblyopia,CC0 1.0,MeSH,http://identifiers.org/mesh/D000550
-D013035,Spasm,CC0 1.0,MeSH,http://identifiers.org/mesh/D013035
-D004688,Encopresis,CC0 1.0,MeSH,http://identifiers.org/mesh/D004688
-D020178,"Sleep Disorders, Circadian Rhythm",CC0 1.0,MeSH,http://identifiers.org/mesh/D020178
-D064250,Hypertriglyceridemic Waist,CC0 1.0,MeSH,http://identifiers.org/mesh/D064250
-D009058,Mouth Breathing,CC0 1.0,MeSH,http://identifiers.org/mesh/D009058
-D059445,Anhedonia,CC0 1.0,MeSH,http://identifiers.org/mesh/D059445
-D020920,Dyssomnias,CC0 1.0,MeSH,http://identifiers.org/mesh/D020920
-D005683,Gagging,CC0 1.0,MeSH,http://identifiers.org/mesh/D005683
-D001835,Body Weight,CC0 1.0,MeSH,http://identifiers.org/mesh/D001835
-D003117,Color Vision Defects,CC0 1.0,MeSH,http://identifiers.org/mesh/D003117
-D008607,Intellectual Disability,CC0 1.0,MeSH,http://identifiers.org/mesh/D008607
-D034062,"Insomnia, Fatal Familial",CC0 1.0,MeSH,http://identifiers.org/mesh/D034062
-D014832,Voice Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D014832
-D009437,Neuralgia,CC0 1.0,MeSH,http://identifiers.org/mesh/D009437
-D060486,Ophthalmoplegic Migraine,CC0 1.0,MeSH,http://identifiers.org/mesh/D060486
-D046088,"Hearing Loss, Unilateral",CC0 1.0,MeSH,http://identifiers.org/mesh/D046088
-D054058,Acute Coronary Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D054058
-D007088,Illusions,CC0 1.0,MeSH,http://identifiers.org/mesh/D007088
-D001044,Aphonia,CC0 1.0,MeSH,http://identifiers.org/mesh/D001044
-D002639,Cheyne-Stokes Respiration,CC0 1.0,MeSH,http://identifiers.org/mesh/D002639
-D000857,Olfaction Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D000857
-D012912,Sneezing,CC0 1.0,MeSH,http://identifiers.org/mesh/D012912
-D055955,Susac Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D055955
-D015878,Mydriasis,CC0 1.0,MeSH,http://identifiers.org/mesh/D015878
-D046608,Synkinesis,CC0 1.0,MeSH,http://identifiers.org/mesh/D046608
-D014474,Unconsciousness,CC0 1.0,MeSH,http://identifiers.org/mesh/D014474
-D006429,Hemiplegia,CC0 1.0,MeSH,http://identifiers.org/mesh/D006429
-D004489,"Edema, Cardiac",CC0 1.0,MeSH,http://identifiers.org/mesh/D004489
-D020186,Sleep Bruxism,CC0 1.0,MeSH,http://identifiers.org/mesh/D020186
-D000647,Amnesia,CC0 1.0,MeSH,http://identifiers.org/mesh/D000647
-D020335,Paraparesis,CC0 1.0,MeSH,http://identifiers.org/mesh/D020335
-D001072,Apraxias,CC0 1.0,MeSH,http://identifiers.org/mesh/D001072
-D017116,Low Back Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D017116
-D000787,Angina Pectoris,CC0 1.0,MeSH,http://identifiers.org/mesh/D000787
-D002819,Chorea,CC0 1.0,MeSH,http://identifiers.org/mesh/D002819
-D020323,Tics,CC0 1.0,MeSH,http://identifiers.org/mesh/D020323
-D000855,Anorexia,CC0 1.0,MeSH,http://identifiers.org/mesh/D000855
-D055948,Sarcopenia,CC0 1.0,MeSH,http://identifiers.org/mesh/D055948
-D017246,"Ophthalmoplegia, Chronic Progressive External",CC0 1.0,MeSH,http://identifiers.org/mesh/D017246
-D019591,Pseudophakia,CC0 1.0,MeSH,http://identifiers.org/mesh/D019591
-D005414,Flatulence,CC0 1.0,MeSH,http://identifiers.org/mesh/D005414
-D065635,Benign Paroxysmal Positional Vertigo,CC0 1.0,MeSH,http://identifiers.org/mesh/D065635
-D016534,"Cardiac Output, High",CC0 1.0,MeSH,http://identifiers.org/mesh/D016534
-D012678,Sensation Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D012678
-D012818,"Signs and Symptoms, Respiratory",CC0 1.0,MeSH,http://identifiers.org/mesh/D012818
-D014840,"Vomiting, Anticipatory",CC0 1.0,MeSH,http://identifiers.org/mesh/D014840
-D012021,"Reflex, Abnormal",CC0 1.0,MeSH,http://identifiers.org/mesh/D012021
-D014008,Tinea Pedis,CC0 1.0,MeSH,http://identifiers.org/mesh/D014008
-D015875,Anisocoria,CC0 1.0,MeSH,http://identifiers.org/mesh/D015875
-D006314,"Hearing Loss, Conductive",CC0 1.0,MeSH,http://identifiers.org/mesh/D006314
-D018489,Space Motion Sickness,CC0 1.0,MeSH,http://identifiers.org/mesh/D018489
-D056865,Ideal Body Weight,CC0 1.0,MeSH,http://identifiers.org/mesh/D056865
-D001766,Blindness,CC0 1.0,MeSH,http://identifiers.org/mesh/D001766
-D011595,Psychomotor Agitation,CC0 1.0,MeSH,http://identifiers.org/mesh/D011595
-D009122,Muscle Hypertonia,CC0 1.0,MeSH,http://identifiers.org/mesh/D009122
-D020179,Jet Lag Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D020179
-D006948,Hyperkinesis,CC0 1.0,MeSH,http://identifiers.org/mesh/D006948
-D001832,Body Temperature Changes,CC0 1.0,MeSH,http://identifiers.org/mesh/D001832
-D058568,Necrolytic Migratory Erythema,CC0 1.0,MeSH,http://identifiers.org/mesh/D058568
-D004314,Down Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D004314
-D057774,Post-Exercise Hypotension,CC0 1.0,MeSH,http://identifiers.org/mesh/D057774
-D004412,Dysmenorrhea,CC0 1.0,MeSH,http://identifiers.org/mesh/D004412
-D006311,Hearing Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D006311
-D003635,De Lange Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D003635
-D009290,Narcolepsy,CC0 1.0,MeSH,http://identifiers.org/mesh/D009290
-D002100,Cachexia,CC0 1.0,MeSH,http://identifiers.org/mesh/D002100
-D005222,Mental Fatigue,CC0 1.0,MeSH,http://identifiers.org/mesh/D005222
-D019588,"Aging, Premature",CC0 1.0,MeSH,http://identifiers.org/mesh/D019588
-D017566,Microvascular Angina,CC0 1.0,MeSH,http://identifiers.org/mesh/D017566
-D009127,Muscle Rigidity,CC0 1.0,MeSH,http://identifiers.org/mesh/D009127
-D020234,Gait Ataxia,CC0 1.0,MeSH,http://identifiers.org/mesh/D020234
-D020754,Spinocerebellar Ataxias,CC0 1.0,MeSH,http://identifiers.org/mesh/D020754
-D007625,Kearns-Sayre Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D007625
-D007859,Learning Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D007859
-D059390,Breakthrough Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D059390
-D048968,Morning Sickness,CC0 1.0,MeSH,http://identifiers.org/mesh/D048968
-D018980,Williams Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D018980
-D014550,"Urinary Incontinence, Stress",CC0 1.0,MeSH,http://identifiers.org/mesh/D014550
-D006456,Hemoglobinuria,CC0 1.0,MeSH,http://identifiers.org/mesh/D006456
-D002524,Cerebellar Ataxia,CC0 1.0,MeSH,http://identifiers.org/mesh/D002524
-D006985,Hyperventilation,CC0 1.0,MeSH,http://identifiers.org/mesh/D006985
-D005862,Gerstmann Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D005862
-D017288,Pain Threshold,CC0 1.0,MeSH,http://identifiers.org/mesh/D017288
-D003085,Colic,CC0 1.0,MeSH,http://identifiers.org/mesh/D003085
-D009765,Obesity,CC0 1.0,MeSH,http://identifiers.org/mesh/D009765
-D056124,Slit Ventricle Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D056124
-D003490,Cyanosis,CC0 1.0,MeSH,http://identifiers.org/mesh/D003490
-D038901,"Mental Retardation, X-Linked",CC0 1.0,MeSH,http://identifiers.org/mesh/D038901
-D014929,Wolfram Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D014929
-D006315,"Hearing Loss, Functional",CC0 1.0,MeSH,http://identifiers.org/mesh/D006315
-D012892,Sleep Deprivation,CC0 1.0,MeSH,http://identifiers.org/mesh/D012892
-D006312,"Hearing Loss, Bilateral",CC0 1.0,MeSH,http://identifiers.org/mesh/D006312
-D001260,Ataxia Telangiectasia,CC0 1.0,MeSH,http://identifiers.org/mesh/D001260
-D059265,Visceral Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D059265
-D055665,Purpura Fulminans,CC0 1.0,MeSH,http://identifiers.org/mesh/D055665
-D053159,Dysuria,CC0 1.0,MeSH,http://identifiers.org/mesh/D053159
-D014012,Tinnitus,CC0 1.0,MeSH,http://identifiers.org/mesh/D014012
-D012891,Sleep Apnea Syndromes,CC0 1.0,MeSH,http://identifiers.org/mesh/D012891
-D015160,Hydrops Fetalis,CC0 1.0,MeSH,http://identifiers.org/mesh/D015160
-D015430,Weight Gain,CC0 1.0,MeSH,http://identifiers.org/mesh/D015430
-D006423,Hemianopsia,CC0 1.0,MeSH,http://identifiers.org/mesh/D006423
-D020184,Night Terrors,CC0 1.0,MeSH,http://identifiers.org/mesh/D020184
-D000472,"Alkalosis, Respiratory",CC0 1.0,MeSH,http://identifiers.org/mesh/D000472
-D007035,Hypothermia,CC0 1.0,MeSH,http://identifiers.org/mesh/D007035
-D059352,Musculoskeletal Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D059352
-D020250,Postoperative Nausea and Vomiting,CC0 1.0,MeSH,http://identifiers.org/mesh/D020250
-D010264,Paraplegia,CC0 1.0,MeSH,http://identifiers.org/mesh/D010264
-D005157,Facial Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D005157
-D007024,"Hypotension, Orthostatic",CC0 1.0,MeSH,http://identifiers.org/mesh/D007024
-D009912,Oral Manifestations,CC0 1.0,MeSH,http://identifiers.org/mesh/D009912
-D011782,Quadriplegia,CC0 1.0,MeSH,http://identifiers.org/mesh/D011782
-D016532,Mucopolysaccharidosis II,CC0 1.0,MeSH,http://identifiers.org/mesh/D016532
-D065634,Cerebrospinal Fluid Leak,CC0 1.0,MeSH,http://identifiers.org/mesh/D065634
-D006337,Heart Murmurs,CC0 1.0,MeSH,http://identifiers.org/mesh/D006337
-D006987,Hypesthesia,CC0 1.0,MeSH,http://identifiers.org/mesh/D006987
-D003221,Confusion,CC0 1.0,MeSH,http://identifiers.org/mesh/D003221
-D003693,Delirium,CC0 1.0,MeSH,http://identifiers.org/mesh/D003693
-D020187,REM Sleep Behavior Disorder,CC0 1.0,MeSH,http://identifiers.org/mesh/D020187
-D014717,Vertigo,CC0 1.0,MeSH,http://identifiers.org/mesh/D014717
-D001308,Auditory Perceptual Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D001308
-D018589,Gastroparesis,CC0 1.0,MeSH,http://identifiers.org/mesh/D018589
-D020795,Photophobia,CC0 1.0,MeSH,http://identifiers.org/mesh/D020795
-D005884,Gingival Hemorrhage,CC0 1.0,MeSH,http://identifiers.org/mesh/D005884
-D006316,"Hearing Loss, High-Frequency",CC0 1.0,MeSH,http://identifiers.org/mesh/D006316
-D002422,Causalgia,CC0 1.0,MeSH,http://identifiers.org/mesh/D002422
-D053202,"Urinary Incontinence, Urge",CC0 1.0,MeSH,http://identifiers.org/mesh/D053202
-D011681,Pupil Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D011681
-D055964,Alien Hand Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D055964
-D009886,Ophthalmoplegia,CC0 1.0,MeSH,http://identifiers.org/mesh/D009886
-D054971,Orthostatic Intolerance,CC0 1.0,MeSH,http://identifiers.org/mesh/D054971
-D009767,"Obesity, Morbid",CC0 1.0,MeSH,http://identifiers.org/mesh/D009767
-D000789,"Angina, Unstable",CC0 1.0,MeSH,http://identifiers.org/mesh/D000789
-D019080,Cafe-au-Lait Spots,CC0 1.0,MeSH,http://identifiers.org/mesh/D019080
-D002375,Catalepsy,CC0 1.0,MeSH,http://identifiers.org/mesh/D002375
-D004438,Ecchymosis,CC0 1.0,MeSH,http://identifiers.org/mesh/D004438
-D001750,"Urinary Bladder, Neurogenic",CC0 1.0,MeSH,http://identifiers.org/mesh/D001750
-D011507,Proteinuria,CC0 1.0,MeSH,http://identifiers.org/mesh/D011507
-D003968,"Diarrhea, Infantile",CC0 1.0,MeSH,http://identifiers.org/mesh/D003968
-D018496,Hyperoxia,CC0 1.0,MeSH,http://identifiers.org/mesh/D018496
-D052245,Usher Syndromes,CC0 1.0,MeSH,http://identifiers.org/mesh/D052245
-D004884,Eructation,CC0 1.0,MeSH,http://identifiers.org/mesh/D004884
-D023341,Chills,CC0 1.0,MeSH,http://identifiers.org/mesh/D023341
-D051474,"Neuralgia, Postherpetic",CC0 1.0,MeSH,http://identifiers.org/mesh/D051474
-D012166,Retinal Hemorrhage,CC0 1.0,MeSH,http://identifiers.org/mesh/D012166
-D002303,"Cardiac Output, Low",CC0 1.0,MeSH,http://identifiers.org/mesh/D002303
-D010243,Paralysis,CC0 1.0,MeSH,http://identifiers.org/mesh/D010243
-D058447,Eye Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D058447
-D000006,"Abdomen, Acute",CC0 1.0,MeSH,http://identifiers.org/mesh/D000006
-D008580,Meningism,CC0 1.0,MeSH,http://identifiers.org/mesh/D008580
-D001037,Aphasia,CC0 1.0,MeSH,http://identifiers.org/mesh/D001037
-D052120,Glycogen Storage Disease Type IIb,CC0 1.0,MeSH,http://identifiers.org/mesh/D052120
-D006472,Oral Hemorrhage,CC0 1.0,MeSH,http://identifiers.org/mesh/D006472
-D003967,Diarrhea,CC0 1.0,MeSH,http://identifiers.org/mesh/D003967
-D019873,Schnitzler Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D019873
-D003410,Cri-du-Chat Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D003410
-D059606,Polydipsia,CC0 1.0,MeSH,http://identifiers.org/mesh/D059606
-D046089,"Hearing Loss, Mixed Conductive-Sensorineural",CC0 1.0,MeSH,http://identifiers.org/mesh/D046089
-D007806,Language Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D007806
-D009128,Muscle Spasticity,CC0 1.0,MeSH,http://identifiers.org/mesh/D009128
-D054078,Mevalonate Kinase Deficiency,CC0 1.0,MeSH,http://identifiers.org/mesh/D054078
-D054221,Classical Lissencephalies and Subcortical Band Heterotopias,CC0 1.0,MeSH,http://identifiers.org/mesh/D054221
-D060705,Dyscalculia,CC0 1.0,MeSH,http://identifiers.org/mesh/D060705
-D060545,Pudendal Neuralgia,CC0 1.0,MeSH,http://identifiers.org/mesh/D060545
-D020188,Sleep Paralysis,CC0 1.0,MeSH,http://identifiers.org/mesh/D020188
-D000381,Agraphia,CC0 1.0,MeSH,http://identifiers.org/mesh/D000381
-D057896,Striae Distensae,CC0 1.0,MeSH,http://identifiers.org/mesh/D057896
-D020923,REM Sleep Parasomnias,CC0 1.0,MeSH,http://identifiers.org/mesh/D020923
-D054160,Systolic Murmurs,CC0 1.0,MeSH,http://identifiers.org/mesh/D054160
-D011696,"Purpura, Thrombocytopenic",CC0 1.0,MeSH,http://identifiers.org/mesh/D011696
-D009120,Muscle Cramp,CC0 1.0,MeSH,http://identifiers.org/mesh/D009120
-D057768,Infantile Apparent Life-Threatening Event,CC0 1.0,MeSH,http://identifiers.org/mesh/D057768
-D054546,Neuroacanthocytosis,CC0 1.0,MeSH,http://identifiers.org/mesh/D054546
-D011304,Presbycusis,CC0 1.0,MeSH,http://identifiers.org/mesh/D011304
-D065906,Hyperlactatemia,CC0 1.0,MeSH,http://identifiers.org/mesh/D065906
-D021501,Flank Pain,CC0 1.0,MeSH,http://identifiers.org/mesh/D021501
-D004417,Dyspnea,CC0 1.0,MeSH,http://identifiers.org/mesh/D004417
-D006356,Heartburn,CC0 1.0,MeSH,http://identifiers.org/mesh/D006356
-D004401,Dysarthria,CC0 1.0,MeSH,http://identifiers.org/mesh/D004401
-D014098,Toothache,CC0 1.0,MeSH,http://identifiers.org/mesh/D014098
-D003638,Deafness,CC0 1.0,MeSH,http://identifiers.org/mesh/D003638
-D007319,Sleep Initiation and Maintenance Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D007319
-D020924,Urological Manifestations,CC0 1.0,MeSH,http://identifiers.org/mesh/D020924
-D005262,Feminization,CC0 1.0,MeSH,http://identifiers.org/mesh/D005262
-D002032,Bulimia,CC0 1.0,MeSH,http://identifiers.org/mesh/D002032
-D055154,Dysphonia,CC0 1.0,MeSH,http://identifiers.org/mesh/D055154
-D011693,Purpura,CC0 1.0,MeSH,http://identifiers.org/mesh/D011693
-D007040,Hypoventilation,CC0 1.0,MeSH,http://identifiers.org/mesh/D007040
-D020757,Amaurosis Fugax,CC0 1.0,MeSH,http://identifiers.org/mesh/D020757
-D005132,Eye Manifestations,CC0 1.0,MeSH,http://identifiers.org/mesh/D005132
-D004409,"Dyskinesia, Drug-Induced",CC0 1.0,MeSH,http://identifiers.org/mesh/D004409
-D020921,Sleep Arousal Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D020921
-D015325,Pyruvate Dehydrogenase Complex Deficiency Disease,CC0 1.0,MeSH,http://identifiers.org/mesh/D015325
-D001184,Articulation Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D001184
-D014839,Vomiting,CC0 1.0,MeSH,http://identifiers.org/mesh/D014839
-D014786,Vision Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D014786
-D007383,Intermittent Claudication,CC0 1.0,MeSH,http://identifiers.org/mesh/D007383
-D053578,Opsoclonus-Myoclonus Syndrome,CC0 1.0,MeSH,http://identifiers.org/mesh/D053578
-D003147,Communication Disorders,CC0 1.0,MeSH,http://identifiers.org/mesh/D003147
-D020820,Dyskinesias,CC0 1.0,MeSH,http://identifiers.org/mesh/D020820
-D000377,Agnosia,CC0 1.0,MeSH,http://identifiers.org/mesh/D000377
-D059246,Tachypnea,CC0 1.0,MeSH,http://identifiers.org/mesh/D059246
+id,name,text_blob,license,source,url
+D020150,Chorea Gravidarum,Chorea Gravidarum (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020150
+D006606,Hiccup,Hiccup (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006606
+D014826,Vocal Cord Paralysis,Vocal Cord Paralysis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014826
+D005221,Fatigue,Fatigue (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005221
+D000370,Ageusia,Ageusia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000370
+D010292,Paresthesia,Paresthesia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D010292
+D004172,Diplopia,Diplopia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004172
+D054972,Postural Orthostatic Tachycardia Syndrome,Postural Orthostatic Tachycardia Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D054972
+D059350,Chronic Pain,Chronic Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D059350
+D015354,"Vision, Low","Vision, Low (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D015354
+D002637,Chest Pain,Chest Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D002637
+D005316,Fetal Distress,Fetal Distress (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005316
+D020886,Somatosensory Disorders,Somatosensory Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020886
+D006816,Huntington Disease,Huntington Disease (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006816
+D007565,Jaundice,Jaundice (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D007565
+D018886,"Aphasia, Conduction","Aphasia, Conduction (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D018886
+D017624,WAGR Syndrome,WAGR Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D017624
+D012607,Scotoma,Scotoma (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012607
+D019547,Neck Pain,Neck Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D019547
+D004614,Emaciation,Emaciation (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004614
+D050177,Overweight,Overweight (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D050177
+D055111,Failed Back Surgery Syndrome,Failed Back Surgery Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D055111
+D015431,Weight Loss,Weight Loss (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D015431
+D012001,Hyperacusis,Hyperacusis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012001
+D020183,Nocturnal Paroxysmal Dystonia,Nocturnal Paroxysmal Dystonia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020183
+D020237,"Alexia, Pure","Alexia, Pure (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D020237
+D003244,Consciousness Disorders,Consciousness Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003244
+D012415,Rubinstein-Taybi Syndrome,Rubinstein-Taybi Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012415
+D020207,"Coma, Post-Head Injury","Coma, Post-Head Injury (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D020207
+D014823,Vitreous Hemorrhage,Vitreous Hemorrhage (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014823
+D006942,Hypergammaglobulinemia,Hypergammaglobulinemia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006942
+D003639,"Hearing Loss, Sudden","Hearing Loss, Sudden (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D003639
+D009846,Oliguria,Oliguria (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009846
+D001416,Back Pain,Back Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001416
+D010146,Pain,Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D010146
+D010591,Phantom Limb,Phantom Limb (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D010591
+D009461,Neurologic Manifestations,Neurologic Manifestations (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009461
+D053591,"Pain, Referred","Pain, Referred (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D053591
+D020447,Parasomnias,Parasomnias (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020447
+D059787,Acute Pain,Acute Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D059787
+D009123,Muscle Hypotonia,Muscle Hypotonia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009123
+D055958,Piriformis Muscle Syndrome,Piriformis Muscle Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D055958
+D003128,Coma,Coma (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003128
+D011697,"Purpura, Thrombotic Thrombocytopenic","Purpura, Thrombotic Thrombocytopenic (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D011697
+D014770,Virilism,Virilism (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014770
+D006685,Hoarseness,Hoarseness (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006685
+D012585,Sciatica,Sciatica (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012585
+D011695,"Purpura, Schoenlein-Henoch","Purpura, Schoenlein-Henoch (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D011695
+D037061,Metatarsalgia,Metatarsalgia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D037061
+D009041,Motion Sickness,Motion Sickness (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009041
+D005334,Fever,Fever (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005334
+D016553,"Purpura, Thrombocytopenic, Idiopathic","Purpura, Thrombocytopenic, Idiopathic (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D016553
+D009207,Myoclonus,Myoclonus (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009207
+D010845,Obesity Hypoventilation Syndrome,Obesity Hypoventilation Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D010845
+D004487,Edema,Edema (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004487
+D013746,Tetany,Tetany (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D013746
+D041781,"Jaundice, Obstructive","Jaundice, Obstructive (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D041781
+D000849,Anomia,Anomia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000849
+D011537,Pruritus,Pruritus (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D011537
+D059411,Lower Urinary Tract Symptoms,Lower Urinary Tract Symptoms (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D059411
+D006313,"Hearing Loss, Central","Hearing Loss, Central (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D006313
+D018771,Arthralgia,Arthralgia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D018771
+D013494,"Supranuclear Palsy, Progressive","Supranuclear Palsy, Progressive (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D013494
+D004244,Dizziness,Dizziness (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004244
+D059245,Transient Tachypnea of the Newborn,Transient Tachypnea of the Newborn (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D059245
+D020069,Shoulder Pain,Shoulder Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020069
+D016857,Hypocapnia,Hypocapnia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D016857
+D019462,"Syncope, Vasovagal","Syncope, Vasovagal (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D019462
+D004454,Echolalia,Echolalia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004454
+D001836,Body Weight Changes,Body Weight Changes (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001836
+D019584,Hot Flashes,Hot Flashes (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D019584
+D005158,Facial Paralysis,Facial Paralysis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005158
+D000270,Adie Syndrome,Adie Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000270
+D001259,Ataxia,Ataxia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001259
+D013575,Syncope,Syncope (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D013575
+D001039,"Aphasia, Broca","Aphasia, Broca (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D001039
+D038921,Coffin-Lowry Syndrome,Coffin-Lowry Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D038921
+D012893,Sleep Disorders,Sleep Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012893
+D066190,Allesthesia,Allesthesia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D066190
+D056844,Renal Colic,Renal Colic (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D056844
+D020828,Pseudobulbar Palsy,Pseudobulbar Palsy (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020828
+D003371,Cough,Cough (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003371
+D008065,Lipoid Proteinosis of Urbach and Wiethe,Lipoid Proteinosis of Urbach and Wiethe (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D008065
+D020567,Fetal Weight,Fetal Weight (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020567
+D057178,Primary Progressive Nonfluent Aphasia,Primary Progressive Nonfluent Aphasia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D057178
+D019569,Hemifacial Spasm,Hemifacial Spasm (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D019569
+D006935,Hypercapnia,Hypercapnia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006935
+D018614,Sweating Sickness,Sweating Sickness (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D018614
+D006930,Hyperalgesia,Hyperalgesia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006930
+D019954,Neurobehavioral Manifestations,Neurobehavioral Manifestations (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D019954
+D034381,Hearing Loss,Hearing Loss (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D034381
+D015746,Abdominal Pain,Abdominal Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D015746
+D002389,Catatonia,Catatonia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D002389
+D011141,Polyuria,Polyuria (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D011141
+D020181,"Sleep Apnea, Obstructive","Sleep Apnea, Obstructive (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D020181
+D004415,Dyspepsia,Dyspepsia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004415
+D020270,Alcohol Withdrawal Seizures,Alcohol Withdrawal Seizures (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020270
+D006628,Hirsutism,Hirsutism (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006628
+D006319,"Hearing Loss, Sensorineural","Hearing Loss, Sensorineural (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D006319
+D010167,Pallor,Pallor (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D010167
+D020324,"Amnesia, Anterograde","Amnesia, Anterograde (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D020324
+D004411,"Dyslexia, Acquired","Dyslexia, Acquired (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D004411
+D005130,Eye Hemorrhage,Eye Hemorrhage (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005130
+D011218,Prader-Willi Syndrome,Prader-Willi Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D011218
+D059373,Mastodynia,Mastodynia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D059373
+D059226,Nociceptive Pain,Nociceptive Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D059226
+D004410,Dyslexia,Dyslexia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004410
+D020235,Gait Apraxia,Gait Apraxia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020235
+D014313,Trismus,Trismus (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014313
+D015518,Rett Syndrome,Rett Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D015518
+D006970,Disorders of Excessive Somnolence,Disorders of Excessive Somnolence (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006970
+D014202,Tremor,Tremor (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014202
+D005311,Fetal Hypoxia,Fetal Hypoxia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005311
+D004433,Earache,Earache (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004433
+D011602,Psychophysiologic Disorders,Psychophysiologic Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D011602
+D000425,Alcohol Amnestic Disorder,Alcohol Amnestic Disorder (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000425
+D020336,"Paraparesis, Spastic","Paraparesis, Spastic (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D020336
+D018476,Hypokinesia,Hypokinesia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D018476
+D054068,Livedo Reticularis,Livedo Reticularis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D054068
+D003655,Decerebrate State,Decerebrate State (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003655
+D006939,Hyperemesis Gravidarum,Hyperemesis Gravidarum (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006939
+D006396,Hematemesis,Hematemesis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006396
+D018437,Brown-Sequard Syndrome,Brown-Sequard Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D018437
+D048949,Labor Pain,Labor Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D048949
+D062706,Prodromal Symptoms,Prodromal Symptoms (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D062706
+D020182,"Sleep Apnea, Central","Sleep Apnea, Central (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D020182
+D020879,Neuromuscular Manifestations,Neuromuscular Manifestations (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020879
+D003248,Constipation,Constipation (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003248
+D004408,Dysgeusia,Dysgeusia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004408
+D001264,Athetosis,Athetosis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001264
+D007805,Language Development Disorders,Language Development Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D007805
+D063806,Myalgia,Myalgia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D063806
+D011539,Pruritus Vulvae,Pruritus Vulvae (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D011539
+D004418,"Dyspnea, Paroxysmal","Dyspnea, Paroxysmal (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D004418
+D013009,Somnambulism,Somnambulism (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D013009
+D005926,Glossalgia,Glossalgia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005926
+D012913,Snoring,Snoring (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012913
+D002832,Choroid Hemorrhage,Choroid Hemorrhage (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D002832
+D020238,Prosopagnosia,Prosopagnosia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020238
+D010468,Perceptual Disorders,Perceptual Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D010468
+D019575,"Blindness, Cortical","Blindness, Cortical (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D019575
+D010291,Paresis,Paresis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D010291
+D020177,"Hypersomnolence, Idiopathic","Hypersomnolence, Idiopathic (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D020177
+D005335,Fever of Unknown Origin,Fever of Unknown Origin (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005335
+D017827,Machado-Joseph Disease,Machado-Joseph Disease (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D017827
+D020915,Korsakoff Syndrome,Korsakoff Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020915
+D007706,Menkes Kinky Hair Syndrome,Menkes Kinky Hair Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D007706
+D005183,Failure to Thrive,Failure to Thrive (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005183
+D056128,"Obesity, Abdominal","Obesity, Abdominal (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D056128
+D051346,Mobility Limitation,Mobility Limitation (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D051346
+D053448,Prostatism,Prostatism (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D053448
+D018908,Muscle Weakness,Muscle Weakness (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D018908
+D009903,Optical Illusions,Optical Illusions (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009903
+D001247,Asthenia,Asthenia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001247
+D001041,"Aphasia, Wernicke","Aphasia, Wernicke (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D001041
+D020385,Myokymia,Myokymia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020385
+D013064,Speech Disorders,Speech Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D013064
+D014103,Torticollis,Torticollis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014103
+D014884,Waterhouse-Friderichsen Syndrome,Waterhouse-Friderichsen Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014884
+D063766,Pediatric Obesity,Pediatric Obesity (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D063766
+D011538,Pruritus Ani,Pruritus Ani (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D011538
+D007331,Insulin Coma,Insulin Coma (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D007331
+D005483,Flushing,Flushing (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005483
+D062026,Alice in Wonderland Syndrome,Alice in Wonderland Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D062026
+D008998,Monoclonal Gammopathy of Undetermined Significance,Monoclonal Gammopathy of Undetermined Significance (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D008998
+D001049,Apnea,Apnea (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001049
+D020919,"Sleep Disorders, Intrinsic","Sleep Disorders, Intrinsic (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D020919
+D053201,"Urinary Bladder, Overactive","Urinary Bladder, Overactive (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D053201
+D018458,Persistent Vegetative State,Persistent Vegetative State (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D018458
+D009325,Nausea,Nausea (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009325
+D053584,Urinoma,Urinoma (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D053584
+D011596,Psychomotor Disorders,Psychomotor Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D011596
+D012640,Seizures,Seizures (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012640
+D009155,Mutism,Mutism (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009155
+D001724,Birth Weight,Birth Weight (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001724
+D053565,Hypercalciuria,Hypercalciuria (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D053565
+D010148,"Pain, Intractable","Pain, Intractable (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D010148
+D004421,Dystonia,Dystonia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004421
+D002558,Cerebrospinal Fluid Otorrhea,Cerebrospinal Fluid Otorrhea (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D002558
+D017109,"Akathisia, Drug-Induced","Akathisia, Drug-Induced (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D017109
+D000648,"Amnesia, Retrograde","Amnesia, Retrograde (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D000648
+D013342,Stuttering,Stuttering (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D013342
+D006469,Hemoptysis,Hemoptysis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006469
+D013651,Taste Disorders,Taste Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D013651
+D059607,"Polydipsia, Psychogenic","Polydipsia, Psychogenic (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D059607
+D002559,Cerebrospinal Fluid Rhinorrhea,Cerebrospinal Fluid Rhinorrhea (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D002559
+D006212,Hallucinations,Hallucinations (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006212
+D006988,Hyphema,Hyphema (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006988
+D017699,Pelvic Pain,Pelvic Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D017699
+D020189,Nocturnal Myoclonus Syndrome,Nocturnal Myoclonus Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020189
+D010149,"Pain, Postoperative","Pain, Postoperative (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D010149
+D006963,Hyperphagia,Hyperphagia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006963
+D020233,"Gait Disorders, Neurologic","Gait Disorders, Neurologic (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D020233
+D054062,Deaf-Blind Disorders,Deaf-Blind Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D054062
+D015845,Tonic Pupil,Tonic Pupil (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D015845
+D000419,Albuminuria,Albuminuria (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000419
+D008569,Memory Disorders,Memory Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D008569
+D059388,Pelvic Girdle Pain,Pelvic Girdle Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D059388
+D020922,Sleep-Wake Transition Disorders,Sleep-Wake Transition Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020922
+D009133,Muscular Atrophy,Muscular Atrophy (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009133
+D020078,Neurogenic Inflammation,Neurogenic Inflammation (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020078
+D053609,Lethargy,Lethargy (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D053609
+D017593,Kleine-Levin Syndrome,Kleine-Levin Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D017593
+D009222,Myotonia,Myotonia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009222
+D000326,Adrenoleukodystrophy,Adrenoleukodystrophy (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000326
+D015877,Miosis,Miosis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D015877
+D009755,Night Blindness,Night Blindness (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009755
+D006941,Hyperesthesia,Hyperesthesia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006941
+D006261,Headache,Headache (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006261
+D006317,"Hearing Loss, Noise-Induced","Hearing Loss, Noise-Induced (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D006317
+D011694,"Purpura, Hyperglobulinemic","Purpura, Hyperglobulinemic (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D011694
+D053608,Stupor,Stupor (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D053608
+D002385,Cataplexy,Cataplexy (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D002385
+D006732,Horner Syndrome,Horner Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006732
+D020240,"Apraxia, Ideomotor","Apraxia, Ideomotor (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D020240
+D012817,"Signs and Symptoms, Digestive","Signs and Symptoms, Digestive (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D012817
+D006209,Halitosis,Halitosis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006209
+D000860,Anoxia,Anoxia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000860
+D007926,Lesch-Nyhan Syndrome,Lesch-Nyhan Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D007926
+D005207,Fasciculation,Fasciculation (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005207
+D045262,Reticulocytosis,Reticulocytosis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D045262
+D005600,Fragile X Syndrome,Fragile X Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005600
+D000334,Aerophagy,Aerophagy (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000334
+D000788,"Angina Pectoris, Variant","Angina Pectoris, Variant (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D000788
+D001926,Brain Death,Brain Death (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001926
+D020236,"Amnesia, Transient Global","Amnesia, Transient Global (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D020236
+D012877,Skin Manifestations,Skin Manifestations (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012877
+D013851,Thinness,Thinness (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D013851
+D014549,Urinary Incontinence,Urinary Incontinence (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014549
+D012148,Restless Legs Syndrome,Restless Legs Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012148
+D018888,"Aphasia, Primary Progressive","Aphasia, Primary Progressive (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D018888
+D060050,"Angina, Stable","Angina, Stable (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D060050
+D012133,Respiratory Paralysis,Respiratory Paralysis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012133
+D012135,Respiratory Sounds,Respiratory Sounds (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012135
+D005320,Fetal Macrosomia,Fetal Macrosomia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005320
+D053158,Nocturia,Nocturia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D053158
+D000550,Amblyopia,Amblyopia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000550
+D013035,Spasm,Spasm (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D013035
+D004688,Encopresis,Encopresis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004688
+D020178,"Sleep Disorders, Circadian Rhythm","Sleep Disorders, Circadian Rhythm (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D020178
+D064250,Hypertriglyceridemic Waist,Hypertriglyceridemic Waist (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D064250
+D009058,Mouth Breathing,Mouth Breathing (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009058
+D059445,Anhedonia,Anhedonia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D059445
+D020920,Dyssomnias,Dyssomnias (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020920
+D005683,Gagging,Gagging (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005683
+D001835,Body Weight,Body Weight (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001835
+D003117,Color Vision Defects,Color Vision Defects (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003117
+D008607,Intellectual Disability,Intellectual Disability (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D008607
+D034062,"Insomnia, Fatal Familial","Insomnia, Fatal Familial (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D034062
+D014832,Voice Disorders,Voice Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014832
+D009437,Neuralgia,Neuralgia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009437
+D060486,Ophthalmoplegic Migraine,Ophthalmoplegic Migraine (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D060486
+D046088,"Hearing Loss, Unilateral","Hearing Loss, Unilateral (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D046088
+D054058,Acute Coronary Syndrome,Acute Coronary Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D054058
+D007088,Illusions,Illusions (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D007088
+D001044,Aphonia,Aphonia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001044
+D002639,Cheyne-Stokes Respiration,Cheyne-Stokes Respiration (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D002639
+D000857,Olfaction Disorders,Olfaction Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000857
+D012912,Sneezing,Sneezing (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012912
+D055955,Susac Syndrome,Susac Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D055955
+D015878,Mydriasis,Mydriasis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D015878
+D046608,Synkinesis,Synkinesis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D046608
+D014474,Unconsciousness,Unconsciousness (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014474
+D006429,Hemiplegia,Hemiplegia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006429
+D004489,"Edema, Cardiac","Edema, Cardiac (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D004489
+D020186,Sleep Bruxism,Sleep Bruxism (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020186
+D000647,Amnesia,Amnesia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000647
+D020335,Paraparesis,Paraparesis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020335
+D001072,Apraxias,Apraxias (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001072
+D017116,Low Back Pain,Low Back Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D017116
+D000787,Angina Pectoris,Angina Pectoris (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000787
+D002819,Chorea,Chorea (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D002819
+D020323,Tics,Tics (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020323
+D000855,Anorexia,Anorexia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000855
+D055948,Sarcopenia,Sarcopenia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D055948
+D017246,"Ophthalmoplegia, Chronic Progressive External","Ophthalmoplegia, Chronic Progressive External (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D017246
+D019591,Pseudophakia,Pseudophakia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D019591
+D005414,Flatulence,Flatulence (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005414
+D065635,Benign Paroxysmal Positional Vertigo,Benign Paroxysmal Positional Vertigo (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D065635
+D016534,"Cardiac Output, High","Cardiac Output, High (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D016534
+D012678,Sensation Disorders,Sensation Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012678
+D012818,"Signs and Symptoms, Respiratory","Signs and Symptoms, Respiratory (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D012818
+D014840,"Vomiting, Anticipatory","Vomiting, Anticipatory (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D014840
+D012021,"Reflex, Abnormal","Reflex, Abnormal (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D012021
+D014008,Tinea Pedis,Tinea Pedis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014008
+D015875,Anisocoria,Anisocoria (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D015875
+D006314,"Hearing Loss, Conductive","Hearing Loss, Conductive (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D006314
+D018489,Space Motion Sickness,Space Motion Sickness (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D018489
+D056865,Ideal Body Weight,Ideal Body Weight (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D056865
+D001766,Blindness,Blindness (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001766
+D011595,Psychomotor Agitation,Psychomotor Agitation (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D011595
+D009122,Muscle Hypertonia,Muscle Hypertonia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009122
+D020179,Jet Lag Syndrome,Jet Lag Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020179
+D006948,Hyperkinesis,Hyperkinesis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006948
+D001832,Body Temperature Changes,Body Temperature Changes (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001832
+D058568,Necrolytic Migratory Erythema,Necrolytic Migratory Erythema (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D058568
+D004314,Down Syndrome,Down Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004314
+D057774,Post-Exercise Hypotension,Post-Exercise Hypotension (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D057774
+D004412,Dysmenorrhea,Dysmenorrhea (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004412
+D006311,Hearing Disorders,Hearing Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006311
+D003635,De Lange Syndrome,De Lange Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003635
+D009290,Narcolepsy,Narcolepsy (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009290
+D002100,Cachexia,Cachexia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D002100
+D005222,Mental Fatigue,Mental Fatigue (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005222
+D019588,"Aging, Premature","Aging, Premature (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D019588
+D017566,Microvascular Angina,Microvascular Angina (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D017566
+D009127,Muscle Rigidity,Muscle Rigidity (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009127
+D020234,Gait Ataxia,Gait Ataxia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020234
+D020754,Spinocerebellar Ataxias,Spinocerebellar Ataxias (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020754
+D007625,Kearns-Sayre Syndrome,Kearns-Sayre Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D007625
+D007859,Learning Disorders,Learning Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D007859
+D059390,Breakthrough Pain,Breakthrough Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D059390
+D048968,Morning Sickness,Morning Sickness (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D048968
+D018980,Williams Syndrome,Williams Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D018980
+D014550,"Urinary Incontinence, Stress","Urinary Incontinence, Stress (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D014550
+D006456,Hemoglobinuria,Hemoglobinuria (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006456
+D002524,Cerebellar Ataxia,Cerebellar Ataxia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D002524
+D006985,Hyperventilation,Hyperventilation (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006985
+D005862,Gerstmann Syndrome,Gerstmann Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005862
+D017288,Pain Threshold,Pain Threshold (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D017288
+D003085,Colic,Colic (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003085
+D009765,Obesity,Obesity (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009765
+D056124,Slit Ventricle Syndrome,Slit Ventricle Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D056124
+D003490,Cyanosis,Cyanosis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003490
+D038901,"Mental Retardation, X-Linked","Mental Retardation, X-Linked (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D038901
+D014929,Wolfram Syndrome,Wolfram Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014929
+D006315,"Hearing Loss, Functional","Hearing Loss, Functional (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D006315
+D012892,Sleep Deprivation,Sleep Deprivation (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012892
+D006312,"Hearing Loss, Bilateral","Hearing Loss, Bilateral (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D006312
+D001260,Ataxia Telangiectasia,Ataxia Telangiectasia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001260
+D059265,Visceral Pain,Visceral Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D059265
+D055665,Purpura Fulminans,Purpura Fulminans (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D055665
+D053159,Dysuria,Dysuria (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D053159
+D014012,Tinnitus,Tinnitus (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014012
+D012891,Sleep Apnea Syndromes,Sleep Apnea Syndromes (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012891
+D015160,Hydrops Fetalis,Hydrops Fetalis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D015160
+D015430,Weight Gain,Weight Gain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D015430
+D006423,Hemianopsia,Hemianopsia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006423
+D020184,Night Terrors,Night Terrors (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020184
+D000472,"Alkalosis, Respiratory","Alkalosis, Respiratory (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D000472
+D007035,Hypothermia,Hypothermia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D007035
+D059352,Musculoskeletal Pain,Musculoskeletal Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D059352
+D020250,Postoperative Nausea and Vomiting,Postoperative Nausea and Vomiting (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020250
+D010264,Paraplegia,Paraplegia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D010264
+D005157,Facial Pain,Facial Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005157
+D007024,"Hypotension, Orthostatic","Hypotension, Orthostatic (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D007024
+D009912,Oral Manifestations,Oral Manifestations (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009912
+D011782,Quadriplegia,Quadriplegia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D011782
+D016532,Mucopolysaccharidosis II,Mucopolysaccharidosis II (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D016532
+D065634,Cerebrospinal Fluid Leak,Cerebrospinal Fluid Leak (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D065634
+D006337,Heart Murmurs,Heart Murmurs (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006337
+D006987,Hypesthesia,Hypesthesia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006987
+D003221,Confusion,Confusion (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003221
+D003693,Delirium,Delirium (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003693
+D020187,REM Sleep Behavior Disorder,REM Sleep Behavior Disorder (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020187
+D014717,Vertigo,Vertigo (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014717
+D001308,Auditory Perceptual Disorders,Auditory Perceptual Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001308
+D018589,Gastroparesis,Gastroparesis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D018589
+D020795,Photophobia,Photophobia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020795
+D005884,Gingival Hemorrhage,Gingival Hemorrhage (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005884
+D006316,"Hearing Loss, High-Frequency","Hearing Loss, High-Frequency (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D006316
+D002422,Causalgia,Causalgia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D002422
+D053202,"Urinary Incontinence, Urge","Urinary Incontinence, Urge (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D053202
+D011681,Pupil Disorders,Pupil Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D011681
+D055964,Alien Hand Syndrome,Alien Hand Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D055964
+D009886,Ophthalmoplegia,Ophthalmoplegia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009886
+D054971,Orthostatic Intolerance,Orthostatic Intolerance (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D054971
+D009767,"Obesity, Morbid","Obesity, Morbid (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D009767
+D000789,"Angina, Unstable","Angina, Unstable (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D000789
+D019080,Cafe-au-Lait Spots,Cafe-au-Lait Spots (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D019080
+D002375,Catalepsy,Catalepsy (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D002375
+D004438,Ecchymosis,Ecchymosis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004438
+D001750,"Urinary Bladder, Neurogenic","Urinary Bladder, Neurogenic (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D001750
+D011507,Proteinuria,Proteinuria (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D011507
+D003968,"Diarrhea, Infantile","Diarrhea, Infantile (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D003968
+D018496,Hyperoxia,Hyperoxia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D018496
+D052245,Usher Syndromes,Usher Syndromes (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D052245
+D004884,Eructation,Eructation (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004884
+D023341,Chills,Chills (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D023341
+D051474,"Neuralgia, Postherpetic","Neuralgia, Postherpetic (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D051474
+D012166,Retinal Hemorrhage,Retinal Hemorrhage (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D012166
+D002303,"Cardiac Output, Low","Cardiac Output, Low (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D002303
+D010243,Paralysis,Paralysis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D010243
+D058447,Eye Pain,Eye Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D058447
+D000006,"Abdomen, Acute","Abdomen, Acute (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D000006
+D008580,Meningism,Meningism (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D008580
+D001037,Aphasia,Aphasia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001037
+D052120,Glycogen Storage Disease Type IIb,Glycogen Storage Disease Type IIb (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D052120
+D006472,Oral Hemorrhage,Oral Hemorrhage (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006472
+D003967,Diarrhea,Diarrhea (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003967
+D019873,Schnitzler Syndrome,Schnitzler Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D019873
+D003410,Cri-du-Chat Syndrome,Cri-du-Chat Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003410
+D059606,Polydipsia,Polydipsia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D059606
+D046089,"Hearing Loss, Mixed Conductive-Sensorineural","Hearing Loss, Mixed Conductive-Sensorineural (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D046089
+D007806,Language Disorders,Language Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D007806
+D009128,Muscle Spasticity,Muscle Spasticity (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009128
+D054078,Mevalonate Kinase Deficiency,Mevalonate Kinase Deficiency (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D054078
+D054221,Classical Lissencephalies and Subcortical Band Heterotopias,Classical Lissencephalies and Subcortical Band Heterotopias (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D054221
+D060705,Dyscalculia,Dyscalculia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D060705
+D060545,Pudendal Neuralgia,Pudendal Neuralgia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D060545
+D020188,Sleep Paralysis,Sleep Paralysis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020188
+D000381,Agraphia,Agraphia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000381
+D057896,Striae Distensae,Striae Distensae (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D057896
+D020923,REM Sleep Parasomnias,REM Sleep Parasomnias (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020923
+D054160,Systolic Murmurs,Systolic Murmurs (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D054160
+D011696,"Purpura, Thrombocytopenic","Purpura, Thrombocytopenic (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D011696
+D009120,Muscle Cramp,Muscle Cramp (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D009120
+D057768,Infantile Apparent Life-Threatening Event,Infantile Apparent Life-Threatening Event (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D057768
+D054546,Neuroacanthocytosis,Neuroacanthocytosis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D054546
+D011304,Presbycusis,Presbycusis (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D011304
+D065906,Hyperlactatemia,Hyperlactatemia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D065906
+D021501,Flank Pain,Flank Pain (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D021501
+D004417,Dyspnea,Dyspnea (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004417
+D006356,Heartburn,Heartburn (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D006356
+D004401,Dysarthria,Dysarthria (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D004401
+D014098,Toothache,Toothache (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014098
+D003638,Deafness,Deafness (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003638
+D007319,Sleep Initiation and Maintenance Disorders,Sleep Initiation and Maintenance Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D007319
+D020924,Urological Manifestations,Urological Manifestations (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020924
+D005262,Feminization,Feminization (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005262
+D002032,Bulimia,Bulimia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D002032
+D055154,Dysphonia,Dysphonia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D055154
+D011693,Purpura,Purpura (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D011693
+D007040,Hypoventilation,Hypoventilation (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D007040
+D020757,Amaurosis Fugax,Amaurosis Fugax (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020757
+D005132,Eye Manifestations,Eye Manifestations (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D005132
+D004409,"Dyskinesia, Drug-Induced","Dyskinesia, Drug-Induced (Symptom)",CC0 1.0,MeSH,http://identifiers.org/mesh/D004409
+D020921,Sleep Arousal Disorders,Sleep Arousal Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020921
+D015325,Pyruvate Dehydrogenase Complex Deficiency Disease,Pyruvate Dehydrogenase Complex Deficiency Disease (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D015325
+D001184,Articulation Disorders,Articulation Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D001184
+D014839,Vomiting,Vomiting (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014839
+D014786,Vision Disorders,Vision Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D014786
+D007383,Intermittent Claudication,Intermittent Claudication (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D007383
+D053578,Opsoclonus-Myoclonus Syndrome,Opsoclonus-Myoclonus Syndrome (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D053578
+D003147,Communication Disorders,Communication Disorders (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D003147
+D020820,Dyskinesias,Dyskinesias (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D020820
+D000377,Agnosia,Agnosia (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D000377
+D059246,Tachypnea,Tachypnea (Symptom),CC0 1.0,MeSH,http://identifiers.org/mesh/D059246

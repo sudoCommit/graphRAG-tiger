@@ -1,56 +1,78 @@
 CREATE VERTEX Anatomy (
     PRIMARY_ID id STRING,
-    name STRING
+    name STRING,
+    text_blob STRING,
+    embedding LIST<DOUBLE>
 ) WITH primary_id_as_attribute="true";
 
 CREATE VERTEX BiologicalProcess (
     PRIMARY_ID id STRING,
-    name STRING
+    name STRING,
+    text_blob STRING,
+    embedding LIST<DOUBLE>
 ) WITH primary_id_as_attribute="true";
 
 CREATE VERTEX CellularComponent (
     PRIMARY_ID id STRING,
-    name STRING
+    name STRING,
+    text_blob STRING,
+    embedding LIST<DOUBLE>
 ) WITH primary_id_as_attribute="true";
 
 CREATE VERTEX Compound (
     PRIMARY_ID id STRING,
-    name STRING
+    name STRING,
+    text_blob STRING,
+    embedding LIST<DOUBLE>
 ) WITH primary_id_as_attribute="true";
 
 CREATE VERTEX Disease (
     PRIMARY_ID id STRING,
-    name STRING
+    name STRING,
+    text_blob STRING,
+    embedding LIST<DOUBLE>
 ) WITH primary_id_as_attribute="true";
 
 CREATE VERTEX Gene (
     PRIMARY_ID id STRING,
-    name STRING
+    name STRING,
+    text_blob STRING,
+    embedding LIST<DOUBLE>
 ) WITH primary_id_as_attribute="true";
 
 CREATE VERTEX MolecularFunction (
     PRIMARY_ID id STRING,
-    name STRING
+    name STRING,
+    text_blob STRING,
+    embedding LIST<DOUBLE>
 ) WITH primary_id_as_attribute="true";
 
 CREATE VERTEX Pathway (
     PRIMARY_ID id STRING,
-    name STRING
+    name STRING,
+    text_blob STRING,
+    embedding LIST<DOUBLE>
 ) WITH primary_id_as_attribute="true";
 
 CREATE VERTEX PharmacologicClass (
     PRIMARY_ID id STRING,
-    name STRING
+    name STRING,
+    text_blob STRING,
+    embedding LIST<DOUBLE>
 ) WITH primary_id_as_attribute="true";
 
 CREATE VERTEX SideEffect (
     PRIMARY_ID id STRING,
-    name STRING
+    name STRING,
+    text_blob STRING,
+    embedding LIST<DOUBLE>
 ) WITH primary_id_as_attribute="true";
 
 CREATE VERTEX Symptom (
     PRIMARY_ID id STRING,
-    name STRING
+    name STRING,
+    text_blob STRING,
+    embedding LIST<DOUBLE>
 ) WITH primary_id_as_attribute="true";
 
 CREATE DIRECTED EDGE Anatomy_localizes_Disease (FROM Anatomy, TO Disease);

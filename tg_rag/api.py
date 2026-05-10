@@ -3,7 +3,7 @@ import logging
 
 import tiktoken
 
-from llm.ag_llm import PipelineResult, PRICING
+from llm.ag_llm import PipelineResult, PRICING, extract_usage_metrics
 from tg.base import get_graphrag_connection
 
 logger = logging.getLogger(__name__)
@@ -45,15 +45,16 @@ def query(
 
     answer = resp.get("response", str(resp))
     context = resp.get("retrieved_context", "")
+    usage_data = extract_usage_metrics(resp)
 
     # Try to extract token counts from response; estimate if absent
-    prompt_tokens = resp.get("prompt_tokens", 0)
-    completion_tokens = resp.get("completion_tokens", 0)
+    prompt_tokens = usage_data["prompt_tokens"]
+    completion_tokens = usage_data["completion_tokens"]
     if not prompt_tokens:
         prompt_tokens = _estimate_tokens(str(context) + question)
         completion_tokens = _estimate_tokens(answer)
 
-    total_tokens = prompt_tokens + completion_tokens
+    total_tokens = usage_data["total_tokens"] or (prompt_tokens + completion_tokens)
 
     pricing = PRICING.get(model, {"input": 0.0, "output": 0.0})
     cost = (
@@ -68,6 +69,14 @@ def query(
         total_tokens=total_tokens,
         latency_s=round(latency, 3),
         cost=round(cost, 6),
-        model=model,
+        model=usage_data["model"] or model,
         retrieved_context=str(context),
+        response_id=usage_data["response_id"],
+        created=usage_data["created"],
+        service_tier=usage_data["service_tier"],
+        system_fingerprint=usage_data["system_fingerprint"],
+        finish_reason=usage_data["finish_reason"],
+        completion_tokens_details=usage_data["completion_tokens_details"],
+        prompt_tokens_details=usage_data["prompt_tokens_details"],
+        latency_checkpoint=usage_data["latency_checkpoint"],
     )

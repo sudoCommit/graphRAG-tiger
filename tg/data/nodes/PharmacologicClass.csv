@@ -1,346 +1,346 @@
-id,name,class_type,license,source,url
-N0000007632,Thyroxine,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007632
-N0000011272,Thiazolidinediones,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011272
-N0000178477,Decreased Blood Pressure,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000178477
-N0000010288,Osmotic Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000010288
-N0000190114,Cytochrome P450 3A Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190114
-N0000175799,Dopamine D2 Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175799
-N0000000114,Dopamine Uptake Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000114
-N0000175732,Neuromuscular Nondepolarizing Blockade,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175732
-N0000175729,Central Nervous System Stimulation,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175729
-N0000008779,Decreased Parasympathetic Acetylcholine Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008779
-N0000007618,Ergolines,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007618
-N0000175654,Gonadotropin Releasing Hormone Receptor Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175654
-N0000167094,Benzothiazoles,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000167094
-N0000020024,Sclerosing Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020024
-N0000175379,Arteriolar Vasodilation,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175379
-N0000175764,Serotonin 1d Receptor Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175764
-N0000175914,Increased Coagulation Factor VIII Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175914
-N0000007151,Folic Acid,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007151
-N0000008053,Sulfones,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008053
-N0000191267,Cytochrome P450 2D6 Inducers,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191267
-N0000175089,Calcium Chelating Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175089
-N0000008486,Decreased Central Nervous System Disorganized Electrical Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008486
-N0000008479,Decreased Cell Wall Synthesis & Repair,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008479
-N0000009947,Nucleoside Reverse Transcriptase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009947
-N0000009176,Increased Cellular Death,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009176
-N0000011281,Penicillins,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011281
-N0000000070,Angiotensin 2 Receptor Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000070
-N0000175087,Urease Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175087
-N0000185007,Adrenergic beta3-Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000185007
-N0000000083,Leukotriene Receptor Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000083
-N0000191264,P-Glycoprotein Inducers,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191264
-N0000011414,Ketolides,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011414
-N0000007647,Nitrates,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007647
-N0000187062,Cytochrome P450 2C8 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000187062
-N0000006277,Vitamin D,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006277
-N0000191272,UGT1A1 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191272
-N0000175915,Increased Coagulation Factor VIII Concentration,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175915
-N0000175960,Increased Glutathione Concentration,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175960
-N0000008953,Decreased Striated Muscle Contraction,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008953
-N0000010262,Neurokinin 1 Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000010262
-N0000009282,Increased Dopamine Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009282
-N0000182138,Cytochrome P450 1A2 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182138
-N0000175359,Increased Diuresis,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175359
-N0000187063,Cytochrome P450 2C8 Inducers,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000187063
-N0000175512,Methylated Sulfonamides,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175512
-N0000190111,Organic Anion Transporter 3 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190111
-N0000006999,Urea,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006999
-N0000191265,Organic Cation Transporter 1 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191265
-N0000000160,Cyclooxygenase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000160
-N0000000151,Histamine H2 Receptor Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000151
-N0000007544,Phenothiazines,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007544
-N0000009948,Non-Nucleoside Reverse Transcriptase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009948
-N0000007715,Catecholamines,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007715
-N0000005760,Aminosalicylic Acids,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000005760
-N0000175516,RNA Synthetase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175516
-N0000171207,Porphyrinogens,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000171207
-N0000008859,Decreased Renal K+ Excretion,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008859
-N0000009371,Increased Large Intestinal Motility,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009371
-N0000009963,Thrombin Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009963
-N0000000116,GABA B Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000116
-N0000008832,Decreased Platelet Aggregation,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008832
-N0000007659,Nitrogen Mustard Compounds,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007659
-N0000000115,Progestational Hormone Receptor Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000115
-N0000008836,Decreased Prostaglandin Production,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008836
-N0000184306,Cell-mediated Immunity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000184306
-N0000010259,Ultrasound Contrast Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000010259
-N0000008683,Decreased Leukotriene Production,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008683
-N0000175830,Inhibit Ovum Fertilization,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175830
-N0000175080,Aromatase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175080
-N0000187064,Cytochrome P450 2B6 Inducers,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000187064
-N0000175967,Thrombopoietin Receptor Interactions,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175967
-N0000000235,Carbonic Anhydrase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000235
-N0000006269,Vitamin A,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006269
-N0000007909,Psoralens,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007909
-N0000175921,Adrenal Steroid Synthesis Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175921
-N0000007529,Macrolides,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007529
-N0000006996,Cholecalciferol,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006996
-N0000009911,Venous Vasodilation,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009911
-N0000185499,Guanylate Cyclase Activators,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000185499
-N0000000146,Androgen Receptor Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000146
-N0000006496,Nicotine,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006496
-N0000175808,Hydroxyphenylpyruvate Dioxygenase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175808
-N0000175728,Central Nervous System Depression,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175728
-N0000007641,Nicotinic Acids,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007641
-N0000007568,Oxazolidinones,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007568
-N0000175850,Melanin Synthesis Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175850
-N0000190482,Phenylalanine Hydroxylase Activators,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190482
-N0000170119,PPAR gamma,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000170119
-N0000009456,Increased Norepinephrine Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009456
-N0000000206,Xanthine Oxidase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000206
-N0000009871,Stimulation Large Intestine Fluid/Electrolyte Secretion,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009871
-N0000009724,Inhibition Gastric Acid Secretion,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009724
-N0000000183,Acetyl Aldehyde Dehydrogenase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000183
-N0000009269,Increased Cytokine Production,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009269
-N0000175073,Platinum-containing Compounds,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175073
-N0000000207,Histamine Receptor Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000207
-N0000175817,Serotonin 3 Receptor Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175817
-N0000175635,Factor Xa Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175635
-N0000007822,Polymyxins,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007822
-N0000007542,Benzodiazepines,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007542
-N0000006801,Bile Acids and Salts,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006801
-N0000009801,Photosensitizing Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009801
-N0000000102,Norepinephrine Uptake Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000102
-N0000191280,Lipoglycopeptides,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191280
-N0000009526,Increased Prostaglandin Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009526
-N0000011310,Aldosterone Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011310
-N0000000154,Opioid Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000154
-N0000007196,Iodine,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007196
-N0000182137,Cytochrome P450 2D6 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182137
-N0000007522,Allylamine,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007522
-N0000020081,Increased Calcium-sensing Receptor Sensitivity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020081
-N0000175755,DOPA Decarboxylase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175755
-N0000191274,UGT2B15 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191274
-N0000007780,Vinca Alkaloids,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007780
-N0000175450,Corticosteroid Hormone Receptor Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175450
-N0000000150,Protein Synthesis Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000150
-N0000175686,Competitive Opioid Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175686
-N0000000174,Opioid Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000174
-N0000006688,Carnitine,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006688
-N0000175375,Peroxisome Proliferator-activated Receptor alpha Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175375
-N0000010217,Photoabsorption,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000010217
-N0000175788,Adenosine Receptor Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175788
-N0000175644,Decreased Autonomic Ganglionic Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175644
-N0000184148,Smoothened Receptor Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000184148
-N0000175763,Serotonin 1b Receptor Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175763
-N0000009905,Vascular Sclerosing Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009905
-N0000175075,Proteasome Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175075
-N0000007698,Biguanides,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007698
-N0000009393,Increased Medullary Respiratory Drive,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009393
-N0000008016,Barbiturates,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008016
-N0000190109,Organic Anion Transporting Polypeptide 2B1 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190109
-N0000000104,Cholinergic Muscarinic Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000104
-N0000008065,Purines,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008065
-N0000180999,Angiotensin 2 Type 1 Receptor Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000180999
-N0000175086,Phosphodiesterase 3 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175086
-N0000175970,Increased Platelet Production,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175970
-N0000191278,UGT1A9 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191278
-N0000009917,Adrenergic alpha1-Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009917
-N0000020026,Phosphodiesterase 5 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020026
-N0000175632,Decreased Fibrinolysis,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175632
-N0000184145,Chloride Channel Activation Potentiators,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000184145
-N0000190118,Cytochrome P450 3A Inducers,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190118
-N0000020074,Phosphate Chelating Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020074
-N0000008217,Azoles,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008217
-N0000175547,Reduction Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175547
-N0000175917,Thyroid Hormone Synthesis Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175917
-N0000167510,"Estrogens, Conjugated (USP)",Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000167510
-N0000166743,Esters,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000166743
-N0000182960,Phosphodiesterase 4 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182960
-N0000175969,Increased Megakaryocyte Maturation,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175969
-N0000175076,Protein Kinase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175076
-N0000186778,Microsomal Triglyceride Transfer Protein Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000186778
-N0000000166,alpha Glucosidase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000166
-N0000007961,"Heparin, Low-Molecular-Weight",Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007961
-N0000175513,Dipeptidase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175513
-N0000000191,Dihydrofolate Reductase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000191
-N0000185504,Cytochrome P450 2C9 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000185504
-N0000007570,Pyridines,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007570
-N0000175862,Magnetic Resonance Contrast Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175862
-N0000191258,RNA Replicase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191258
-N0000175459,Nucleoside Analog,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175459
-N0000178324,Increased Hematopoietic Stem Cell Mobilization,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000178324
-N0000011418,Streptogramins,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011418
-N0000182140,Cytochrome P450 2C19 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182140
-N0000175370,Cholinergic Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175370
-N0000008553,Decreased Cholesterol Absorption,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008553
-N0000007620,Ergot Alkaloids,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007620
-N0000007948,Tetracyclines,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007948
-N0000000190,Histamine H1 Receptor Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000190
-N0000008330,Cardiac Rhythm Alteration,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008330
-N0000008054,Sulfonylurea Compounds,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008054
-N0000007770,Deoxyuridine,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007770
-N0000000122,Adrenergic Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000122
-N0000000202,beta Lactamase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000202
-N0000007707,Diphosphonates,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007707
-N0000191423,Multidrug and Toxin Extrusion Transporter 1 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191423
-N0000175965,Increased Prothrombin Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175965
-N0000009022,Digestive/GI System Activity Alteration,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009022
-N0000007530,Anthracyclines,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007530
-N0000006165,Triiodothyronine,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006165
-N0000008853,Decreased RNA Replication,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008853
-N0000175975,General Anesthesia,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175975
-N0000006014,Pyrethrins,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006014
-N0000000069,Calcium Channel Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000069
-N0000008732,Decreased Mitosis,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008732
-N0000000168,Selective Estrogen Receptor Modulators,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000168
-N0000009267,Increased Cytokine Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009267
-N0000006320,Vasopressins,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006320
-N0000011311,Monobactams,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011311
-N0000187061,Organic Cation Transporter 2 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000187061
-N0000000209,Adrenergic alpha-Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000209
-N0000007621,Ergotamines,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007621
-N0000175508,Lipopeptides,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175508
-N0000175702,Partial Cholinergic Nicotinic Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175702
-N0000007681,Amides,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007681
-N0000182728,Potassium Channel Openers,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182728
-N0000000236,Alkylating Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000236
-N0000182638,HCV NS3/4A Protease Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182638
-N0000007566,Benzylamines,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007566
-N0000178478,Increased Blood Pressure,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000178478
-N0000009923,Adrenergic beta1-Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009923
-N0000170118,PPAR alpha,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000170118
-N0000007893,Glycosaminoglycans,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007893
-N0000175445,Chemokine Co-receptor 5 Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175445
-N0000175721,Nonsteroidal Anti-inflammatory Compounds,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175721
-N0000009945,Antidiuretic Hormone Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009945
-N0000007606,Quinolones,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007606
-N0000011402,Estradiol Congeners,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011402
-N0000166469,Thiazides,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000166469
-N0000009048,GI Motility Alteration,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009048
-N0000006290,Vitamin K,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006290
-N0000008157,Cardiac Glycosides,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008157
-N0000191275,UGT1A3 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191275
-N0000175550,Decreased Immunologic Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175550
-N0000007663,Nitroimidazoles,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007663
-N0000011161,Cephalosporins,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011161
-N0000175685,Partial Opioid Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175685
-N0000175372,Appetite Suppression,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175372
-N0000007889,Glycopeptides,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007889
-N0000009982,Decreased Sebaceous Gland Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009982
-N0000008556,Decreased Coagulation Factor Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008556
-N0000175085,Microtubule Inhibition,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175085
-N0000000194,Somatostatin Receptor Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000194
-N0000190855,Vesicular Monoamine Transporter 2 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190855
-N0000009065,Hematologic Activity Alteration,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009065
-N0000184143,Carbamoyl Phosphate Synthetase 1 Activators,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000184143
-N0000175733,Neuromuscular Depolarizing Blockade,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175733
-N0000175436,Neuraminidase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175436
-N0000191266,Cytochrome P450 1A2 Inducers,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191266
-N0000007246,Estradiol,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007246
-N0000007706,Prostaglandins,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007706
-N0000000196,GABA A Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000196
-N0000175542,M2 Protein Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175542
-N0000175624,mTOR Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175624
-N0000175955,5-Lipoxygenase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175955
-N0000182141,Cytochrome P450 3A4 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182141
-N0000190115,Cytochrome P450 3A5 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190115
-N0000175361,Catecholamine Synthesis Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175361
-N0000175460,Non-Nucleoside Analog,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175460
-N0000010258,X-Ray Contrast Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000010258
-N0000007672,Polyenes,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007672
-N0000020000,Receptor Tyrosine Kinase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020000
-N0000175735,Decreased Striated Muscle Tone,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175735
-N0000007556,Dihydropyridines,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007556
-N0000009034,Emesis Suppression,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009034
-N0000008663,Decreased Immunologically Active Molecule Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008663
-N0000175761,Monoamine Oxidase-B Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175761
-N0000190110,Organic Anion Transporter 1 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190110
-N0000175084,Gonadotropin Releasing Hormone Receptor Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175084
-N0000009916,Lipase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009916
-N0000007683,Organometallic Compounds,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007683
-N0000175976,Local Anesthesia,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175976
-N0000175456,Chloride Channel Activators,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175456
-N0000000111,Folic Acid Metabolism Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000111
-N0000009079,Increased Acetylcholine Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009079
-N0000185503,P-Glycoprotein Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000185503
-N0000175964,Vitamin K Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175964
-N0000175982,Reversed Anticoagulation Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175982
-N0000175629,Increased Histamine Release,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175629
-N0000166489,Quaternary Ammonium Compounds,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000166489
-N0000191277,UGT1A6 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191277
-N0000007700,Retinoids,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007700
-N0000009010,Decreased Tracheobronchial Stretch Receptor Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009010
-N0000190107,Organic Anion Transporting Polypeptide 1B1 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190107
-N0000000109,Serotonin Uptake Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000109
-N0000020060,DNA Polymerase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020060
-N0000009918,Adrenergic alpha2-Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009918
-N0000008867,Decreased Respiratory Secretion Viscosity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008867
-N0000020019,Glucosylceramide Synthase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020019
-N0000008118,Xanthines,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008118
-N0000182147,Sigma-1 Receptor Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182147
-N0000000144,Iron Chelating Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000144
-N0000008841,Decreased Protein Synthesis,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008841
-N0000006806,Amino Acids,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006806
-N0000009059,Genitourinary Arterial Vasodilation,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009059
-N0000175533,Dyes,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175533
-N0000175851,Depigmenting Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175851
-N0000185607,Cytochrome P450 2C19 Inducers,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000185607
-N0000175628,Decreased Histamine Release,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175628
-N0000175651,Increased Sympathetic Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175651
-N0000009922,Adrenergic beta2-Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009922
-N0000185507,Cytochrome P450 2C9 Inducers,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000185507
-N0000175650,Decreased Sympathetic Activity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175650
-N0000191269,UDP Glucuronosyltransferases Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191269
-N0000175472,Metal Chelating Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175472
-N0000007911,Rifamycins,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007911
-N0000000125,Cholinergic Muscarinic Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000125
-N0000181815,Sphingosine 1-Phosphate Receptor Modulators,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000181815
-N0000007710,"Prostaglandins E, Synthetic",Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007710
-N0000191276,UGT1A4 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191276
-N0000175833,Acidifying Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175833
-N0000009924,Adrenergic beta2-Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009924
-N0000000243,Androgen Receptor Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000243
-N0000007983,Hydroxy Acids,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007983
-N0000007883,Amphetamines,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007883
-N0000175968,Thrombopoietin Receptor Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175968
-N0000175479,Amphenicols,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175479
-N0000006276,Vitamin B 12,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006276
-N0000175684,Full Opioid Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175684
-N0000191273,UGT2B7 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191273
-N0000171131,Allergens,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000171131
-N0000182143,P2Y12 Receptor Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182143
-N0000186774,Diarylquinolines,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000186774
-N0000007853,Aminoglycosides,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007853
-N0000008478,Decreased Cell Wall Integrity,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008478
-N0000000233,Nucleic Acid Synthesis Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000233
-N0000000239,P-Glycoprotein Interactions,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000239
-N0000000106,Prostaglandin Receptor Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000106
-N0000011294,Carbapenems,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011294
-N0000175442,Lincosamides,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175442
-N0000000246,HIV Protease Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000246
-N0000181819,Uncompetitive NMDA Receptor Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000181819
-N0000175433,pleuromutilin,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175433
-N0000175549,Cystine Disulfide Reduction,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175549
-N0000191624,Cytochrome P450 1A Inducers,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191624
-N0000005934,Progesterone,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000005934
-N0000175912,Dipeptidyl Peptidase 4 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175912
-N0000185506,Cytochrome P450 3A4 Inducers,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000185506
-N0000175448,Potassium Channel Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175448
-N0000187058,Sodium-Glucose Transporter 2 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000187058
-N0000008241,Androstanes,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008241
-N0000000176,Topoisomerase Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000176
-N0000007888,Bismuth,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007888
-N0000175374,Peroxisome Proliferator-activated Receptor Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175374
-N0000190113,Breast Cancer Resistance Protein Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190113
-N0000006337,Ergocalciferols,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006337
-N0000175469,Pyrophosphate Analog,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175469
-N0000000250,Melatonin Receptor Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000250
-N0000175365,Bile-acid Binding Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175365
-N0000175730,Centrally-mediated Muscle Relaxation,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175730
-N0000175366,Increased Diuresis at Loop of Henle,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175366
-N0000008010,Cannabinoids,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008010
-N0000007658,Nitrofurans,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007658
-N0000020015,NMDA Receptor Antagonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020015
-N0000009909,Vasodilation,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009909
-N0000182139,Cytochrome P450 2B6 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182139
-N0000175962,Lead Chelating Activity,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175962
-N0000011301,Progesterone Congeners,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011301
-N0000008638,Decreased GnRH Secretion,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008638
-N0000008048,Sulfonamides,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008048
-N0000190108,Organic Anion Transporting Polypeptide 1B3 Inhibitors,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190108
-N0000000100,Estrogen Receptor Agonists,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000100
-N0000008577,Decreased DNA Replication,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008577
-N0000175972,Decreased Platelet Production,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175972
-N0000011280,Prostaglandins I,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011280
+id,name,text_blob,class_type,license,source,url
+N0000007632,Thyroxine,Thyroxine (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007632
+N0000011272,Thiazolidinediones,Thiazolidinediones (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011272
+N0000178477,Decreased Blood Pressure,Decreased Blood Pressure (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000178477
+N0000010288,Osmotic Activity,Osmotic Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000010288
+N0000190114,Cytochrome P450 3A Inhibitors,Cytochrome P450 3A Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190114
+N0000175799,Dopamine D2 Antagonists,Dopamine D2 Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175799
+N0000000114,Dopamine Uptake Inhibitors,Dopamine Uptake Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000114
+N0000175732,Neuromuscular Nondepolarizing Blockade,Neuromuscular Nondepolarizing Blockade (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175732
+N0000175729,Central Nervous System Stimulation,Central Nervous System Stimulation (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175729
+N0000008779,Decreased Parasympathetic Acetylcholine Activity,Decreased Parasympathetic Acetylcholine Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008779
+N0000007618,Ergolines,Ergolines (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007618
+N0000175654,Gonadotropin Releasing Hormone Receptor Agonists,Gonadotropin Releasing Hormone Receptor Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175654
+N0000167094,Benzothiazoles,Benzothiazoles (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000167094
+N0000020024,Sclerosing Activity,Sclerosing Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020024
+N0000175379,Arteriolar Vasodilation,Arteriolar Vasodilation (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175379
+N0000175764,Serotonin 1d Receptor Agonists,Serotonin 1d Receptor Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175764
+N0000175914,Increased Coagulation Factor VIII Activity,Increased Coagulation Factor VIII Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175914
+N0000007151,Folic Acid,Folic Acid (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007151
+N0000008053,Sulfones,Sulfones (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008053
+N0000191267,Cytochrome P450 2D6 Inducers,Cytochrome P450 2D6 Inducers (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191267
+N0000175089,Calcium Chelating Activity,Calcium Chelating Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175089
+N0000008486,Decreased Central Nervous System Disorganized Electrical Activity,Decreased Central Nervous System Disorganized Electrical Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008486
+N0000008479,Decreased Cell Wall Synthesis & Repair,Decreased Cell Wall Synthesis & Repair (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008479
+N0000009947,Nucleoside Reverse Transcriptase Inhibitors,Nucleoside Reverse Transcriptase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009947
+N0000009176,Increased Cellular Death,Increased Cellular Death (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009176
+N0000011281,Penicillins,Penicillins (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011281
+N0000000070,Angiotensin 2 Receptor Antagonists,Angiotensin 2 Receptor Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000070
+N0000175087,Urease Inhibitors,Urease Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175087
+N0000185007,Adrenergic beta3-Agonists,Adrenergic beta3-Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000185007
+N0000000083,Leukotriene Receptor Antagonists,Leukotriene Receptor Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000083
+N0000191264,P-Glycoprotein Inducers,P-Glycoprotein Inducers (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191264
+N0000011414,Ketolides,Ketolides (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011414
+N0000007647,Nitrates,Nitrates (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007647
+N0000187062,Cytochrome P450 2C8 Inhibitors,Cytochrome P450 2C8 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000187062
+N0000006277,Vitamin D,Vitamin D (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006277
+N0000191272,UGT1A1 Inhibitors,UGT1A1 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191272
+N0000175915,Increased Coagulation Factor VIII Concentration,Increased Coagulation Factor VIII Concentration (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175915
+N0000175960,Increased Glutathione Concentration,Increased Glutathione Concentration (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175960
+N0000008953,Decreased Striated Muscle Contraction,Decreased Striated Muscle Contraction (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008953
+N0000010262,Neurokinin 1 Antagonists,Neurokinin 1 Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000010262
+N0000009282,Increased Dopamine Activity,Increased Dopamine Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009282
+N0000182138,Cytochrome P450 1A2 Inhibitors,Cytochrome P450 1A2 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182138
+N0000175359,Increased Diuresis,Increased Diuresis (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175359
+N0000187063,Cytochrome P450 2C8 Inducers,Cytochrome P450 2C8 Inducers (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000187063
+N0000175512,Methylated Sulfonamides,Methylated Sulfonamides (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175512
+N0000190111,Organic Anion Transporter 3 Inhibitors,Organic Anion Transporter 3 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190111
+N0000006999,Urea,Urea (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006999
+N0000191265,Organic Cation Transporter 1 Inhibitors,Organic Cation Transporter 1 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191265
+N0000000160,Cyclooxygenase Inhibitors,Cyclooxygenase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000160
+N0000000151,Histamine H2 Receptor Antagonists,Histamine H2 Receptor Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000151
+N0000007544,Phenothiazines,Phenothiazines (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007544
+N0000009948,Non-Nucleoside Reverse Transcriptase Inhibitors,Non-Nucleoside Reverse Transcriptase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009948
+N0000007715,Catecholamines,Catecholamines (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007715
+N0000005760,Aminosalicylic Acids,Aminosalicylic Acids (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000005760
+N0000175516,RNA Synthetase Inhibitors,RNA Synthetase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175516
+N0000171207,Porphyrinogens,Porphyrinogens (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000171207
+N0000008859,Decreased Renal K+ Excretion,Decreased Renal K+ Excretion (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008859
+N0000009371,Increased Large Intestinal Motility,Increased Large Intestinal Motility (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009371
+N0000009963,Thrombin Inhibitors,Thrombin Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009963
+N0000000116,GABA B Agonists,GABA B Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000116
+N0000008832,Decreased Platelet Aggregation,Decreased Platelet Aggregation (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008832
+N0000007659,Nitrogen Mustard Compounds,Nitrogen Mustard Compounds (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007659
+N0000000115,Progestational Hormone Receptor Antagonists,Progestational Hormone Receptor Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000115
+N0000008836,Decreased Prostaglandin Production,Decreased Prostaglandin Production (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008836
+N0000184306,Cell-mediated Immunity,Cell-mediated Immunity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000184306
+N0000010259,Ultrasound Contrast Activity,Ultrasound Contrast Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000010259
+N0000008683,Decreased Leukotriene Production,Decreased Leukotriene Production (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008683
+N0000175830,Inhibit Ovum Fertilization,Inhibit Ovum Fertilization (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175830
+N0000175080,Aromatase Inhibitors,Aromatase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175080
+N0000187064,Cytochrome P450 2B6 Inducers,Cytochrome P450 2B6 Inducers (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000187064
+N0000175967,Thrombopoietin Receptor Interactions,Thrombopoietin Receptor Interactions (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175967
+N0000000235,Carbonic Anhydrase Inhibitors,Carbonic Anhydrase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000235
+N0000006269,Vitamin A,Vitamin A (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006269
+N0000007909,Psoralens,Psoralens (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007909
+N0000175921,Adrenal Steroid Synthesis Inhibitors,Adrenal Steroid Synthesis Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175921
+N0000007529,Macrolides,Macrolides (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007529
+N0000006996,Cholecalciferol,Cholecalciferol (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006996
+N0000009911,Venous Vasodilation,Venous Vasodilation (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009911
+N0000185499,Guanylate Cyclase Activators,Guanylate Cyclase Activators (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000185499
+N0000000146,Androgen Receptor Agonists,Androgen Receptor Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000146
+N0000006496,Nicotine,Nicotine (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006496
+N0000175808,Hydroxyphenylpyruvate Dioxygenase Inhibitors,Hydroxyphenylpyruvate Dioxygenase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175808
+N0000175728,Central Nervous System Depression,Central Nervous System Depression (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175728
+N0000007641,Nicotinic Acids,Nicotinic Acids (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007641
+N0000007568,Oxazolidinones,Oxazolidinones (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007568
+N0000175850,Melanin Synthesis Inhibitors,Melanin Synthesis Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175850
+N0000190482,Phenylalanine Hydroxylase Activators,Phenylalanine Hydroxylase Activators (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190482
+N0000170119,PPAR gamma,PPAR gamma (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000170119
+N0000009456,Increased Norepinephrine Activity,Increased Norepinephrine Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009456
+N0000000206,Xanthine Oxidase Inhibitors,Xanthine Oxidase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000206
+N0000009871,Stimulation Large Intestine Fluid/Electrolyte Secretion,Stimulation Large Intestine Fluid/Electrolyte Secretion (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009871
+N0000009724,Inhibition Gastric Acid Secretion,Inhibition Gastric Acid Secretion (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009724
+N0000000183,Acetyl Aldehyde Dehydrogenase Inhibitors,Acetyl Aldehyde Dehydrogenase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000183
+N0000009269,Increased Cytokine Production,Increased Cytokine Production (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009269
+N0000175073,Platinum-containing Compounds,Platinum-containing Compounds (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175073
+N0000000207,Histamine Receptor Antagonists,Histamine Receptor Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000207
+N0000175817,Serotonin 3 Receptor Antagonists,Serotonin 3 Receptor Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175817
+N0000175635,Factor Xa Inhibitors,Factor Xa Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175635
+N0000007822,Polymyxins,Polymyxins (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007822
+N0000007542,Benzodiazepines,Benzodiazepines (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007542
+N0000006801,Bile Acids and Salts,Bile Acids and Salts (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006801
+N0000009801,Photosensitizing Activity,Photosensitizing Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009801
+N0000000102,Norepinephrine Uptake Inhibitors,Norepinephrine Uptake Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000102
+N0000191280,Lipoglycopeptides,Lipoglycopeptides (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191280
+N0000009526,Increased Prostaglandin Activity,Increased Prostaglandin Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009526
+N0000011310,Aldosterone Antagonists,Aldosterone Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011310
+N0000000154,Opioid Antagonists,Opioid Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000154
+N0000007196,Iodine,Iodine (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007196
+N0000182137,Cytochrome P450 2D6 Inhibitors,Cytochrome P450 2D6 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182137
+N0000007522,Allylamine,Allylamine (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007522
+N0000020081,Increased Calcium-sensing Receptor Sensitivity,Increased Calcium-sensing Receptor Sensitivity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020081
+N0000175755,DOPA Decarboxylase Inhibitors,DOPA Decarboxylase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175755
+N0000191274,UGT2B15 Inhibitors,UGT2B15 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191274
+N0000007780,Vinca Alkaloids,Vinca Alkaloids (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007780
+N0000175450,Corticosteroid Hormone Receptor Agonists,Corticosteroid Hormone Receptor Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175450
+N0000000150,Protein Synthesis Inhibitors,Protein Synthesis Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000150
+N0000175686,Competitive Opioid Antagonists,Competitive Opioid Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175686
+N0000000174,Opioid Agonists,Opioid Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000174
+N0000006688,Carnitine,Carnitine (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006688
+N0000175375,Peroxisome Proliferator-activated Receptor alpha Agonists,Peroxisome Proliferator-activated Receptor alpha Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175375
+N0000010217,Photoabsorption,Photoabsorption (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000010217
+N0000175788,Adenosine Receptor Agonists,Adenosine Receptor Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175788
+N0000175644,Decreased Autonomic Ganglionic Activity,Decreased Autonomic Ganglionic Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175644
+N0000184148,Smoothened Receptor Antagonists,Smoothened Receptor Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000184148
+N0000175763,Serotonin 1b Receptor Agonists,Serotonin 1b Receptor Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175763
+N0000009905,Vascular Sclerosing Activity,Vascular Sclerosing Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009905
+N0000175075,Proteasome Inhibitors,Proteasome Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175075
+N0000007698,Biguanides,Biguanides (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007698
+N0000009393,Increased Medullary Respiratory Drive,Increased Medullary Respiratory Drive (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009393
+N0000008016,Barbiturates,Barbiturates (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008016
+N0000190109,Organic Anion Transporting Polypeptide 2B1 Inhibitors,Organic Anion Transporting Polypeptide 2B1 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190109
+N0000000104,Cholinergic Muscarinic Agonists,Cholinergic Muscarinic Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000104
+N0000008065,Purines,Purines (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008065
+N0000180999,Angiotensin 2 Type 1 Receptor Antagonists,Angiotensin 2 Type 1 Receptor Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000180999
+N0000175086,Phosphodiesterase 3 Inhibitors,Phosphodiesterase 3 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175086
+N0000175970,Increased Platelet Production,Increased Platelet Production (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175970
+N0000191278,UGT1A9 Inhibitors,UGT1A9 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191278
+N0000009917,Adrenergic alpha1-Agonists,Adrenergic alpha1-Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009917
+N0000020026,Phosphodiesterase 5 Inhibitors,Phosphodiesterase 5 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020026
+N0000175632,Decreased Fibrinolysis,Decreased Fibrinolysis (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175632
+N0000184145,Chloride Channel Activation Potentiators,Chloride Channel Activation Potentiators (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000184145
+N0000190118,Cytochrome P450 3A Inducers,Cytochrome P450 3A Inducers (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190118
+N0000020074,Phosphate Chelating Activity,Phosphate Chelating Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020074
+N0000008217,Azoles,Azoles (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008217
+N0000175547,Reduction Activity,Reduction Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175547
+N0000175917,Thyroid Hormone Synthesis Inhibitors,Thyroid Hormone Synthesis Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175917
+N0000167510,"Estrogens, Conjugated (USP)","Estrogens, Conjugated (USP) (PharmacologicClass). class_type: Chemical/Ingredient",Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000167510
+N0000166743,Esters,Esters (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000166743
+N0000182960,Phosphodiesterase 4 Inhibitors,Phosphodiesterase 4 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182960
+N0000175969,Increased Megakaryocyte Maturation,Increased Megakaryocyte Maturation (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175969
+N0000175076,Protein Kinase Inhibitors,Protein Kinase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175076
+N0000186778,Microsomal Triglyceride Transfer Protein Inhibitors,Microsomal Triglyceride Transfer Protein Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000186778
+N0000000166,alpha Glucosidase Inhibitors,alpha Glucosidase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000166
+N0000007961,"Heparin, Low-Molecular-Weight","Heparin, Low-Molecular-Weight (PharmacologicClass). class_type: Chemical/Ingredient",Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007961
+N0000175513,Dipeptidase Inhibitors,Dipeptidase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175513
+N0000000191,Dihydrofolate Reductase Inhibitors,Dihydrofolate Reductase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000191
+N0000185504,Cytochrome P450 2C9 Inhibitors,Cytochrome P450 2C9 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000185504
+N0000007570,Pyridines,Pyridines (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007570
+N0000175862,Magnetic Resonance Contrast Activity,Magnetic Resonance Contrast Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175862
+N0000191258,RNA Replicase Inhibitors,RNA Replicase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191258
+N0000175459,Nucleoside Analog,Nucleoside Analog (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175459
+N0000178324,Increased Hematopoietic Stem Cell Mobilization,Increased Hematopoietic Stem Cell Mobilization (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000178324
+N0000011418,Streptogramins,Streptogramins (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011418
+N0000182140,Cytochrome P450 2C19 Inhibitors,Cytochrome P450 2C19 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182140
+N0000175370,Cholinergic Antagonists,Cholinergic Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175370
+N0000008553,Decreased Cholesterol Absorption,Decreased Cholesterol Absorption (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008553
+N0000007620,Ergot Alkaloids,Ergot Alkaloids (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007620
+N0000007948,Tetracyclines,Tetracyclines (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007948
+N0000000190,Histamine H1 Receptor Antagonists,Histamine H1 Receptor Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000190
+N0000008330,Cardiac Rhythm Alteration,Cardiac Rhythm Alteration (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008330
+N0000008054,Sulfonylurea Compounds,Sulfonylurea Compounds (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008054
+N0000007770,Deoxyuridine,Deoxyuridine (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007770
+N0000000122,Adrenergic Agonists,Adrenergic Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000122
+N0000000202,beta Lactamase Inhibitors,beta Lactamase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000202
+N0000007707,Diphosphonates,Diphosphonates (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007707
+N0000191423,Multidrug and Toxin Extrusion Transporter 1 Inhibitors,Multidrug and Toxin Extrusion Transporter 1 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191423
+N0000175965,Increased Prothrombin Activity,Increased Prothrombin Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175965
+N0000009022,Digestive/GI System Activity Alteration,Digestive/GI System Activity Alteration (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009022
+N0000007530,Anthracyclines,Anthracyclines (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007530
+N0000006165,Triiodothyronine,Triiodothyronine (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006165
+N0000008853,Decreased RNA Replication,Decreased RNA Replication (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008853
+N0000175975,General Anesthesia,General Anesthesia (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175975
+N0000006014,Pyrethrins,Pyrethrins (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006014
+N0000000069,Calcium Channel Antagonists,Calcium Channel Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000069
+N0000008732,Decreased Mitosis,Decreased Mitosis (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008732
+N0000000168,Selective Estrogen Receptor Modulators,Selective Estrogen Receptor Modulators (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000168
+N0000009267,Increased Cytokine Activity,Increased Cytokine Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009267
+N0000006320,Vasopressins,Vasopressins (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006320
+N0000011311,Monobactams,Monobactams (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011311
+N0000187061,Organic Cation Transporter 2 Inhibitors,Organic Cation Transporter 2 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000187061
+N0000000209,Adrenergic alpha-Agonists,Adrenergic alpha-Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000209
+N0000007621,Ergotamines,Ergotamines (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007621
+N0000175508,Lipopeptides,Lipopeptides (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175508
+N0000175702,Partial Cholinergic Nicotinic Agonists,Partial Cholinergic Nicotinic Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175702
+N0000007681,Amides,Amides (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007681
+N0000182728,Potassium Channel Openers,Potassium Channel Openers (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182728
+N0000000236,Alkylating Activity,Alkylating Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000236
+N0000182638,HCV NS3/4A Protease Inhibitors,HCV NS3/4A Protease Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182638
+N0000007566,Benzylamines,Benzylamines (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007566
+N0000178478,Increased Blood Pressure,Increased Blood Pressure (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000178478
+N0000009923,Adrenergic beta1-Antagonists,Adrenergic beta1-Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009923
+N0000170118,PPAR alpha,PPAR alpha (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000170118
+N0000007893,Glycosaminoglycans,Glycosaminoglycans (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007893
+N0000175445,Chemokine Co-receptor 5 Antagonists,Chemokine Co-receptor 5 Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175445
+N0000175721,Nonsteroidal Anti-inflammatory Compounds,Nonsteroidal Anti-inflammatory Compounds (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175721
+N0000009945,Antidiuretic Hormone Antagonists,Antidiuretic Hormone Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009945
+N0000007606,Quinolones,Quinolones (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007606
+N0000011402,Estradiol Congeners,Estradiol Congeners (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011402
+N0000166469,Thiazides,Thiazides (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000166469
+N0000009048,GI Motility Alteration,GI Motility Alteration (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009048
+N0000006290,Vitamin K,Vitamin K (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006290
+N0000008157,Cardiac Glycosides,Cardiac Glycosides (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008157
+N0000191275,UGT1A3 Inhibitors,UGT1A3 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191275
+N0000175550,Decreased Immunologic Activity,Decreased Immunologic Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175550
+N0000007663,Nitroimidazoles,Nitroimidazoles (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007663
+N0000011161,Cephalosporins,Cephalosporins (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011161
+N0000175685,Partial Opioid Agonists,Partial Opioid Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175685
+N0000175372,Appetite Suppression,Appetite Suppression (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175372
+N0000007889,Glycopeptides,Glycopeptides (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007889
+N0000009982,Decreased Sebaceous Gland Activity,Decreased Sebaceous Gland Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009982
+N0000008556,Decreased Coagulation Factor Activity,Decreased Coagulation Factor Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008556
+N0000175085,Microtubule Inhibition,Microtubule Inhibition (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175085
+N0000000194,Somatostatin Receptor Agonists,Somatostatin Receptor Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000194
+N0000190855,Vesicular Monoamine Transporter 2 Inhibitors,Vesicular Monoamine Transporter 2 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190855
+N0000009065,Hematologic Activity Alteration,Hematologic Activity Alteration (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009065
+N0000184143,Carbamoyl Phosphate Synthetase 1 Activators,Carbamoyl Phosphate Synthetase 1 Activators (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000184143
+N0000175733,Neuromuscular Depolarizing Blockade,Neuromuscular Depolarizing Blockade (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175733
+N0000175436,Neuraminidase Inhibitors,Neuraminidase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175436
+N0000191266,Cytochrome P450 1A2 Inducers,Cytochrome P450 1A2 Inducers (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191266
+N0000007246,Estradiol,Estradiol (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007246
+N0000007706,Prostaglandins,Prostaglandins (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007706
+N0000000196,GABA A Agonists,GABA A Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000196
+N0000175542,M2 Protein Inhibitors,M2 Protein Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175542
+N0000175624,mTOR Inhibitors,mTOR Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175624
+N0000175955,5-Lipoxygenase Inhibitors,5-Lipoxygenase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175955
+N0000182141,Cytochrome P450 3A4 Inhibitors,Cytochrome P450 3A4 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182141
+N0000190115,Cytochrome P450 3A5 Inhibitors,Cytochrome P450 3A5 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190115
+N0000175361,Catecholamine Synthesis Inhibitors,Catecholamine Synthesis Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175361
+N0000175460,Non-Nucleoside Analog,Non-Nucleoside Analog (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175460
+N0000010258,X-Ray Contrast Activity,X-Ray Contrast Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000010258
+N0000007672,Polyenes,Polyenes (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007672
+N0000020000,Receptor Tyrosine Kinase Inhibitors,Receptor Tyrosine Kinase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020000
+N0000175735,Decreased Striated Muscle Tone,Decreased Striated Muscle Tone (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175735
+N0000007556,Dihydropyridines,Dihydropyridines (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007556
+N0000009034,Emesis Suppression,Emesis Suppression (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009034
+N0000008663,Decreased Immunologically Active Molecule Activity,Decreased Immunologically Active Molecule Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008663
+N0000175761,Monoamine Oxidase-B Inhibitors,Monoamine Oxidase-B Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175761
+N0000190110,Organic Anion Transporter 1 Inhibitors,Organic Anion Transporter 1 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190110
+N0000175084,Gonadotropin Releasing Hormone Receptor Antagonists,Gonadotropin Releasing Hormone Receptor Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175084
+N0000009916,Lipase Inhibitors,Lipase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009916
+N0000007683,Organometallic Compounds,Organometallic Compounds (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007683
+N0000175976,Local Anesthesia,Local Anesthesia (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175976
+N0000175456,Chloride Channel Activators,Chloride Channel Activators (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175456
+N0000000111,Folic Acid Metabolism Inhibitors,Folic Acid Metabolism Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000111
+N0000009079,Increased Acetylcholine Activity,Increased Acetylcholine Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009079
+N0000185503,P-Glycoprotein Inhibitors,P-Glycoprotein Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000185503
+N0000175964,Vitamin K Inhibitors,Vitamin K Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175964
+N0000175982,Reversed Anticoagulation Activity,Reversed Anticoagulation Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175982
+N0000175629,Increased Histamine Release,Increased Histamine Release (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175629
+N0000166489,Quaternary Ammonium Compounds,Quaternary Ammonium Compounds (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000166489
+N0000191277,UGT1A6 Inhibitors,UGT1A6 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191277
+N0000007700,Retinoids,Retinoids (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007700
+N0000009010,Decreased Tracheobronchial Stretch Receptor Activity,Decreased Tracheobronchial Stretch Receptor Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009010
+N0000190107,Organic Anion Transporting Polypeptide 1B1 Inhibitors,Organic Anion Transporting Polypeptide 1B1 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190107
+N0000000109,Serotonin Uptake Inhibitors,Serotonin Uptake Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000109
+N0000020060,DNA Polymerase Inhibitors,DNA Polymerase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020060
+N0000009918,Adrenergic alpha2-Agonists,Adrenergic alpha2-Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009918
+N0000008867,Decreased Respiratory Secretion Viscosity,Decreased Respiratory Secretion Viscosity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008867
+N0000020019,Glucosylceramide Synthase Inhibitors,Glucosylceramide Synthase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020019
+N0000008118,Xanthines,Xanthines (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008118
+N0000182147,Sigma-1 Receptor Agonists,Sigma-1 Receptor Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182147
+N0000000144,Iron Chelating Activity,Iron Chelating Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000144
+N0000008841,Decreased Protein Synthesis,Decreased Protein Synthesis (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008841
+N0000006806,Amino Acids,Amino Acids (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006806
+N0000009059,Genitourinary Arterial Vasodilation,Genitourinary Arterial Vasodilation (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009059
+N0000175533,Dyes,Dyes (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175533
+N0000175851,Depigmenting Activity,Depigmenting Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175851
+N0000185607,Cytochrome P450 2C19 Inducers,Cytochrome P450 2C19 Inducers (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000185607
+N0000175628,Decreased Histamine Release,Decreased Histamine Release (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175628
+N0000175651,Increased Sympathetic Activity,Increased Sympathetic Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175651
+N0000009922,Adrenergic beta2-Agonists,Adrenergic beta2-Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009922
+N0000185507,Cytochrome P450 2C9 Inducers,Cytochrome P450 2C9 Inducers (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000185507
+N0000175650,Decreased Sympathetic Activity,Decreased Sympathetic Activity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175650
+N0000191269,UDP Glucuronosyltransferases Inhibitors,UDP Glucuronosyltransferases Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191269
+N0000175472,Metal Chelating Activity,Metal Chelating Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175472
+N0000007911,Rifamycins,Rifamycins (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007911
+N0000000125,Cholinergic Muscarinic Antagonists,Cholinergic Muscarinic Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000125
+N0000181815,Sphingosine 1-Phosphate Receptor Modulators,Sphingosine 1-Phosphate Receptor Modulators (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000181815
+N0000007710,"Prostaglandins E, Synthetic","Prostaglandins E, Synthetic (PharmacologicClass). class_type: Chemical/Ingredient",Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007710
+N0000191276,UGT1A4 Inhibitors,UGT1A4 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191276
+N0000175833,Acidifying Activity,Acidifying Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175833
+N0000009924,Adrenergic beta2-Antagonists,Adrenergic beta2-Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009924
+N0000000243,Androgen Receptor Antagonists,Androgen Receptor Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000243
+N0000007983,Hydroxy Acids,Hydroxy Acids (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007983
+N0000007883,Amphetamines,Amphetamines (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007883
+N0000175968,Thrombopoietin Receptor Agonists,Thrombopoietin Receptor Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175968
+N0000175479,Amphenicols,Amphenicols (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175479
+N0000006276,Vitamin B 12,Vitamin B 12 (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006276
+N0000175684,Full Opioid Agonists,Full Opioid Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175684
+N0000191273,UGT2B7 Inhibitors,UGT2B7 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191273
+N0000171131,Allergens,Allergens (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000171131
+N0000182143,P2Y12 Receptor Antagonists,P2Y12 Receptor Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182143
+N0000186774,Diarylquinolines,Diarylquinolines (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000186774
+N0000007853,Aminoglycosides,Aminoglycosides (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007853
+N0000008478,Decreased Cell Wall Integrity,Decreased Cell Wall Integrity (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008478
+N0000000233,Nucleic Acid Synthesis Inhibitors,Nucleic Acid Synthesis Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000233
+N0000000239,P-Glycoprotein Interactions,P-Glycoprotein Interactions (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000239
+N0000000106,Prostaglandin Receptor Agonists,Prostaglandin Receptor Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000106
+N0000011294,Carbapenems,Carbapenems (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011294
+N0000175442,Lincosamides,Lincosamides (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175442
+N0000000246,HIV Protease Inhibitors,HIV Protease Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000246
+N0000181819,Uncompetitive NMDA Receptor Antagonists,Uncompetitive NMDA Receptor Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000181819
+N0000175433,pleuromutilin,pleuromutilin (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175433
+N0000175549,Cystine Disulfide Reduction,Cystine Disulfide Reduction (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175549
+N0000191624,Cytochrome P450 1A Inducers,Cytochrome P450 1A Inducers (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000191624
+N0000005934,Progesterone,Progesterone (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000005934
+N0000175912,Dipeptidyl Peptidase 4 Inhibitors,Dipeptidyl Peptidase 4 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175912
+N0000185506,Cytochrome P450 3A4 Inducers,Cytochrome P450 3A4 Inducers (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000185506
+N0000175448,Potassium Channel Antagonists,Potassium Channel Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175448
+N0000187058,Sodium-Glucose Transporter 2 Inhibitors,Sodium-Glucose Transporter 2 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000187058
+N0000008241,Androstanes,Androstanes (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008241
+N0000000176,Topoisomerase Inhibitors,Topoisomerase Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000176
+N0000007888,Bismuth,Bismuth (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007888
+N0000175374,Peroxisome Proliferator-activated Receptor Activity,Peroxisome Proliferator-activated Receptor Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175374
+N0000190113,Breast Cancer Resistance Protein Inhibitors,Breast Cancer Resistance Protein Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190113
+N0000006337,Ergocalciferols,Ergocalciferols (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000006337
+N0000175469,Pyrophosphate Analog,Pyrophosphate Analog (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175469
+N0000000250,Melatonin Receptor Agonists,Melatonin Receptor Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000250
+N0000175365,Bile-acid Binding Activity,Bile-acid Binding Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175365
+N0000175730,Centrally-mediated Muscle Relaxation,Centrally-mediated Muscle Relaxation (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175730
+N0000175366,Increased Diuresis at Loop of Henle,Increased Diuresis at Loop of Henle (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175366
+N0000008010,Cannabinoids,Cannabinoids (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008010
+N0000007658,Nitrofurans,Nitrofurans (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000007658
+N0000020015,NMDA Receptor Antagonists,NMDA Receptor Antagonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000020015
+N0000009909,Vasodilation,Vasodilation (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000009909
+N0000182139,Cytochrome P450 2B6 Inhibitors,Cytochrome P450 2B6 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000182139
+N0000175962,Lead Chelating Activity,Lead Chelating Activity (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175962
+N0000011301,Progesterone Congeners,Progesterone Congeners (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011301
+N0000008638,Decreased GnRH Secretion,Decreased GnRH Secretion (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008638
+N0000008048,Sulfonamides,Sulfonamides (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008048
+N0000190108,Organic Anion Transporting Polypeptide 1B3 Inhibitors,Organic Anion Transporting Polypeptide 1B3 Inhibitors (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000190108
+N0000000100,Estrogen Receptor Agonists,Estrogen Receptor Agonists (PharmacologicClass). class_type: Mechanism of Action,Mechanism of Action,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000000100
+N0000008577,Decreased DNA Replication,Decreased DNA Replication (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000008577
+N0000175972,Decreased Platelet Production,Decreased Platelet Production (PharmacologicClass). class_type: Physiologic Effect,Physiologic Effect,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000175972
+N0000011280,Prostaglandins I,Prostaglandins I (PharmacologicClass). class_type: Chemical/Ingredient,Chemical/Ingredient,CC BY 4.0,FDA via DrugCentral,http://purl.bioontology.org/ontology/NDFRT/N0000011280

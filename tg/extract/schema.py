@@ -25,7 +25,9 @@ def generate_tigergraph_schema(meta_path):
         stmt = f"""
 CREATE VERTEX {vtype} (
     PRIMARY_ID id STRING,
-    name STRING
+    name STRING,
+    text_blob STRING,
+    embedding LIST<DOUBLE>
 ) WITH primary_id_as_attribute="true";
 """
         vertex_defs.append(stmt.strip())

@@ -1,403 +1,403 @@
-id,name,bto_id,license,mesh_id,source,url
-UBERON:0001533,subclavian artery,,CC BY 3.0,D013348,Uberon,http://purl.obolibrary.org/obo/UBERON_0001533
-UBERON:0000020,sense organ,BTO:0000202,CC BY 3.0,D012679,Uberon,http://purl.obolibrary.org/obo/UBERON_0000020
-UBERON:0001690,ear,BTO:0000368,CC BY 3.0,D004423,Uberon,http://purl.obolibrary.org/obo/UBERON_0001690
-UBERON:0002371,bone marrow,BTO:0000141,CC BY 3.0,D001853,Uberon,http://purl.obolibrary.org/obo/UBERON_0002371
-UBERON:0001890,forebrain,BTO:0000478,CC BY 3.0,D016548,Uberon,http://purl.obolibrary.org/obo/UBERON_0001890
-UBERON:0001587,subclavian vein,,CC BY 3.0,D013350,Uberon,http://purl.obolibrary.org/obo/UBERON_0001587
-UBERON:0002606,neuropil,,CC BY 3.0,D019581,Uberon,http://purl.obolibrary.org/obo/UBERON_0002606
-UBERON:0001980,arteriole,BTO:0001997,CC BY 3.0,D001160,Uberon,http://purl.obolibrary.org/obo/UBERON_0001980
-UBERON:0001437,epiphysis,BTO:0000413,CC BY 3.0,D004838,Uberon,http://purl.obolibrary.org/obo/UBERON_0001437
-UBERON:0001736,submandibular gland,BTO:0001316,CC BY 3.0,D013363,Uberon,http://purl.obolibrary.org/obo/UBERON_0001736
-UBERON:0001494,ulnar nerve,,CC BY 3.0,D014459,Uberon,http://purl.obolibrary.org/obo/UBERON_0001494
-UBERON:0001908,optic tract,,CC BY 3.0,D014795,Uberon,http://purl.obolibrary.org/obo/UBERON_0001908
-UBERON:0001007,digestive system,BTO:0000058,CC BY 3.0,D004064,Uberon,http://purl.obolibrary.org/obo/UBERON_0001007
-UBERON:0001837,duct of salivary gland,BTO:0005115,CC BY 3.0,D018987,Uberon,http://purl.obolibrary.org/obo/UBERON_0001837
-UBERON:0001866,sebum,BTO:0001981,CC BY 3.0,D012629,Uberon,http://purl.obolibrary.org/obo/UBERON_0001866
-UBERON:0000991,gonad,BTO:0000534,CC BY 3.0,D006066,Uberon,http://purl.obolibrary.org/obo/UBERON_0000991
-UBERON:0001111,intercostal muscle,BTO:0005281,CC BY 3.0,D007366,Uberon,http://purl.obolibrary.org/obo/UBERON_0001111
-UBERON:0002450,decidua,BTO:0001360,CC BY 3.0,D003656,Uberon,http://purl.obolibrary.org/obo/UBERON_0002450
-UBERON:0001760,frontal sinus,,CC BY 3.0,D005626,Uberon,http://purl.obolibrary.org/obo/UBERON_0001760
-UBERON:0001352,external acoustic meatus,,CC BY 3.0,D004424,Uberon,http://purl.obolibrary.org/obo/UBERON_0001352
-UBERON:0002390,hematopoietic system,BTO:0000570,CC BY 3.0,D006413,Uberon,http://purl.obolibrary.org/obo/UBERON_0002390
-UBERON:0002398,manus,BTO:0004668,CC BY 3.0,D006225,Uberon,http://purl.obolibrary.org/obo/UBERON_0002398
-UBERON:0000946,cardial valve,BTO:0000564,CC BY 3.0,D006351,Uberon,http://purl.obolibrary.org/obo/UBERON_0000946
-UBERON:0001705,nail,BTO:0001719,CC BY 3.0,D009262,Uberon,http://purl.obolibrary.org/obo/UBERON_0001705
-UBERON:0000002,uterine cervix,BTO:0001421,CC BY 3.0,D002584,Uberon,http://purl.obolibrary.org/obo/UBERON_0000002
-UBERON:0000974,neck,BTO:0000420,CC BY 3.0,D009333,Uberon,http://purl.obolibrary.org/obo/UBERON_0000974
-UBERON:0001627,middle cerebral artery,BTO:0005206,CC BY 3.0,D020768,Uberon,http://purl.obolibrary.org/obo/UBERON_0001627
-UBERON:0002110,gall bladder,BTO:0000493,CC BY 3.0,D005704,Uberon,http://purl.obolibrary.org/obo/UBERON_0002110
-UBERON:0001647,facial nerve,,CC BY 3.0,D005154,Uberon,http://purl.obolibrary.org/obo/UBERON_0001647
-UBERON:0001737,larynx,BTO:0001208,CC BY 3.0,D007830,Uberon,http://purl.obolibrary.org/obo/UBERON_0001737
-UBERON:0000966,retina,BTO:0001175,CC BY 3.0,D012160,Uberon,http://purl.obolibrary.org/obo/UBERON_0000966
-UBERON:0000989,penis,BTO:0000405,CC BY 3.0,D010413,Uberon,http://purl.obolibrary.org/obo/UBERON_0000989
-UBERON:0000474,female reproductive system,BTO:0000083,CC BY 3.0,D005836,Uberon,http://purl.obolibrary.org/obo/UBERON_0000474
-UBERON:0001981,blood vessel,BTO:0001102,CC BY 3.0,D001808,Uberon,http://purl.obolibrary.org/obo/UBERON_0001981
-UBERON:0001887,internal capsule of telencephalon,,CC BY 3.0,D020772,Uberon,http://purl.obolibrary.org/obo/UBERON_0001887
-UBERON:0000964,cornea,BTO:0000286,CC BY 3.0,D003315,Uberon,http://purl.obolibrary.org/obo/UBERON_0000964
-UBERON:0001989,superior cervical ganglion,BTO:0001325,CC BY 3.0,D017783,Uberon,http://purl.obolibrary.org/obo/UBERON_0001989
-UBERON:0002422,fourth ventricle,BTO:0003426,CC BY 3.0,D020546,Uberon,http://purl.obolibrary.org/obo/UBERON_0002422
-UBERON:0002048,lung,BTO:0000763,CC BY 3.0,D008168,Uberon,http://purl.obolibrary.org/obo/UBERON_0002048
-UBERON:0000004,nose,BTO:0000840,CC BY 3.0,D009666,Uberon,http://purl.obolibrary.org/obo/UBERON_0000004
-UBERON:0001323,tibial nerve,,CC BY 3.0,D013979,Uberon,http://purl.obolibrary.org/obo/UBERON_0001323
-UBERON:0001237,paraaortic body,,CC BY 3.0,D010220,Uberon,http://purl.obolibrary.org/obo/UBERON_0001237
-UBERON:0002303,juxtaglomerular apparatus,,CC BY 3.0,D007606,Uberon,http://purl.obolibrary.org/obo/UBERON_0002303
-UBERON:0002523,tunica intima,BTO:0002012,CC BY 3.0,D017539,Uberon,http://purl.obolibrary.org/obo/UBERON_0002523
-UBERON:0001228,renal papilla,BTO:0003925,CC BY 3.0,D007679,Uberon,http://purl.obolibrary.org/obo/UBERON_0001228
-UBERON:0002515,periosteum,BTO:0001022,CC BY 3.0,D010521,Uberon,http://purl.obolibrary.org/obo/UBERON_0002515
-UBERON:0001884,phrenic nerve,BTO:0001063,CC BY 3.0,D010791,Uberon,http://purl.obolibrary.org/obo/UBERON_0001884
-UBERON:0002185,bronchus,BTO:0001340,CC BY 3.0,D001980,Uberon,http://purl.obolibrary.org/obo/UBERON_0002185
-UBERON:0002250,popliteal artery,,CC BY 3.0,D011150,Uberon,http://purl.obolibrary.org/obo/UBERON_0002250
-UBERON:0002060,femoral artery,BTO:0001624,CC BY 3.0,D005263,Uberon,http://purl.obolibrary.org/obo/UBERON_0002060
-UBERON:0002397,maxilla,,CC BY 3.0,D008437,Uberon,http://purl.obolibrary.org/obo/UBERON_0002397
-UBERON:0001300,scrotum,BTO:0003098,CC BY 3.0,D012611,Uberon,http://purl.obolibrary.org/obo/UBERON_0001300
-UBERON:0001460,arm,BTO:0001435,CC BY 3.0,D001132,Uberon,http://purl.obolibrary.org/obo/UBERON_0001460
-UBERON:0002018,synovial membrane of synovial joint,BTO:0001823,CC BY 3.0,D013583,Uberon,http://purl.obolibrary.org/obo/UBERON_0002018
-UBERON:0002439,myenteric nerve plexus,BTO:0002436,CC BY 3.0,D009197,Uberon,http://purl.obolibrary.org/obo/UBERON_0002439
-UBERON:0000992,female gonad,BTO:0000975,CC BY 3.0,D010053,Uberon,http://purl.obolibrary.org/obo/UBERON_0000992
-UBERON:0000473,testis,BTO:0001363,CC BY 3.0,D013737,Uberon,http://purl.obolibrary.org/obo/UBERON_0000473
-UBERON:0001716,secondary palate,BTO:0001779,CC BY 3.0,D010159,Uberon,http://purl.obolibrary.org/obo/UBERON_0001716
-UBERON:0002294,biliary system,,CC BY 3.0,D001659,Uberon,http://purl.obolibrary.org/obo/UBERON_0002294
-UBERON:0002129,cerebellar cortex,BTO:0000043,CC BY 3.0,D002525,Uberon,http://purl.obolibrary.org/obo/UBERON_0002129
-UBERON:0001011,hemolymph,BTO:0000572,CC BY 3.0,D006458,Uberon,http://purl.obolibrary.org/obo/UBERON_0001011
-UBERON:0002360,meninx,BTO:0000144,CC BY 3.0,D008578,Uberon,http://purl.obolibrary.org/obo/UBERON_0002360
-UBERON:0001105,clavicle bone,,CC BY 3.0,D002968,Uberon,http://purl.obolibrary.org/obo/UBERON_0001105
-UBERON:0001620,central retinal artery,,CC BY 3.0,D012161,Uberon,http://purl.obolibrary.org/obo/UBERON_0001620
-UBERON:0001702,eyelash,,CC BY 3.0,D005140,Uberon,http://purl.obolibrary.org/obo/UBERON_0001702
-UBERON:0002521,elastic tissue,,CC BY 3.0,D004547,Uberon,http://purl.obolibrary.org/obo/UBERON_0002521
-UBERON:0003129,skull,BTO:0001295,CC BY 3.0,D012886,Uberon,http://purl.obolibrary.org/obo/UBERON_0003129
-UBERON:0002282,stria vascularis of cochlear duct,BTO:0001819,CC BY 3.0,D013316,Uberon,http://purl.obolibrary.org/obo/UBERON_0002282
-UBERON:0001649,glossopharyngeal nerve,BTO:0004979,CC BY 3.0,D005930,Uberon,http://purl.obolibrary.org/obo/UBERON_0001649
-UBERON:0002516,epiphyseal plate,BTO:0000412,CC BY 3.0,D006132,Uberon,http://purl.obolibrary.org/obo/UBERON_0002516
-UBERON:0002441,cervicothoracic ganglion,BTO:0001815,CC BY 3.0,D013233,Uberon,http://purl.obolibrary.org/obo/UBERON_0002441
-UBERON:0000982,skeletal joint,BTO:0001686,CC BY 3.0,D007596,Uberon,http://purl.obolibrary.org/obo/UBERON_0000982
-UBERON:0001815,lumbosacral nerve plexus,,CC BY 3.0,D008160,Uberon,http://purl.obolibrary.org/obo/UBERON_0001815
-UBERON:0002394,bile duct,BTO:0000122,CC BY 3.0,D001652,Uberon,http://purl.obolibrary.org/obo/UBERON_0002394
-UBERON:0001003,skin epidermis,BTO:0000404,CC BY 3.0,D004817,Uberon,http://purl.obolibrary.org/obo/UBERON_0001003
-UBERON:0002286,third ventricle,,CC BY 3.0,D020542,Uberon,http://purl.obolibrary.org/obo/UBERON_0002286
-UBERON:0001685,hyoid bone,,CC BY 3.0,D006928,Uberon,http://purl.obolibrary.org/obo/UBERON_0001685
-UBERON:0002066,umbilical vein,BTO:0001509,CC BY 3.0,D014471,Uberon,http://purl.obolibrary.org/obo/UBERON_0002066
-UBERON:0000988,pons,BTO:0001101,CC BY 3.0,D011149,Uberon,http://purl.obolibrary.org/obo/UBERON_0000988
-UBERON:0004727,cochlear nerve,BTO:0003490,CC BY 3.0,D003056,Uberon,http://purl.obolibrary.org/obo/UBERON_0004727
-UBERON:0002082,cardiac ventricle,BTO:0000862,CC BY 3.0,D006352,Uberon,http://purl.obolibrary.org/obo/UBERON_0002082
-UBERON:0002367,prostate gland,BTO:0001129,CC BY 3.0,D011467,Uberon,http://purl.obolibrary.org/obo/UBERON_0002367
-UBERON:0001486,hip joint,BTO:0001502,CC BY 3.0,D006621,Uberon,http://purl.obolibrary.org/obo/UBERON_0001486
-UBERON:0002148,locus ceruleus,BTO:0001408,CC BY 3.0,D008125,Uberon,http://purl.obolibrary.org/obo/UBERON_0002148
-UBERON:0001267,femoral nerve,,CC BY 3.0,D005267,Uberon,http://purl.obolibrary.org/obo/UBERON_0001267
-UBERON:0001529,brachiocephalic artery,,CC BY 3.0,D016122,Uberon,http://purl.obolibrary.org/obo/UBERON_0001529
-UBERON:0000211,ligament,,CC BY 3.0,D008022,Uberon,http://purl.obolibrary.org/obo/UBERON_0000211
-UBERON:0002466,intestine secretion,BTO:0000644,CC BY 3.0,D007419,Uberon,http://purl.obolibrary.org/obo/UBERON_0002466
-UBERON:0002944,spinothalamic tract of medulla,,CC BY 3.0,D013133,Uberon,http://purl.obolibrary.org/obo/UBERON_0002944
-UBERON:0000033,head,BTO:0000282,CC BY 3.0,D006257,Uberon,http://purl.obolibrary.org/obo/UBERON_0000033
-UBERON:0000165,mouth,BTO:0001090,CC BY 3.0,D009055,Uberon,http://purl.obolibrary.org/obo/UBERON_0000165
-UBERON:0002019,accessory XI nerve,,CC BY 3.0,D000055,Uberon,http://purl.obolibrary.org/obo/UBERON_0002019
-UBERON:0001485,knee joint,,CC BY 3.0,D007719,Uberon,http://purl.obolibrary.org/obo/UBERON_0001485
-UBERON:0002102,forelimb,BTO:0001729,CC BY 3.0,D005552,Uberon,http://purl.obolibrary.org/obo/UBERON_0002102
-UBERON:0002349,myocardium,BTO:0000901,CC BY 3.0,D009206,Uberon,http://purl.obolibrary.org/obo/UBERON_0002349
-UBERON:0001594,azygos vein,,CC BY 3.0,D001401,Uberon,http://purl.obolibrary.org/obo/UBERON_0001594
-UBERON:0001821,sebaceous gland,BTO:0001980,CC BY 3.0,D012627,Uberon,http://purl.obolibrary.org/obo/UBERON_0001821
-UBERON:0002494,papillary muscle of heart,,CC BY 3.0,D010210,Uberon,http://purl.obolibrary.org/obo/UBERON_0002494
-UBERON:0002046,thyroid gland,BTO:0001379,CC BY 3.0,D013961,Uberon,http://purl.obolibrary.org/obo/UBERON_0002046
-UBERON:0001456,face,BTO:0003369,CC BY 3.0,D005145,Uberon,http://purl.obolibrary.org/obo/UBERON_0001456
-UBERON:0002055,zona reticularis of adrenal gland,,CC BY 3.0,D015385,Uberon,http://purl.obolibrary.org/obo/UBERON_0002055
-UBERON:0000029,lymph node,BTO:0000784,CC BY 3.0,D008198,Uberon,http://purl.obolibrary.org/obo/UBERON_0000029
-UBERON:0002016,pulmonary vein,BTO:0001799,CC BY 3.0,D011667,Uberon,http://purl.obolibrary.org/obo/UBERON_0002016
-UBERON:0002517,basicranium,,CC BY 3.0,D019291,Uberon,http://purl.obolibrary.org/obo/UBERON_0002517
-UBERON:0001348,brown adipose tissue,BTO:0000156,CC BY 3.0,D002001,Uberon,http://purl.obolibrary.org/obo/UBERON_0001348
-UBERON:0002356,perineum,,CC BY 3.0,D010502,Uberon,http://purl.obolibrary.org/obo/UBERON_0002356
-UBERON:0002502,round window of inner ear,,CC BY 3.0,D012405,Uberon,http://purl.obolibrary.org/obo/UBERON_0002502
-UBERON:0002386,forelimb zeugopod,BTO:0001447,CC BY 3.0,D005542,Uberon,http://purl.obolibrary.org/obo/UBERON_0002386
-UBERON:0002925,trigeminal nucleus,BTO:0001074,CC BY 3.0,D014278,Uberon,http://purl.obolibrary.org/obo/UBERON_0002925
-UBERON:0001175,common hepatic duct,,CC BY 3.0,D006500,Uberon,http://purl.obolibrary.org/obo/UBERON_0001175
-UBERON:0002162,area postrema,BTO:0003425,CC BY 3.0,D031608,Uberon,http://purl.obolibrary.org/obo/UBERON_0002162
-UBERON:0001733,soft palate,,CC BY 3.0,D010160,Uberon,http://purl.obolibrary.org/obo/UBERON_0001733
-UBERON:0001673,central retinal vein,,CC BY 3.0,D012169,Uberon,http://purl.obolibrary.org/obo/UBERON_0001673
-UBERON:0001846,internal ear,BTO:0000630,CC BY 3.0,D007758,Uberon,http://purl.obolibrary.org/obo/UBERON_0001846
-UBERON:0001183,inferior mesenteric artery,BTO:0002302,CC BY 3.0,D017537,Uberon,http://purl.obolibrary.org/obo/UBERON_0001183
-UBERON:0002099,cardiac septum,,CC BY 3.0,D006346,Uberon,http://purl.obolibrary.org/obo/UBERON_0002099
-UBERON:0001644,trochlear nerve,,CC BY 3.0,D014321,Uberon,http://purl.obolibrary.org/obo/UBERON_0001644
-UBERON:0001700,geniculate ganglion,,CC BY 3.0,D005830,Uberon,http://purl.obolibrary.org/obo/UBERON_0001700
-UBERON:0001140,renal vein,BTO:0002681,CC BY 3.0,D012082,Uberon,http://purl.obolibrary.org/obo/UBERON_0001140
-UBERON:0001768,uvea,,CC BY 3.0,D014602,Uberon,http://purl.obolibrary.org/obo/UBERON_0001768
-UBERON:0001295,endometrium,BTO:0001422,CC BY 3.0,D004717,Uberon,http://purl.obolibrary.org/obo/UBERON_0001295
-UBERON:0002107,liver,BTO:0000759,CC BY 3.0,D008099,Uberon,http://purl.obolibrary.org/obo/UBERON_0002107
-UBERON:0001772,corneal epithelium,BTO:0000287,CC BY 3.0,D019573,Uberon,http://purl.obolibrary.org/obo/UBERON_0001772
-UBERON:0001283,bile canaliculus,BTO:0002841,CC BY 3.0,D001648,Uberon,http://purl.obolibrary.org/obo/UBERON_0001283
-UBERON:0002405,immune system,,CC BY 3.0,D007107,Uberon,http://purl.obolibrary.org/obo/UBERON_0002405
-UBERON:0000056,ureter,BTO:0001409,CC BY 3.0,D014513,Uberon,http://purl.obolibrary.org/obo/UBERON_0000056
-UBERON:0002137,aortic valve,BTO:0004628,CC BY 3.0,D001021,Uberon,http://purl.obolibrary.org/obo/UBERON_0002137
-UBERON:0001844,cochlea,BTO:0000267,CC BY 3.0,D003051,Uberon,http://purl.obolibrary.org/obo/UBERON_0001844
-UBERON:0001184,renal artery,BTO:0001165,CC BY 3.0,D012077,Uberon,http://purl.obolibrary.org/obo/UBERON_0001184
-UBERON:0002673,vestibular nuclear complex,BTO:0004368,CC BY 3.0,D014726,Uberon,http://purl.obolibrary.org/obo/UBERON_0002673
-UBERON:0001969,blood plasma,BTO:0000131,CC BY 3.0,D010949,Uberon,http://purl.obolibrary.org/obo/UBERON_0001969
-UBERON:0001585,anterior vena cava,BTO:0002683,CC BY 3.0,D014683,Uberon,http://purl.obolibrary.org/obo/UBERON_0001585
-UBERON:0002392,nasolacrimal duct,,CC BY 3.0,D009301,Uberon,http://purl.obolibrary.org/obo/UBERON_0002392
-UBERON:0001064,ventral pancreatic duct,BTO:0002362,CC BY 3.0,D010183,Uberon,http://purl.obolibrary.org/obo/UBERON_0001064
-UBERON:0002413,cervical vertebra,,CC BY 3.0,D002574,Uberon,http://purl.obolibrary.org/obo/UBERON_0002413
-UBERON:0002501,oval window,,CC BY 3.0,D010046,Uberon,http://purl.obolibrary.org/obo/UBERON_0002501
-UBERON:0001707,nasal cavity,BTO:0002096,CC BY 3.0,D009296,Uberon,http://purl.obolibrary.org/obo/UBERON_0001707
-UBERON:0000995,uterus,BTO:0001424,CC BY 3.0,D014599,Uberon,http://purl.obolibrary.org/obo/UBERON_0000995
-UBERON:0002134,tricuspid valve,,CC BY 3.0,D014261,Uberon,http://purl.obolibrary.org/obo/UBERON_0002134
-UBERON:0004769,diaphysis,,CC BY 3.0,D018483,Uberon,http://purl.obolibrary.org/obo/UBERON_0004769
-UBERON:0002299,alveolus of lung,BTO:0000060,CC BY 3.0,D011650,Uberon,http://purl.obolibrary.org/obo/UBERON_0002299
-UBERON:0001773,sclera,BTO:0001606,CC BY 3.0,D012590,Uberon,http://purl.obolibrary.org/obo/UBERON_0001773
-UBERON:0001677,sphenoid bone,,CC BY 3.0,D013100,Uberon,http://purl.obolibrary.org/obo/UBERON_0001677
-UBERON:0002354,purkinje fiber,BTO:0001735,CC BY 3.0,D011690,Uberon,http://purl.obolibrary.org/obo/UBERON_0002354
-UBERON:0001598,temporalis muscle,,CC BY 3.0,D013703,Uberon,http://purl.obolibrary.org/obo/UBERON_0001598
-UBERON:0001771,pupil,,CC BY 3.0,D011680,Uberon,http://purl.obolibrary.org/obo/UBERON_0001771
-UBERON:0002103,hindlimb,BTO:0002345,CC BY 3.0,D006614,Uberon,http://purl.obolibrary.org/obo/UBERON_0002103
-UBERON:0001296,myometrium,BTO:0000907,CC BY 3.0,D009215,Uberon,http://purl.obolibrary.org/obo/UBERON_0001296
-UBERON:0001530,common carotid artery plus branches,,CC BY 3.0,D017536,Uberon,http://purl.obolibrary.org/obo/UBERON_0001530
-UBERON:0002226,basilar membrane of cochlea,,CC BY 3.0,D001489,Uberon,http://purl.obolibrary.org/obo/UBERON_0002226
-UBERON:0001532,internal carotid artery,BTO:0004697,CC BY 3.0,D002343,Uberon,http://purl.obolibrary.org/obo/UBERON_0001532
-UBERON:0001132,parathyroid gland,BTO:0000997,CC BY 3.0,D010280,Uberon,http://purl.obolibrary.org/obo/UBERON_0001132
-UBERON:0001365,sacro-iliac joint,,CC BY 3.0,D012446,Uberon,http://purl.obolibrary.org/obo/UBERON_0001365
-UBERON:0002387,pes,BTO:0000476,CC BY 3.0,D005528,Uberon,http://purl.obolibrary.org/obo/UBERON_0002387
-UBERON:0002410,autonomic nervous system,BTO:0002507,CC BY 3.0,D001341,Uberon,http://purl.obolibrary.org/obo/UBERON_0002410
-UBERON:0001624,anterior cerebral artery,,CC BY 3.0,D020771,Uberon,http://purl.obolibrary.org/obo/UBERON_0001624
-UBERON:0001000,vas deferens,BTO:0001427,CC BY 3.0,D014649,Uberon,http://purl.obolibrary.org/obo/UBERON_0001000
-UBERON:0001037,strand of hair,BTO:0001501,CC BY 3.0,D006197,Uberon,http://purl.obolibrary.org/obo/UBERON_0001037
-UBERON:0001896,medulla oblongata,BTO:0000041,CC BY 3.0,D008526,Uberon,http://purl.obolibrary.org/obo/UBERON_0001896
-UBERON:0001679,ethmoid bone,BTO:0004140,CC BY 3.0,D005004,Uberon,http://purl.obolibrary.org/obo/UBERON_0001679
-UBERON:0001968,semen,BTO:0001230,CC BY 3.0,D012661,Uberon,http://purl.obolibrary.org/obo/UBERON_0001968
-UBERON:0001322,sciatic nerve,BTO:0001221,CC BY 3.0,D012584,Uberon,http://purl.obolibrary.org/obo/UBERON_0001322
-UBERON:0001750,lacrimal apparatus,,CC BY 3.0,D007765,Uberon,http://purl.obolibrary.org/obo/UBERON_0001750
-UBERON:0001832,sublingual gland,BTO:0001315,CC BY 3.0,D013361,Uberon,http://purl.obolibrary.org/obo/UBERON_0001832
-UBERON:0001288,loop of Henle,BTO:0004608,CC BY 3.0,D008138,Uberon,http://purl.obolibrary.org/obo/UBERON_0001288
-UBERON:0004535,cardiovascular system,BTO:0000088,CC BY 3.0,D002319,Uberon,http://purl.obolibrary.org/obo/UBERON_0004535
-UBERON:0002368,endocrine gland,BTO:0001488,CC BY 3.0,D004702,Uberon,http://purl.obolibrary.org/obo/UBERON_0002368
-UBERON:0001492,radial nerve,,CC BY 3.0,D011826,Uberon,http://purl.obolibrary.org/obo/UBERON_0001492
-UBERON:0000013,sympathetic nervous system,BTO:0001832,CC BY 3.0,D013564,Uberon,http://purl.obolibrary.org/obo/UBERON_0000013
-UBERON:0000978,leg,BTO:0000721,CC BY 3.0,D035002,Uberon,http://purl.obolibrary.org/obo/UBERON_0000978
-UBERON:0001600,tensor tympani,,CC BY 3.0,D013719,Uberon,http://purl.obolibrary.org/obo/UBERON_0001600
-UBERON:0002353,atrioventricular bundle,,CC BY 3.0,D002036,Uberon,http://purl.obolibrary.org/obo/UBERON_0002353
-UBERON:0001825,paranasal sinus,,CC BY 3.0,D010256,Uberon,http://purl.obolibrary.org/obo/UBERON_0001825
-UBERON:0002205,manubrium of sternum,,CC BY 3.0,D008371,Uberon,http://purl.obolibrary.org/obo/UBERON_0002205
-UBERON:0001636,posterior cerebral artery,,CC BY 3.0,D020769,Uberon,http://purl.obolibrary.org/obo/UBERON_0001636
-UBERON:0002275,reticular formation,,CC BY 3.0,D012154,Uberon,http://purl.obolibrary.org/obo/UBERON_0002275
-UBERON:0000042,serous membrane,,CC BY 3.0,D012704,Uberon,http://purl.obolibrary.org/obo/UBERON_0000042
-UBERON:0001535,vertebral artery,,CC BY 3.0,D014711,Uberon,http://purl.obolibrary.org/obo/UBERON_0001535
-UBERON:0001016,nervous system,BTO:0001484,CC BY 3.0,D009420,Uberon,http://purl.obolibrary.org/obo/UBERON_0001016
-UBERON:0002366,bulbo-urethral gland,BTO:0001698,CC BY 3.0,D002030,Uberon,http://purl.obolibrary.org/obo/UBERON_0002366
-UBERON:0002053,zona glomerulosa of adrenal gland,BTO:0000048,CC BY 3.0,D015384,Uberon,http://purl.obolibrary.org/obo/UBERON_0002053
-UBERON:0002418,cartilage tissue,BTO:0000206,CC BY 3.0,D002356,Uberon,http://purl.obolibrary.org/obo/UBERON_0002418
-UBERON:0002028,hindbrain,BTO:0000672,CC BY 3.0,D012249,Uberon,http://purl.obolibrary.org/obo/UBERON_0002028
-UBERON:0001711,eyelid,BTO:0002241,CC BY 3.0,D005143,Uberon,http://purl.obolibrary.org/obo/UBERON_0001711
-UBERON:0002040,bronchial artery,,CC BY 3.0,D001981,Uberon,http://purl.obolibrary.org/obo/UBERON_0002040
-UBERON:0001864,scala tympani,,CC BY 3.0,D012533,Uberon,http://purl.obolibrary.org/obo/UBERON_0001864
-UBERON:0002228,rib,,CC BY 3.0,D012272,Uberon,http://purl.obolibrary.org/obo/UBERON_0002228
-UBERON:0002113,kidney,BTO:0000671,CC BY 3.0,D007668,Uberon,http://purl.obolibrary.org/obo/UBERON_0002113
-UBERON:0001072,posterior vena cava,BTO:0002682,CC BY 3.0,D014682,Uberon,http://purl.obolibrary.org/obo/UBERON_0001072
-UBERON:0000996,vagina,BTO:0000243,CC BY 3.0,D014621,Uberon,http://purl.obolibrary.org/obo/UBERON_0000996
-UBERON:0001895,metencephalon,BTO:0000673,CC BY 3.0,D020540,Uberon,http://purl.obolibrary.org/obo/UBERON_0001895
-UBERON:0002067,dermis,BTO:0000294,CC BY 3.0,D020405,Uberon,http://purl.obolibrary.org/obo/UBERON_0002067
-UBERON:0002497,acromion,,CC BY 3.0,D000174,Uberon,http://purl.obolibrary.org/obo/UBERON_0002497
-UBERON:0002297,cerumen,,CC BY 3.0,D002571,Uberon,http://purl.obolibrary.org/obo/UBERON_0002297
-UBERON:0001031,sheath of Schwann,BTO:0003048,CC BY 3.0,D009441,Uberon,http://purl.obolibrary.org/obo/UBERON_0001031
-UBERON:0002030,nipple,BTO:0000821,CC BY 3.0,D009558,Uberon,http://purl.obolibrary.org/obo/UBERON_0002030
-UBERON:0001827,secretion of lacrimal gland,BTO:0001499,CC BY 3.0,D013666,Uberon,http://purl.obolibrary.org/obo/UBERON_0001827
-UBERON:0001090,synovial fluid,BTO:0001339,CC BY 3.0,D013582,Uberon,http://purl.obolibrary.org/obo/UBERON_0001090
-UBERON:0001762,turbinate bone,,CC BY 3.0,D014420,Uberon,http://purl.obolibrary.org/obo/UBERON_0001762
-UBERON:0003889,fallopian tube,,CC BY 3.0,D005187,Uberon,http://purl.obolibrary.org/obo/UBERON_0003889
-UBERON:0001067,vertebral arch joint,,CC BY 3.0,D021801,Uberon,http://purl.obolibrary.org/obo/UBERON_0001067
-UBERON:0001769,iris,BTO:0000653,CC BY 3.0,D007498,Uberon,http://purl.obolibrary.org/obo/UBERON_0001769
-UBERON:0001488,ankle joint,BTO:0004706,CC BY 3.0,D000843,Uberon,http://purl.obolibrary.org/obo/UBERON_0001488
-UBERON:0001785,cranial nerve,BTO:0001104,CC BY 3.0,D003391,Uberon,http://purl.obolibrary.org/obo/UBERON_0001785
-UBERON:0001905,pineal body,BTO:0001067,CC BY 3.0,D010870,Uberon,http://purl.obolibrary.org/obo/UBERON_0001905
-UBERON:0002741,diagonal band of Broca,BTO:0002445,CC BY 3.0,D020667,Uberon,http://purl.obolibrary.org/obo/UBERON_0002741
-UBERON:0001017,central nervous system,BTO:0000227,CC BY 3.0,D002490,Uberon,http://purl.obolibrary.org/obo/UBERON_0001017
-UBERON:0001681,nasal bone,,CC BY 3.0,D009295,Uberon,http://purl.obolibrary.org/obo/UBERON_0001681
-UBERON:0001891,midbrain,BTO:0000138,CC BY 3.0,D008636,Uberon,http://purl.obolibrary.org/obo/UBERON_0001891
-UBERON:0002223,endolymphatic sac,,CC BY 3.0,D004712,Uberon,http://purl.obolibrary.org/obo/UBERON_0002223
-UBERON:0001840,semicircular canal,BTO:0003383,CC BY 3.0,D012665,Uberon,http://purl.obolibrary.org/obo/UBERON_0001840
-UBERON:0001638,vein,BTO:0000234,CC BY 3.0,D014680,Uberon,http://purl.obolibrary.org/obo/UBERON_0001638
-UBERON:0001970,bile,BTO:0000121,CC BY 3.0,D001646,Uberon,http://purl.obolibrary.org/obo/UBERON_0001970
-UBERON:0000045,ganglion,BTO:0000497,CC BY 3.0,D005724,Uberon,http://purl.obolibrary.org/obo/UBERON_0000045
-UBERON:0002518,otolith organ,,CC BY 3.0,D012444,Uberon,http://purl.obolibrary.org/obo/UBERON_0002518
-UBERON:0000949,endocrine system,,CC BY 3.0,D004703,Uberon,http://purl.obolibrary.org/obo/UBERON_0000949
-UBERON:0002298,brainstem,BTO:0000146,CC BY 3.0,D001933,Uberon,http://purl.obolibrary.org/obo/UBERON_0002298
-UBERON:0001640,celiac artery,,CC BY 3.0,D002445,Uberon,http://purl.obolibrary.org/obo/UBERON_0001640
-UBERON:0001691,external ear,BTO:0002100,CC BY 3.0,D004431,Uberon,http://purl.obolibrary.org/obo/UBERON_0001691
-UBERON:0000955,brain,BTO:0000142,CC BY 3.0,D001921,Uberon,http://purl.obolibrary.org/obo/UBERON_0000955
-UBERON:0002010,celiac nerve plexus,,CC BY 3.0,D002447,Uberon,http://purl.obolibrary.org/obo/UBERON_0002010
-UBERON:0001616,maxillary artery,,CC BY 3.0,D008438,Uberon,http://purl.obolibrary.org/obo/UBERON_0001616
-UBERON:0001688,incus bone,,CC BY 3.0,D007188,Uberon,http://purl.obolibrary.org/obo/UBERON_0001688
-UBERON:0001193,hepatic artery,BTO:0004307,CC BY 3.0,D006499,Uberon,http://purl.obolibrary.org/obo/UBERON_0001193
-UBERON:0000970,eye,BTO:0000439,CC BY 3.0,D005123,Uberon,http://purl.obolibrary.org/obo/UBERON_0000970
-UBERON:0001567,cheek,BTO:0001754,CC BY 3.0,D002610,Uberon,http://purl.obolibrary.org/obo/UBERON_0001567
-UBERON:0001463,manual digit 1,,CC BY 3.0,D013933,Uberon,http://purl.obolibrary.org/obo/UBERON_0001463
-UBERON:0002414,lumbar vertebra,,CC BY 3.0,D008159,Uberon,http://purl.obolibrary.org/obo/UBERON_0002414
-UBERON:0001490,elbow joint,,CC BY 3.0,D004551,Uberon,http://purl.obolibrary.org/obo/UBERON_0001490
-UBERON:0001675,trigeminal ganglion,BTO:0001231,CC BY 3.0,D012668,Uberon,http://purl.obolibrary.org/obo/UBERON_0001675
-UBERON:0001646,abducens nerve,,CC BY 3.0,D000010,Uberon,http://purl.obolibrary.org/obo/UBERON_0001646
-UBERON:0002165,endocardium,BTO:0000387,CC BY 3.0,D004699,Uberon,http://purl.obolibrary.org/obo/UBERON_0002165
-UBERON:0001687,stapes bone,,CC BY 3.0,D013199,Uberon,http://purl.obolibrary.org/obo/UBERON_0001687
-UBERON:0002361,pia mater,BTO:0001635,CC BY 3.0,D010841,Uberon,http://purl.obolibrary.org/obo/UBERON_0002361
-UBERON:0001479,sesamoid bone,,CC BY 3.0,D012716,Uberon,http://purl.obolibrary.org/obo/UBERON_0001479
-UBERON:0001988,feces,BTO:0000440,CC BY 3.0,D005243,Uberon,http://purl.obolibrary.org/obo/UBERON_0001988
-UBERON:0000011,parasympathetic nervous system,BTO:0001833,CC BY 3.0,D010275,Uberon,http://purl.obolibrary.org/obo/UBERON_0000011
-UBERON:0001577,facial muscle,,CC BY 3.0,D005152,Uberon,http://purl.obolibrary.org/obo/UBERON_0001577
-UBERON:0000993,oviduct,BTO:0000980,CC BY 3.0,D010057,Uberon,http://purl.obolibrary.org/obo/UBERON_0000993
-UBERON:0001464,hip,BTO:0001457,CC BY 3.0,D006615,Uberon,http://purl.obolibrary.org/obo/UBERON_0001464
-UBERON:0001783,optic disc,,CC BY 3.0,D009898,Uberon,http://purl.obolibrary.org/obo/UBERON_0001783
-UBERON:0000977,pleura,BTO:0001791,CC BY 3.0,D010994,Uberon,http://purl.obolibrary.org/obo/UBERON_0000977
-UBERON:0001780,spinal nerve,BTO:0000870,CC BY 3.0,D013127,Uberon,http://purl.obolibrary.org/obo/UBERON_0001780
-UBERON:0001599,stapedius muscle,,CC BY 3.0,D013198,Uberon,http://purl.obolibrary.org/obo/UBERON_0001599
-UBERON:0000043,tendon,BTO:0001356,CC BY 3.0,D013710,Uberon,http://purl.obolibrary.org/obo/UBERON_0000043
-UBERON:0001235,adrenal cortex,BTO:0000045,CC BY 3.0,D000302,Uberon,http://purl.obolibrary.org/obo/UBERON_0001235
-UBERON:0001225,cortex of kidney,BTO:0001166,CC BY 3.0,D007672,Uberon,http://purl.obolibrary.org/obo/UBERON_0001225
-UBERON:0001805,autonomic ganglion,,CC BY 3.0,D005725,Uberon,http://purl.obolibrary.org/obo/UBERON_0001805
-UBERON:0001734,palatine uvula,,CC BY 3.0,D014609,Uberon,http://purl.obolibrary.org/obo/UBERON_0001734
-UBERON:0001343,seminiferous tubule of testis,BTO:0001235,CC BY 3.0,D012671,Uberon,http://purl.obolibrary.org/obo/UBERON_0001343
-UBERON:0001914,colostrum,BTO:0000276,CC BY 3.0,D003126,Uberon,http://purl.obolibrary.org/obo/UBERON_0001914
-UBERON:0002362,arachnoid mater,BTO:0001636,CC BY 3.0,D001099,Uberon,http://purl.obolibrary.org/obo/UBERON_0002362
-UBERON:0000959,optic chiasma,,CC BY 3.0,D009897,Uberon,http://purl.obolibrary.org/obo/UBERON_0000959
-UBERON:0000483,epithelium,BTO:0000416,CC BY 3.0,D004848,Uberon,http://purl.obolibrary.org/obo/UBERON_0000483
-UBERON:0000007,pituitary gland,BTO:0001073,CC BY 3.0,D010902,Uberon,http://purl.obolibrary.org/obo/UBERON_0000007
-UBERON:0002012,pulmonary artery,BTO:0000778,CC BY 3.0,D011651,Uberon,http://purl.obolibrary.org/obo/UBERON_0002012
-UBERON:0001089,sweat,BTO:0001254,CC BY 3.0,D013542,Uberon,http://purl.obolibrary.org/obo/UBERON_0001089
-UBERON:0001231,nephron tubule,BTO:0000343,CC BY 3.0,D007684,Uberon,http://purl.obolibrary.org/obo/UBERON_0001231
-UBERON:0001833,lip,BTO:0001647,CC BY 3.0,D008046,Uberon,http://purl.obolibrary.org/obo/UBERON_0001833
-UBERON:0001986,endothelium,BTO:0000393,CC BY 3.0,D004727,Uberon,http://purl.obolibrary.org/obo/UBERON_0001986
-UBERON:0001831,parotid gland,BTO:0001004,CC BY 3.0,D010306,Uberon,http://purl.obolibrary.org/obo/UBERON_0001831
-UBERON:0002037,cerebellum,BTO:0000232,CC BY 3.0,D002531,Uberon,http://purl.obolibrary.org/obo/UBERON_0002037
-UBERON:0000948,heart,BTO:0000562,CC BY 3.0,D006321,Uberon,http://purl.obolibrary.org/obo/UBERON_0000948
-UBERON:0000998,seminal vesicle,BTO:0001234,CC BY 3.0,D012669,Uberon,http://purl.obolibrary.org/obo/UBERON_0000998
-UBERON:0001224,renal pelvis,,CC BY 3.0,D007682,Uberon,http://purl.obolibrary.org/obo/UBERON_0001224
-UBERON:0001285,nephron,BTO:0000924,CC BY 3.0,D009399,Uberon,http://purl.obolibrary.org/obo/UBERON_0001285
-UBERON:0001232,collecting duct of renal tubule,BTO:0000761,CC BY 3.0,D007685,Uberon,http://purl.obolibrary.org/obo/UBERON_0001232
-UBERON:0002130,cerebellar nuclear complex,,CC BY 3.0,D002529,Uberon,http://purl.obolibrary.org/obo/UBERON_0002130
-UBERON:0003216,hard palate,,CC BY 3.0,D021362,Uberon,http://purl.obolibrary.org/obo/UBERON_0003216
-UBERON:0001893,telencephalon,BTO:0000239,CC BY 3.0,D013687,Uberon,http://purl.obolibrary.org/obo/UBERON_0001893
-UBERON:0000999,ejaculatory duct,BTO:0001580,CC BY 3.0,D004543,Uberon,http://purl.obolibrary.org/obo/UBERON_0000999
-UBERON:0002384,connective tissue,BTO:0000421,CC BY 3.0,D003238,Uberon,http://purl.obolibrary.org/obo/UBERON_0002384
-UBERON:0001818,tarsal gland,BTO:0004165,CC BY 3.0,D008537,Uberon,http://purl.obolibrary.org/obo/UBERON_0001818
-UBERON:0001985,corneal endothelium,,CC BY 3.0,D004728,Uberon,http://purl.obolibrary.org/obo/UBERON_0001985
-UBERON:0006849,scapula,BTO:0001218,CC BY 3.0,D012540,Uberon,http://purl.obolibrary.org/obo/UBERON_0006849
-UBERON:0004452,carpal region,,CC BY 3.0,D014953,Uberon,http://purl.obolibrary.org/obo/UBERON_0004452
-UBERON:0001836,saliva,BTO:0001202,CC BY 3.0,D012463,Uberon,http://purl.obolibrary.org/obo/UBERON_0001836
-UBERON:0001855,cochlear duct of membranous labyrinth,BTO:0001692,CC BY 3.0,D003053,Uberon,http://purl.obolibrary.org/obo/UBERON_0001855
-UBERON:0001174,common bile duct,,CC BY 3.0,D003135,Uberon,http://purl.obolibrary.org/obo/UBERON_0001174
-UBERON:0001710,lower jaw region,,CC BY 3.0,D008334,Uberon,http://purl.obolibrary.org/obo/UBERON_0001710
-UBERON:0001398,brachial artery,,CC BY 3.0,D001916,Uberon,http://purl.obolibrary.org/obo/UBERON_0001398
-UBERON:0001633,basilar artery,,CC BY 3.0,D001488,Uberon,http://purl.obolibrary.org/obo/UBERON_0001633
-UBERON:0001786,fovea centralis,,CC BY 3.0,D005584,Uberon,http://purl.obolibrary.org/obo/UBERON_0001786
-UBERON:0002363,dura mater,BTO:0001637,CC BY 3.0,D004388,Uberon,http://purl.obolibrary.org/obo/UBERON_0002363
-UBERON:0001361,femoral vein,,CC BY 3.0,D005268,Uberon,http://purl.obolibrary.org/obo/UBERON_0001361
-UBERON:0002279,vestibular aqueduct,,CC BY 3.0,D014723,Uberon,http://purl.obolibrary.org/obo/UBERON_0002279
-UBERON:0001678,temporal bone,,CC BY 3.0,D013701,Uberon,http://purl.obolibrary.org/obo/UBERON_0001678
-UBERON:0000010,peripheral nervous system,BTO:0001028,CC BY 3.0,D017933,Uberon,http://purl.obolibrary.org/obo/UBERON_0000010
-UBERON:0001465,knee,BTO:0003595,CC BY 3.0,D007717,Uberon,http://purl.obolibrary.org/obo/UBERON_0001465
-UBERON:0001756,middle ear,BTO:0002099,CC BY 3.0,D004432,Uberon,http://purl.obolibrary.org/obo/UBERON_0001756
-UBERON:0001516,abdominal aorta,BTO:0002976,CC BY 3.0,D001012,Uberon,http://purl.obolibrary.org/obo/UBERON_0001516
-UBERON:0003126,trachea,BTO:0001388,CC BY 3.0,D014132,Uberon,http://purl.obolibrary.org/obo/UBERON_0003126
-UBERON:0001911,mammary gland,BTO:0000817,CC BY 3.0,D008321,Uberon,http://purl.obolibrary.org/obo/UBERON_0001911
-UBERON:0000026,appendage,BTO:0001492,CC BY 3.0,D005121,Uberon,http://purl.obolibrary.org/obo/UBERON_0000026
-UBERON:0002017,portal vein,BTO:0001792,CC BY 3.0,D011169,Uberon,http://purl.obolibrary.org/obo/UBERON_0002017
-UBERON:0001103,diaphragm,BTO:0000341,CC BY 3.0,D003964,Uberon,http://purl.obolibrary.org/obo/UBERON_0001103
-UBERON:0000975,sternum,BTO:0001302,CC BY 3.0,D013249,Uberon,http://purl.obolibrary.org/obo/UBERON_0000975
-UBERON:0001404,radial artery,,CC BY 3.0,D017534,Uberon,http://purl.obolibrary.org/obo/UBERON_0001404
-UBERON:0002522,tunica media,BTO:0002011,CC BY 3.0,D017540,Uberon,http://purl.obolibrary.org/obo/UBERON_0002522
-UBERON:0001689,malleus bone,,CC BY 3.0,D008307,Uberon,http://purl.obolibrary.org/obo/UBERON_0001689
-UBERON:0001643,oculomotor nerve,,CC BY 3.0,D009802,Uberon,http://purl.obolibrary.org/obo/UBERON_0001643
-UBERON:0001130,vertebral column,BTO:0000818,CC BY 3.0,D013131,Uberon,http://purl.obolibrary.org/obo/UBERON_0001130
-UBERON:0003685,cranial suture,,CC BY 3.0,D003393,Uberon,http://purl.obolibrary.org/obo/UBERON_0003685
-UBERON:0001148,median nerve,,CC BY 3.0,D008475,Uberon,http://purl.obolibrary.org/obo/UBERON_0001148
-UBERON:0001720,cochlear nucleus,,CC BY 3.0,D017626,Uberon,http://purl.obolibrary.org/obo/UBERON_0001720
-UBERON:0002081,cardiac atrium,BTO:0000903,CC BY 3.0,D006325,Uberon,http://purl.obolibrary.org/obo/UBERON_0002081
-UBERON:0001723,tongue,BTO:0001385,CC BY 3.0,D014059,Uberon,http://purl.obolibrary.org/obo/UBERON_0001723
-UBERON:0001305,ovarian follicle,BTO:0000475,CC BY 3.0,D006080,Uberon,http://purl.obolibrary.org/obo/UBERON_0001305
-UBERON:0001910,medial forebrain bundle,,CC BY 3.0,D008474,Uberon,http://purl.obolibrary.org/obo/UBERON_0001910
-UBERON:0000997,mammalian vulva,BTO:0003101,CC BY 3.0,D014844,Uberon,http://purl.obolibrary.org/obo/UBERON_0000997
-UBERON:0001764,maxillary sinus,,CC BY 3.0,D008443,Uberon,http://purl.obolibrary.org/obo/UBERON_0001764
-UBERON:0001544,popliteal vein,,CC BY 3.0,D011152,Uberon,http://purl.obolibrary.org/obo/UBERON_0001544
-UBERON:0002146,pulmonary valve,,CC BY 3.0,D011664,Uberon,http://purl.obolibrary.org/obo/UBERON_0002146
-UBERON:0002453,ethmoid sinus,,CC BY 3.0,D005005,Uberon,http://purl.obolibrary.org/obo/UBERON_0002453
-UBERON:0001093,vertebral bone 2,,CC BY 3.0,D001368,Uberon,http://purl.obolibrary.org/obo/UBERON_0001093
-UBERON:0001182,superior mesenteric artery,BTO:0002303,CC BY 3.0,D017538,Uberon,http://purl.obolibrary.org/obo/UBERON_0001182
-UBERON:0000057,urethra,BTO:0001426,CC BY 3.0,D014521,Uberon,http://purl.obolibrary.org/obo/UBERON_0000057
-UBERON:0001088,urine,BTO:0001419,CC BY 3.0,D014556,Uberon,http://purl.obolibrary.org/obo/UBERON_0001088
-UBERON:0001394,axillary artery,,CC BY 3.0,D001366,Uberon,http://purl.obolibrary.org/obo/UBERON_0001394
-UBERON:0001467,shoulder,,CC BY 3.0,D012782,Uberon,http://purl.obolibrary.org/obo/UBERON_0001467
-UBERON:0001406,ulnar artery,,CC BY 3.0,D017535,Uberon,http://purl.obolibrary.org/obo/UBERON_0001406
-UBERON:0001070,external carotid artery,BTO:0004696,CC BY 3.0,D002342,Uberon,http://purl.obolibrary.org/obo/UBERON_0001070
-UBERON:0001814,brachial nerve plexus,,CC BY 3.0,D001917,Uberon,http://purl.obolibrary.org/obo/UBERON_0001814
-UBERON:0002377,muscle of neck,,CC BY 3.0,D009334,Uberon,http://purl.obolibrary.org/obo/UBERON_0002377
-UBERON:0002411,clitoris,BTO:0002020,CC BY 3.0,D002987,Uberon,http://purl.obolibrary.org/obo/UBERON_0002411
-UBERON:0001461,elbow,,CC BY 3.0,D004550,Uberon,http://purl.obolibrary.org/obo/UBERON_0001461
-UBERON:0001694,petrous part of temporal bone,,CC BY 3.0,D010579,Uberon,http://purl.obolibrary.org/obo/UBERON_0001694
-UBERON:0001759,vagus nerve,BTO:0003472,CC BY 3.0,D014630,Uberon,http://purl.obolibrary.org/obo/UBERON_0001759
-UBERON:0002135,mitral valve,,CC BY 3.0,D008943,Uberon,http://purl.obolibrary.org/obo/UBERON_0002135
-UBERON:0002240,spinal cord,BTO:0001279,CC BY 3.0,D013116,Uberon,http://purl.obolibrary.org/obo/UBERON_0002240
-UBERON:0000178,blood,BTO:0000089,CC BY 3.0,D001769,Uberon,http://purl.obolibrary.org/obo/UBERON_0000178
-UBERON:0001645,trigeminal nerve,BTO:0001072,CC BY 3.0,D014276,Uberon,http://purl.obolibrary.org/obo/UBERON_0001645
-UBERON:0001469,sternoclavicular joint,,CC BY 3.0,D013247,Uberon,http://purl.obolibrary.org/obo/UBERON_0001469
-UBERON:0001776,optic choroid,BTO:0001829,CC BY 3.0,D002829,Uberon,http://purl.obolibrary.org/obo/UBERON_0001776
-UBERON:0002365,exocrine gland,BTO:0000765,CC BY 3.0,D005088,Uberon,http://purl.obolibrary.org/obo/UBERON_0002365
-UBERON:0001684,mandible,BTO:0001748,CC BY 3.0,D008334,Uberon,http://purl.obolibrary.org/obo/UBERON_0001684
-UBERON:0001650,hypoglossal nerve,BTO:0003386,CC BY 3.0,D007002,Uberon,http://purl.obolibrary.org/obo/UBERON_0001650
-UBERON:0001597,masseter muscle,BTO:0001755,CC BY 3.0,D008406,Uberon,http://purl.obolibrary.org/obo/UBERON_0001597
-UBERON:0002481,bone tissue,,CC BY 3.0,D001842,Uberon,http://purl.obolibrary.org/obo/UBERON_0002481
-UBERON:0001310,umbilical artery,BTO:0000841,CC BY 3.0,D014469,Uberon,http://purl.obolibrary.org/obo/UBERON_0001310
-UBERON:0002005,enteric nervous system,BTO:0002506,CC BY 3.0,D017615,Uberon,http://purl.obolibrary.org/obo/UBERON_0002005
-UBERON:0000053,macula lutea,BTO:0003015,CC BY 3.0,D008266,Uberon,http://purl.obolibrary.org/obo/UBERON_0000053
-UBERON:0001971,gastric juice,BTO:0000501,CC BY 3.0,D005750,Uberon,http://purl.obolibrary.org/obo/UBERON_0001971
-UBERON:0003092,ultimobranchial body,,CC BY 3.0,D014460,Uberon,http://purl.obolibrary.org/obo/UBERON_0003092
-UBERON:0002073,hair follicle,BTO:0000554,CC BY 3.0,D018859,Uberon,http://purl.obolibrary.org/obo/UBERON_0002073
-UBERON:0001775,ciliary body,BTO:0000260,CC BY 3.0,D002924,Uberon,http://purl.obolibrary.org/obo/UBERON_0001775
-UBERON:0001637,artery,BTO:0000573,CC BY 3.0,D001158,Uberon,http://purl.obolibrary.org/obo/UBERON_0001637
-UBERON:0002097,skin of body,BTO:0001253,CC BY 3.0,D012867,Uberon,http://purl.obolibrary.org/obo/UBERON_0002097
-UBERON:0001744,lymphoid tissue,BTO:0000753,CC BY 3.0,D008221,Uberon,http://purl.obolibrary.org/obo/UBERON_0001744
-UBERON:0000922,embryo,BTO:0000379,CC BY 3.0,D004622,Uberon,http://purl.obolibrary.org/obo/UBERON_0000922
-UBERON:0001777,substantia propria of cornea,,CC BY 3.0,D003319,Uberon,http://purl.obolibrary.org/obo/UBERON_0001777
-UBERON:0002061,truncus arteriosus,,CC BY 3.0,D014338,Uberon,http://purl.obolibrary.org/obo/UBERON_0002061
-UBERON:0001021,nerve,BTO:0000925,CC BY 3.0,D010525,Uberon,http://purl.obolibrary.org/obo/UBERON_0001021
-UBERON:0002369,adrenal gland,BTO:0000047,CC BY 3.0,D000311,Uberon,http://purl.obolibrary.org/obo/UBERON_0002369
-UBERON:0002351,sinoatrial node,BTO:0004358,CC BY 3.0,D012849,Uberon,http://purl.obolibrary.org/obo/UBERON_0002351
-UBERON:0001264,pancreas,BTO:0000988,CC BY 3.0,D010179,Uberon,http://purl.obolibrary.org/obo/UBERON_0001264
-UBERON:0001697,orbit of skull,BTO:0004687,CC BY 3.0,D009915,Uberon,http://purl.obolibrary.org/obo/UBERON_0001697
-UBERON:0002500,zygomatic arch,,CC BY 3.0,D015050,Uberon,http://purl.obolibrary.org/obo/UBERON_0002500
-UBERON:0002285,telencephalic ventricle,BTO:0000879,CC BY 3.0,D020547,Uberon,http://purl.obolibrary.org/obo/UBERON_0002285
-UBERON:0001143,hepatic vein,,CC BY 3.0,D006503,Uberon,http://purl.obolibrary.org/obo/UBERON_0001143
-UBERON:0001194,splenic artery,,CC BY 3.0,D013157,Uberon,http://purl.obolibrary.org/obo/UBERON_0001194
-UBERON:0001708,jaw skeleton,BTO:0001749,CC BY 3.0,D007568,Uberon,http://purl.obolibrary.org/obo/UBERON_0001708
-UBERON:0001004,respiratory system,BTO:0000203,CC BY 3.0,D012137,Uberon,http://purl.obolibrary.org/obo/UBERON_0001004
-UBERON:0004288,skeleton,,CC BY 3.0,D012863,Uberon,http://purl.obolibrary.org/obo/UBERON_0004288
-UBERON:0001515,thoracic aorta,BTO:0000157,CC BY 3.0,D001013,Uberon,http://purl.obolibrary.org/obo/UBERON_0001515
-UBERON:0000038,follicular fluid,BTO:0004383,CC BY 3.0,D015571,Uberon,http://purl.obolibrary.org/obo/UBERON_0000038
-UBERON:0001619,ophthalmic artery,,CC BY 3.0,D009880,Uberon,http://purl.obolibrary.org/obo/UBERON_0001619
-UBERON:0001796,aqueous humor of eyeball,,CC BY 3.0,D001082,Uberon,http://purl.obolibrary.org/obo/UBERON_0001796
-UBERON:0001008,renal system,BTO:0001244,CC BY 3.0,D014551,Uberon,http://purl.obolibrary.org/obo/UBERON_0001008
-UBERON:0001135,smooth muscle tissue,BTO:0001260,CC BY 3.0,D009130,Uberon,http://purl.obolibrary.org/obo/UBERON_0001135
-UBERON:0002512,corpus luteum,BTO:0000292,CC BY 3.0,D003338,Uberon,http://purl.obolibrary.org/obo/UBERON_0002512
-UBERON:0001013,adipose tissue,BTO:0001487,CC BY 3.0,D000273,Uberon,http://purl.obolibrary.org/obo/UBERON_0001013
-UBERON:0001886,choroid plexus,BTO:0000258,CC BY 3.0,D002831,Uberon,http://purl.obolibrary.org/obo/UBERON_0001886
-UBERON:0002054,zona fasciculata of adrenal gland,BTO:0000050,CC BY 3.0,D015383,Uberon,http://purl.obolibrary.org/obo/UBERON_0002054
-UBERON:0002707,corticospinal tract,,CC BY 3.0,D011712,Uberon,http://purl.obolibrary.org/obo/UBERON_0002707
-UBERON:0000941,cranial nerve II,,CC BY 3.0,D009900,Uberon,http://purl.obolibrary.org/obo/UBERON_0000941
-UBERON:0001820,sweat gland,BTO:0001331,CC BY 3.0,D013545,Uberon,http://purl.obolibrary.org/obo/UBERON_0001820
-UBERON:0002204,musculoskeletal system,,CC BY 3.0,D009141,Uberon,http://purl.obolibrary.org/obo/UBERON_0002204
-UBERON:0002382,rectus abdominis muscle,,CC BY 3.0,D017568,Uberon,http://purl.obolibrary.org/obo/UBERON_0002382
-UBERON:0002519,otolithic part of statoconial membrane,,CC BY 3.0,D010037,Uberon,http://purl.obolibrary.org/obo/UBERON_0002519
-UBERON:0001579,olfactory nerve,BTO:0003648,CC BY 3.0,D009832,Uberon,http://purl.obolibrary.org/obo/UBERON_0001579
-UBERON:0002407,pericardium,BTO:0000717,CC BY 3.0,D010496,Uberon,http://purl.obolibrary.org/obo/UBERON_0002407
-UBERON:0001324,common fibular nerve,,CC BY 3.0,D010543,Uberon,http://purl.obolibrary.org/obo/UBERON_0001324
-UBERON:0002378,muscle of abdomen,BTO:0001261,CC BY 3.0,D000009,Uberon,http://purl.obolibrary.org/obo/UBERON_0002378
-UBERON:0002385,muscle tissue,,CC BY 3.0,D009132,Uberon,http://purl.obolibrary.org/obo/UBERON_0002385
-UBERON:0001044,saliva-secreting gland,BTO:0001203,CC BY 3.0,D012469,Uberon,http://purl.obolibrary.org/obo/UBERON_0001044
-UBERON:0001484,articular capsule,,CC BY 3.0,D017746,Uberon,http://purl.obolibrary.org/obo/UBERON_0001484
-UBERON:0002352,atrioventricular node,,CC BY 3.0,D001283,Uberon,http://purl.obolibrary.org/obo/UBERON_0002352
-UBERON:0001236,adrenal medulla,BTO:0000049,CC BY 3.0,D019439,Uberon,http://purl.obolibrary.org/obo/UBERON_0001236
-UBERON:0002389,manual digit,BTO:0004669,CC BY 3.0,D005385,Uberon,http://purl.obolibrary.org/obo/UBERON_0002389
-UBERON:0001717,spinal nucleus of trigeminal nerve,,CC BY 3.0,D014279,Uberon,http://purl.obolibrary.org/obo/UBERON_0001717
-UBERON:0002347,thoracic vertebra,,CC BY 3.0,D013904,Uberon,http://purl.obolibrary.org/obo/UBERON_0002347
-UBERON:0001470,glenohumeral joint,,CC BY 3.0,D012785,Uberon,http://purl.obolibrary.org/obo/UBERON_0001470
-UBERON:0001860,endolymphatic duct,,CC BY 3.0,D004711,Uberon,http://purl.obolibrary.org/obo/UBERON_0001860
-UBERON:0001676,occipital bone,,CC BY 3.0,D009777,Uberon,http://purl.obolibrary.org/obo/UBERON_0001676
-UBERON:0000006,islet of Langerhans,BTO:0000991,CC BY 3.0,D007515,Uberon,http://purl.obolibrary.org/obo/UBERON_0000006
-UBERON:0001648,vestibulocochlear nerve,BTO:0003490,CC BY 3.0,D000159,Uberon,http://purl.obolibrary.org/obo/UBERON_0001648
-UBERON:0001724,sphenoidal sinus,,CC BY 3.0,D013101,Uberon,http://purl.obolibrary.org/obo/UBERON_0001724
-UBERON:0000054,macula,,CC BY 3.0,D008267,Uberon,http://purl.obolibrary.org/obo/UBERON_0000054
-UBERON:0000482,basal lamina of epithelium,,CC BY 3.0,D001485,Uberon,http://purl.obolibrary.org/obo/UBERON_0000482
-UBERON:0000985,axillary vein,,CC BY 3.0,D001367,Uberon,http://purl.obolibrary.org/obo/UBERON_0000985
-UBERON:0002486,glottis,BTO:0001627,CC BY 3.0,D005931,Uberon,http://purl.obolibrary.org/obo/UBERON_0002486
+id,name,text_blob,bto_id,license,mesh_id,source,url
+UBERON:0001533,subclavian artery,subclavian artery (Anatomy). mesh_id: D013348,,CC BY 3.0,D013348,Uberon,http://purl.obolibrary.org/obo/UBERON_0001533
+UBERON:0000020,sense organ,sense organ (Anatomy). bto_id: BTO:0000202. mesh_id: D012679,BTO:0000202,CC BY 3.0,D012679,Uberon,http://purl.obolibrary.org/obo/UBERON_0000020
+UBERON:0001690,ear,ear (Anatomy). bto_id: BTO:0000368. mesh_id: D004423,BTO:0000368,CC BY 3.0,D004423,Uberon,http://purl.obolibrary.org/obo/UBERON_0001690
+UBERON:0002371,bone marrow,bone marrow (Anatomy). bto_id: BTO:0000141. mesh_id: D001853,BTO:0000141,CC BY 3.0,D001853,Uberon,http://purl.obolibrary.org/obo/UBERON_0002371
+UBERON:0001890,forebrain,forebrain (Anatomy). bto_id: BTO:0000478. mesh_id: D016548,BTO:0000478,CC BY 3.0,D016548,Uberon,http://purl.obolibrary.org/obo/UBERON_0001890
+UBERON:0001587,subclavian vein,subclavian vein (Anatomy). mesh_id: D013350,,CC BY 3.0,D013350,Uberon,http://purl.obolibrary.org/obo/UBERON_0001587
+UBERON:0002606,neuropil,neuropil (Anatomy). mesh_id: D019581,,CC BY 3.0,D019581,Uberon,http://purl.obolibrary.org/obo/UBERON_0002606
+UBERON:0001980,arteriole,arteriole (Anatomy). bto_id: BTO:0001997. mesh_id: D001160,BTO:0001997,CC BY 3.0,D001160,Uberon,http://purl.obolibrary.org/obo/UBERON_0001980
+UBERON:0001437,epiphysis,epiphysis (Anatomy). bto_id: BTO:0000413. mesh_id: D004838,BTO:0000413,CC BY 3.0,D004838,Uberon,http://purl.obolibrary.org/obo/UBERON_0001437
+UBERON:0001736,submandibular gland,submandibular gland (Anatomy). bto_id: BTO:0001316. mesh_id: D013363,BTO:0001316,CC BY 3.0,D013363,Uberon,http://purl.obolibrary.org/obo/UBERON_0001736
+UBERON:0001494,ulnar nerve,ulnar nerve (Anatomy). mesh_id: D014459,,CC BY 3.0,D014459,Uberon,http://purl.obolibrary.org/obo/UBERON_0001494
+UBERON:0001908,optic tract,optic tract (Anatomy). mesh_id: D014795,,CC BY 3.0,D014795,Uberon,http://purl.obolibrary.org/obo/UBERON_0001908
+UBERON:0001007,digestive system,digestive system (Anatomy). bto_id: BTO:0000058. mesh_id: D004064,BTO:0000058,CC BY 3.0,D004064,Uberon,http://purl.obolibrary.org/obo/UBERON_0001007
+UBERON:0001837,duct of salivary gland,duct of salivary gland (Anatomy). bto_id: BTO:0005115. mesh_id: D018987,BTO:0005115,CC BY 3.0,D018987,Uberon,http://purl.obolibrary.org/obo/UBERON_0001837
+UBERON:0001866,sebum,sebum (Anatomy). bto_id: BTO:0001981. mesh_id: D012629,BTO:0001981,CC BY 3.0,D012629,Uberon,http://purl.obolibrary.org/obo/UBERON_0001866
+UBERON:0000991,gonad,gonad (Anatomy). bto_id: BTO:0000534. mesh_id: D006066,BTO:0000534,CC BY 3.0,D006066,Uberon,http://purl.obolibrary.org/obo/UBERON_0000991
+UBERON:0001111,intercostal muscle,intercostal muscle (Anatomy). bto_id: BTO:0005281. mesh_id: D007366,BTO:0005281,CC BY 3.0,D007366,Uberon,http://purl.obolibrary.org/obo/UBERON_0001111
+UBERON:0002450,decidua,decidua (Anatomy). bto_id: BTO:0001360. mesh_id: D003656,BTO:0001360,CC BY 3.0,D003656,Uberon,http://purl.obolibrary.org/obo/UBERON_0002450
+UBERON:0001760,frontal sinus,frontal sinus (Anatomy). mesh_id: D005626,,CC BY 3.0,D005626,Uberon,http://purl.obolibrary.org/obo/UBERON_0001760
+UBERON:0001352,external acoustic meatus,external acoustic meatus (Anatomy). mesh_id: D004424,,CC BY 3.0,D004424,Uberon,http://purl.obolibrary.org/obo/UBERON_0001352
+UBERON:0002390,hematopoietic system,hematopoietic system (Anatomy). bto_id: BTO:0000570. mesh_id: D006413,BTO:0000570,CC BY 3.0,D006413,Uberon,http://purl.obolibrary.org/obo/UBERON_0002390
+UBERON:0002398,manus,manus (Anatomy). bto_id: BTO:0004668. mesh_id: D006225,BTO:0004668,CC BY 3.0,D006225,Uberon,http://purl.obolibrary.org/obo/UBERON_0002398
+UBERON:0000946,cardial valve,cardial valve (Anatomy). bto_id: BTO:0000564. mesh_id: D006351,BTO:0000564,CC BY 3.0,D006351,Uberon,http://purl.obolibrary.org/obo/UBERON_0000946
+UBERON:0001705,nail,nail (Anatomy). bto_id: BTO:0001719. mesh_id: D009262,BTO:0001719,CC BY 3.0,D009262,Uberon,http://purl.obolibrary.org/obo/UBERON_0001705
+UBERON:0000002,uterine cervix,uterine cervix (Anatomy). bto_id: BTO:0001421. mesh_id: D002584,BTO:0001421,CC BY 3.0,D002584,Uberon,http://purl.obolibrary.org/obo/UBERON_0000002
+UBERON:0000974,neck,neck (Anatomy). bto_id: BTO:0000420. mesh_id: D009333,BTO:0000420,CC BY 3.0,D009333,Uberon,http://purl.obolibrary.org/obo/UBERON_0000974
+UBERON:0001627,middle cerebral artery,middle cerebral artery (Anatomy). bto_id: BTO:0005206. mesh_id: D020768,BTO:0005206,CC BY 3.0,D020768,Uberon,http://purl.obolibrary.org/obo/UBERON_0001627
+UBERON:0002110,gall bladder,gall bladder (Anatomy). bto_id: BTO:0000493. mesh_id: D005704,BTO:0000493,CC BY 3.0,D005704,Uberon,http://purl.obolibrary.org/obo/UBERON_0002110
+UBERON:0001647,facial nerve,facial nerve (Anatomy). mesh_id: D005154,,CC BY 3.0,D005154,Uberon,http://purl.obolibrary.org/obo/UBERON_0001647
+UBERON:0001737,larynx,larynx (Anatomy). bto_id: BTO:0001208. mesh_id: D007830,BTO:0001208,CC BY 3.0,D007830,Uberon,http://purl.obolibrary.org/obo/UBERON_0001737
+UBERON:0000966,retina,retina (Anatomy). bto_id: BTO:0001175. mesh_id: D012160,BTO:0001175,CC BY 3.0,D012160,Uberon,http://purl.obolibrary.org/obo/UBERON_0000966
+UBERON:0000989,penis,penis (Anatomy). bto_id: BTO:0000405. mesh_id: D010413,BTO:0000405,CC BY 3.0,D010413,Uberon,http://purl.obolibrary.org/obo/UBERON_0000989
+UBERON:0000474,female reproductive system,female reproductive system (Anatomy). bto_id: BTO:0000083. mesh_id: D005836,BTO:0000083,CC BY 3.0,D005836,Uberon,http://purl.obolibrary.org/obo/UBERON_0000474
+UBERON:0001981,blood vessel,blood vessel (Anatomy). bto_id: BTO:0001102. mesh_id: D001808,BTO:0001102,CC BY 3.0,D001808,Uberon,http://purl.obolibrary.org/obo/UBERON_0001981
+UBERON:0001887,internal capsule of telencephalon,internal capsule of telencephalon (Anatomy). mesh_id: D020772,,CC BY 3.0,D020772,Uberon,http://purl.obolibrary.org/obo/UBERON_0001887
+UBERON:0000964,cornea,cornea (Anatomy). bto_id: BTO:0000286. mesh_id: D003315,BTO:0000286,CC BY 3.0,D003315,Uberon,http://purl.obolibrary.org/obo/UBERON_0000964
+UBERON:0001989,superior cervical ganglion,superior cervical ganglion (Anatomy). bto_id: BTO:0001325. mesh_id: D017783,BTO:0001325,CC BY 3.0,D017783,Uberon,http://purl.obolibrary.org/obo/UBERON_0001989
+UBERON:0002422,fourth ventricle,fourth ventricle (Anatomy). bto_id: BTO:0003426. mesh_id: D020546,BTO:0003426,CC BY 3.0,D020546,Uberon,http://purl.obolibrary.org/obo/UBERON_0002422
+UBERON:0002048,lung,lung (Anatomy). bto_id: BTO:0000763. mesh_id: D008168,BTO:0000763,CC BY 3.0,D008168,Uberon,http://purl.obolibrary.org/obo/UBERON_0002048
+UBERON:0000004,nose,nose (Anatomy). bto_id: BTO:0000840. mesh_id: D009666,BTO:0000840,CC BY 3.0,D009666,Uberon,http://purl.obolibrary.org/obo/UBERON_0000004
+UBERON:0001323,tibial nerve,tibial nerve (Anatomy). mesh_id: D013979,,CC BY 3.0,D013979,Uberon,http://purl.obolibrary.org/obo/UBERON_0001323
+UBERON:0001237,paraaortic body,paraaortic body (Anatomy). mesh_id: D010220,,CC BY 3.0,D010220,Uberon,http://purl.obolibrary.org/obo/UBERON_0001237
+UBERON:0002303,juxtaglomerular apparatus,juxtaglomerular apparatus (Anatomy). mesh_id: D007606,,CC BY 3.0,D007606,Uberon,http://purl.obolibrary.org/obo/UBERON_0002303
+UBERON:0002523,tunica intima,tunica intima (Anatomy). bto_id: BTO:0002012. mesh_id: D017539,BTO:0002012,CC BY 3.0,D017539,Uberon,http://purl.obolibrary.org/obo/UBERON_0002523
+UBERON:0001228,renal papilla,renal papilla (Anatomy). bto_id: BTO:0003925. mesh_id: D007679,BTO:0003925,CC BY 3.0,D007679,Uberon,http://purl.obolibrary.org/obo/UBERON_0001228
+UBERON:0002515,periosteum,periosteum (Anatomy). bto_id: BTO:0001022. mesh_id: D010521,BTO:0001022,CC BY 3.0,D010521,Uberon,http://purl.obolibrary.org/obo/UBERON_0002515
+UBERON:0001884,phrenic nerve,phrenic nerve (Anatomy). bto_id: BTO:0001063. mesh_id: D010791,BTO:0001063,CC BY 3.0,D010791,Uberon,http://purl.obolibrary.org/obo/UBERON_0001884
+UBERON:0002185,bronchus,bronchus (Anatomy). bto_id: BTO:0001340. mesh_id: D001980,BTO:0001340,CC BY 3.0,D001980,Uberon,http://purl.obolibrary.org/obo/UBERON_0002185
+UBERON:0002250,popliteal artery,popliteal artery (Anatomy). mesh_id: D011150,,CC BY 3.0,D011150,Uberon,http://purl.obolibrary.org/obo/UBERON_0002250
+UBERON:0002060,femoral artery,femoral artery (Anatomy). bto_id: BTO:0001624. mesh_id: D005263,BTO:0001624,CC BY 3.0,D005263,Uberon,http://purl.obolibrary.org/obo/UBERON_0002060
+UBERON:0002397,maxilla,maxilla (Anatomy). mesh_id: D008437,,CC BY 3.0,D008437,Uberon,http://purl.obolibrary.org/obo/UBERON_0002397
+UBERON:0001300,scrotum,scrotum (Anatomy). bto_id: BTO:0003098. mesh_id: D012611,BTO:0003098,CC BY 3.0,D012611,Uberon,http://purl.obolibrary.org/obo/UBERON_0001300
+UBERON:0001460,arm,arm (Anatomy). bto_id: BTO:0001435. mesh_id: D001132,BTO:0001435,CC BY 3.0,D001132,Uberon,http://purl.obolibrary.org/obo/UBERON_0001460
+UBERON:0002018,synovial membrane of synovial joint,synovial membrane of synovial joint (Anatomy). bto_id: BTO:0001823. mesh_id: D013583,BTO:0001823,CC BY 3.0,D013583,Uberon,http://purl.obolibrary.org/obo/UBERON_0002018
+UBERON:0002439,myenteric nerve plexus,myenteric nerve plexus (Anatomy). bto_id: BTO:0002436. mesh_id: D009197,BTO:0002436,CC BY 3.0,D009197,Uberon,http://purl.obolibrary.org/obo/UBERON_0002439
+UBERON:0000992,female gonad,female gonad (Anatomy). bto_id: BTO:0000975. mesh_id: D010053,BTO:0000975,CC BY 3.0,D010053,Uberon,http://purl.obolibrary.org/obo/UBERON_0000992
+UBERON:0000473,testis,testis (Anatomy). bto_id: BTO:0001363. mesh_id: D013737,BTO:0001363,CC BY 3.0,D013737,Uberon,http://purl.obolibrary.org/obo/UBERON_0000473
+UBERON:0001716,secondary palate,secondary palate (Anatomy). bto_id: BTO:0001779. mesh_id: D010159,BTO:0001779,CC BY 3.0,D010159,Uberon,http://purl.obolibrary.org/obo/UBERON_0001716
+UBERON:0002294,biliary system,biliary system (Anatomy). mesh_id: D001659,,CC BY 3.0,D001659,Uberon,http://purl.obolibrary.org/obo/UBERON_0002294
+UBERON:0002129,cerebellar cortex,cerebellar cortex (Anatomy). bto_id: BTO:0000043. mesh_id: D002525,BTO:0000043,CC BY 3.0,D002525,Uberon,http://purl.obolibrary.org/obo/UBERON_0002129
+UBERON:0001011,hemolymph,hemolymph (Anatomy). bto_id: BTO:0000572. mesh_id: D006458,BTO:0000572,CC BY 3.0,D006458,Uberon,http://purl.obolibrary.org/obo/UBERON_0001011
+UBERON:0002360,meninx,meninx (Anatomy). bto_id: BTO:0000144. mesh_id: D008578,BTO:0000144,CC BY 3.0,D008578,Uberon,http://purl.obolibrary.org/obo/UBERON_0002360
+UBERON:0001105,clavicle bone,clavicle bone (Anatomy). mesh_id: D002968,,CC BY 3.0,D002968,Uberon,http://purl.obolibrary.org/obo/UBERON_0001105
+UBERON:0001620,central retinal artery,central retinal artery (Anatomy). mesh_id: D012161,,CC BY 3.0,D012161,Uberon,http://purl.obolibrary.org/obo/UBERON_0001620
+UBERON:0001702,eyelash,eyelash (Anatomy). mesh_id: D005140,,CC BY 3.0,D005140,Uberon,http://purl.obolibrary.org/obo/UBERON_0001702
+UBERON:0002521,elastic tissue,elastic tissue (Anatomy). mesh_id: D004547,,CC BY 3.0,D004547,Uberon,http://purl.obolibrary.org/obo/UBERON_0002521
+UBERON:0003129,skull,skull (Anatomy). bto_id: BTO:0001295. mesh_id: D012886,BTO:0001295,CC BY 3.0,D012886,Uberon,http://purl.obolibrary.org/obo/UBERON_0003129
+UBERON:0002282,stria vascularis of cochlear duct,stria vascularis of cochlear duct (Anatomy). bto_id: BTO:0001819. mesh_id: D013316,BTO:0001819,CC BY 3.0,D013316,Uberon,http://purl.obolibrary.org/obo/UBERON_0002282
+UBERON:0001649,glossopharyngeal nerve,glossopharyngeal nerve (Anatomy). bto_id: BTO:0004979. mesh_id: D005930,BTO:0004979,CC BY 3.0,D005930,Uberon,http://purl.obolibrary.org/obo/UBERON_0001649
+UBERON:0002516,epiphyseal plate,epiphyseal plate (Anatomy). bto_id: BTO:0000412. mesh_id: D006132,BTO:0000412,CC BY 3.0,D006132,Uberon,http://purl.obolibrary.org/obo/UBERON_0002516
+UBERON:0002441,cervicothoracic ganglion,cervicothoracic ganglion (Anatomy). bto_id: BTO:0001815. mesh_id: D013233,BTO:0001815,CC BY 3.0,D013233,Uberon,http://purl.obolibrary.org/obo/UBERON_0002441
+UBERON:0000982,skeletal joint,skeletal joint (Anatomy). bto_id: BTO:0001686. mesh_id: D007596,BTO:0001686,CC BY 3.0,D007596,Uberon,http://purl.obolibrary.org/obo/UBERON_0000982
+UBERON:0001815,lumbosacral nerve plexus,lumbosacral nerve plexus (Anatomy). mesh_id: D008160,,CC BY 3.0,D008160,Uberon,http://purl.obolibrary.org/obo/UBERON_0001815
+UBERON:0002394,bile duct,bile duct (Anatomy). bto_id: BTO:0000122. mesh_id: D001652,BTO:0000122,CC BY 3.0,D001652,Uberon,http://purl.obolibrary.org/obo/UBERON_0002394
+UBERON:0001003,skin epidermis,skin epidermis (Anatomy). bto_id: BTO:0000404. mesh_id: D004817,BTO:0000404,CC BY 3.0,D004817,Uberon,http://purl.obolibrary.org/obo/UBERON_0001003
+UBERON:0002286,third ventricle,third ventricle (Anatomy). mesh_id: D020542,,CC BY 3.0,D020542,Uberon,http://purl.obolibrary.org/obo/UBERON_0002286
+UBERON:0001685,hyoid bone,hyoid bone (Anatomy). mesh_id: D006928,,CC BY 3.0,D006928,Uberon,http://purl.obolibrary.org/obo/UBERON_0001685
+UBERON:0002066,umbilical vein,umbilical vein (Anatomy). bto_id: BTO:0001509. mesh_id: D014471,BTO:0001509,CC BY 3.0,D014471,Uberon,http://purl.obolibrary.org/obo/UBERON_0002066
+UBERON:0000988,pons,pons (Anatomy). bto_id: BTO:0001101. mesh_id: D011149,BTO:0001101,CC BY 3.0,D011149,Uberon,http://purl.obolibrary.org/obo/UBERON_0000988
+UBERON:0004727,cochlear nerve,cochlear nerve (Anatomy). bto_id: BTO:0003490. mesh_id: D003056,BTO:0003490,CC BY 3.0,D003056,Uberon,http://purl.obolibrary.org/obo/UBERON_0004727
+UBERON:0002082,cardiac ventricle,cardiac ventricle (Anatomy). bto_id: BTO:0000862. mesh_id: D006352,BTO:0000862,CC BY 3.0,D006352,Uberon,http://purl.obolibrary.org/obo/UBERON_0002082
+UBERON:0002367,prostate gland,prostate gland (Anatomy). bto_id: BTO:0001129. mesh_id: D011467,BTO:0001129,CC BY 3.0,D011467,Uberon,http://purl.obolibrary.org/obo/UBERON_0002367
+UBERON:0001486,hip joint,hip joint (Anatomy). bto_id: BTO:0001502. mesh_id: D006621,BTO:0001502,CC BY 3.0,D006621,Uberon,http://purl.obolibrary.org/obo/UBERON_0001486
+UBERON:0002148,locus ceruleus,locus ceruleus (Anatomy). bto_id: BTO:0001408. mesh_id: D008125,BTO:0001408,CC BY 3.0,D008125,Uberon,http://purl.obolibrary.org/obo/UBERON_0002148
+UBERON:0001267,femoral nerve,femoral nerve (Anatomy). mesh_id: D005267,,CC BY 3.0,D005267,Uberon,http://purl.obolibrary.org/obo/UBERON_0001267
+UBERON:0001529,brachiocephalic artery,brachiocephalic artery (Anatomy). mesh_id: D016122,,CC BY 3.0,D016122,Uberon,http://purl.obolibrary.org/obo/UBERON_0001529
+UBERON:0000211,ligament,ligament (Anatomy). mesh_id: D008022,,CC BY 3.0,D008022,Uberon,http://purl.obolibrary.org/obo/UBERON_0000211
+UBERON:0002466,intestine secretion,intestine secretion (Anatomy). bto_id: BTO:0000644. mesh_id: D007419,BTO:0000644,CC BY 3.0,D007419,Uberon,http://purl.obolibrary.org/obo/UBERON_0002466
+UBERON:0002944,spinothalamic tract of medulla,spinothalamic tract of medulla (Anatomy). mesh_id: D013133,,CC BY 3.0,D013133,Uberon,http://purl.obolibrary.org/obo/UBERON_0002944
+UBERON:0000033,head,head (Anatomy). bto_id: BTO:0000282. mesh_id: D006257,BTO:0000282,CC BY 3.0,D006257,Uberon,http://purl.obolibrary.org/obo/UBERON_0000033
+UBERON:0000165,mouth,mouth (Anatomy). bto_id: BTO:0001090. mesh_id: D009055,BTO:0001090,CC BY 3.0,D009055,Uberon,http://purl.obolibrary.org/obo/UBERON_0000165
+UBERON:0002019,accessory XI nerve,accessory XI nerve (Anatomy). mesh_id: D000055,,CC BY 3.0,D000055,Uberon,http://purl.obolibrary.org/obo/UBERON_0002019
+UBERON:0001485,knee joint,knee joint (Anatomy). mesh_id: D007719,,CC BY 3.0,D007719,Uberon,http://purl.obolibrary.org/obo/UBERON_0001485
+UBERON:0002102,forelimb,forelimb (Anatomy). bto_id: BTO:0001729. mesh_id: D005552,BTO:0001729,CC BY 3.0,D005552,Uberon,http://purl.obolibrary.org/obo/UBERON_0002102
+UBERON:0002349,myocardium,myocardium (Anatomy). bto_id: BTO:0000901. mesh_id: D009206,BTO:0000901,CC BY 3.0,D009206,Uberon,http://purl.obolibrary.org/obo/UBERON_0002349
+UBERON:0001594,azygos vein,azygos vein (Anatomy). mesh_id: D001401,,CC BY 3.0,D001401,Uberon,http://purl.obolibrary.org/obo/UBERON_0001594
+UBERON:0001821,sebaceous gland,sebaceous gland (Anatomy). bto_id: BTO:0001980. mesh_id: D012627,BTO:0001980,CC BY 3.0,D012627,Uberon,http://purl.obolibrary.org/obo/UBERON_0001821
+UBERON:0002494,papillary muscle of heart,papillary muscle of heart (Anatomy). mesh_id: D010210,,CC BY 3.0,D010210,Uberon,http://purl.obolibrary.org/obo/UBERON_0002494
+UBERON:0002046,thyroid gland,thyroid gland (Anatomy). bto_id: BTO:0001379. mesh_id: D013961,BTO:0001379,CC BY 3.0,D013961,Uberon,http://purl.obolibrary.org/obo/UBERON_0002046
+UBERON:0001456,face,face (Anatomy). bto_id: BTO:0003369. mesh_id: D005145,BTO:0003369,CC BY 3.0,D005145,Uberon,http://purl.obolibrary.org/obo/UBERON_0001456
+UBERON:0002055,zona reticularis of adrenal gland,zona reticularis of adrenal gland (Anatomy). mesh_id: D015385,,CC BY 3.0,D015385,Uberon,http://purl.obolibrary.org/obo/UBERON_0002055
+UBERON:0000029,lymph node,lymph node (Anatomy). bto_id: BTO:0000784. mesh_id: D008198,BTO:0000784,CC BY 3.0,D008198,Uberon,http://purl.obolibrary.org/obo/UBERON_0000029
+UBERON:0002016,pulmonary vein,pulmonary vein (Anatomy). bto_id: BTO:0001799. mesh_id: D011667,BTO:0001799,CC BY 3.0,D011667,Uberon,http://purl.obolibrary.org/obo/UBERON_0002016
+UBERON:0002517,basicranium,basicranium (Anatomy). mesh_id: D019291,,CC BY 3.0,D019291,Uberon,http://purl.obolibrary.org/obo/UBERON_0002517
+UBERON:0001348,brown adipose tissue,brown adipose tissue (Anatomy). bto_id: BTO:0000156. mesh_id: D002001,BTO:0000156,CC BY 3.0,D002001,Uberon,http://purl.obolibrary.org/obo/UBERON_0001348
+UBERON:0002356,perineum,perineum (Anatomy). mesh_id: D010502,,CC BY 3.0,D010502,Uberon,http://purl.obolibrary.org/obo/UBERON_0002356
+UBERON:0002502,round window of inner ear,round window of inner ear (Anatomy). mesh_id: D012405,,CC BY 3.0,D012405,Uberon,http://purl.obolibrary.org/obo/UBERON_0002502
+UBERON:0002386,forelimb zeugopod,forelimb zeugopod (Anatomy). bto_id: BTO:0001447. mesh_id: D005542,BTO:0001447,CC BY 3.0,D005542,Uberon,http://purl.obolibrary.org/obo/UBERON_0002386
+UBERON:0002925,trigeminal nucleus,trigeminal nucleus (Anatomy). bto_id: BTO:0001074. mesh_id: D014278,BTO:0001074,CC BY 3.0,D014278,Uberon,http://purl.obolibrary.org/obo/UBERON_0002925
+UBERON:0001175,common hepatic duct,common hepatic duct (Anatomy). mesh_id: D006500,,CC BY 3.0,D006500,Uberon,http://purl.obolibrary.org/obo/UBERON_0001175
+UBERON:0002162,area postrema,area postrema (Anatomy). bto_id: BTO:0003425. mesh_id: D031608,BTO:0003425,CC BY 3.0,D031608,Uberon,http://purl.obolibrary.org/obo/UBERON_0002162
+UBERON:0001733,soft palate,soft palate (Anatomy). mesh_id: D010160,,CC BY 3.0,D010160,Uberon,http://purl.obolibrary.org/obo/UBERON_0001733
+UBERON:0001673,central retinal vein,central retinal vein (Anatomy). mesh_id: D012169,,CC BY 3.0,D012169,Uberon,http://purl.obolibrary.org/obo/UBERON_0001673
+UBERON:0001846,internal ear,internal ear (Anatomy). bto_id: BTO:0000630. mesh_id: D007758,BTO:0000630,CC BY 3.0,D007758,Uberon,http://purl.obolibrary.org/obo/UBERON_0001846
+UBERON:0001183,inferior mesenteric artery,inferior mesenteric artery (Anatomy). bto_id: BTO:0002302. mesh_id: D017537,BTO:0002302,CC BY 3.0,D017537,Uberon,http://purl.obolibrary.org/obo/UBERON_0001183
+UBERON:0002099,cardiac septum,cardiac septum (Anatomy). mesh_id: D006346,,CC BY 3.0,D006346,Uberon,http://purl.obolibrary.org/obo/UBERON_0002099
+UBERON:0001644,trochlear nerve,trochlear nerve (Anatomy). mesh_id: D014321,,CC BY 3.0,D014321,Uberon,http://purl.obolibrary.org/obo/UBERON_0001644
+UBERON:0001700,geniculate ganglion,geniculate ganglion (Anatomy). mesh_id: D005830,,CC BY 3.0,D005830,Uberon,http://purl.obolibrary.org/obo/UBERON_0001700
+UBERON:0001140,renal vein,renal vein (Anatomy). bto_id: BTO:0002681. mesh_id: D012082,BTO:0002681,CC BY 3.0,D012082,Uberon,http://purl.obolibrary.org/obo/UBERON_0001140
+UBERON:0001768,uvea,uvea (Anatomy). mesh_id: D014602,,CC BY 3.0,D014602,Uberon,http://purl.obolibrary.org/obo/UBERON_0001768
+UBERON:0001295,endometrium,endometrium (Anatomy). bto_id: BTO:0001422. mesh_id: D004717,BTO:0001422,CC BY 3.0,D004717,Uberon,http://purl.obolibrary.org/obo/UBERON_0001295
+UBERON:0002107,liver,liver (Anatomy). bto_id: BTO:0000759. mesh_id: D008099,BTO:0000759,CC BY 3.0,D008099,Uberon,http://purl.obolibrary.org/obo/UBERON_0002107
+UBERON:0001772,corneal epithelium,corneal epithelium (Anatomy). bto_id: BTO:0000287. mesh_id: D019573,BTO:0000287,CC BY 3.0,D019573,Uberon,http://purl.obolibrary.org/obo/UBERON_0001772
+UBERON:0001283,bile canaliculus,bile canaliculus (Anatomy). bto_id: BTO:0002841. mesh_id: D001648,BTO:0002841,CC BY 3.0,D001648,Uberon,http://purl.obolibrary.org/obo/UBERON_0001283
+UBERON:0002405,immune system,immune system (Anatomy). mesh_id: D007107,,CC BY 3.0,D007107,Uberon,http://purl.obolibrary.org/obo/UBERON_0002405
+UBERON:0000056,ureter,ureter (Anatomy). bto_id: BTO:0001409. mesh_id: D014513,BTO:0001409,CC BY 3.0,D014513,Uberon,http://purl.obolibrary.org/obo/UBERON_0000056
+UBERON:0002137,aortic valve,aortic valve (Anatomy). bto_id: BTO:0004628. mesh_id: D001021,BTO:0004628,CC BY 3.0,D001021,Uberon,http://purl.obolibrary.org/obo/UBERON_0002137
+UBERON:0001844,cochlea,cochlea (Anatomy). bto_id: BTO:0000267. mesh_id: D003051,BTO:0000267,CC BY 3.0,D003051,Uberon,http://purl.obolibrary.org/obo/UBERON_0001844
+UBERON:0001184,renal artery,renal artery (Anatomy). bto_id: BTO:0001165. mesh_id: D012077,BTO:0001165,CC BY 3.0,D012077,Uberon,http://purl.obolibrary.org/obo/UBERON_0001184
+UBERON:0002673,vestibular nuclear complex,vestibular nuclear complex (Anatomy). bto_id: BTO:0004368. mesh_id: D014726,BTO:0004368,CC BY 3.0,D014726,Uberon,http://purl.obolibrary.org/obo/UBERON_0002673
+UBERON:0001969,blood plasma,blood plasma (Anatomy). bto_id: BTO:0000131. mesh_id: D010949,BTO:0000131,CC BY 3.0,D010949,Uberon,http://purl.obolibrary.org/obo/UBERON_0001969
+UBERON:0001585,anterior vena cava,anterior vena cava (Anatomy). bto_id: BTO:0002683. mesh_id: D014683,BTO:0002683,CC BY 3.0,D014683,Uberon,http://purl.obolibrary.org/obo/UBERON_0001585
+UBERON:0002392,nasolacrimal duct,nasolacrimal duct (Anatomy). mesh_id: D009301,,CC BY 3.0,D009301,Uberon,http://purl.obolibrary.org/obo/UBERON_0002392
+UBERON:0001064,ventral pancreatic duct,ventral pancreatic duct (Anatomy). bto_id: BTO:0002362. mesh_id: D010183,BTO:0002362,CC BY 3.0,D010183,Uberon,http://purl.obolibrary.org/obo/UBERON_0001064
+UBERON:0002413,cervical vertebra,cervical vertebra (Anatomy). mesh_id: D002574,,CC BY 3.0,D002574,Uberon,http://purl.obolibrary.org/obo/UBERON_0002413
+UBERON:0002501,oval window,oval window (Anatomy). mesh_id: D010046,,CC BY 3.0,D010046,Uberon,http://purl.obolibrary.org/obo/UBERON_0002501
+UBERON:0001707,nasal cavity,nasal cavity (Anatomy). bto_id: BTO:0002096. mesh_id: D009296,BTO:0002096,CC BY 3.0,D009296,Uberon,http://purl.obolibrary.org/obo/UBERON_0001707
+UBERON:0000995,uterus,uterus (Anatomy). bto_id: BTO:0001424. mesh_id: D014599,BTO:0001424,CC BY 3.0,D014599,Uberon,http://purl.obolibrary.org/obo/UBERON_0000995
+UBERON:0002134,tricuspid valve,tricuspid valve (Anatomy). mesh_id: D014261,,CC BY 3.0,D014261,Uberon,http://purl.obolibrary.org/obo/UBERON_0002134
+UBERON:0004769,diaphysis,diaphysis (Anatomy). mesh_id: D018483,,CC BY 3.0,D018483,Uberon,http://purl.obolibrary.org/obo/UBERON_0004769
+UBERON:0002299,alveolus of lung,alveolus of lung (Anatomy). bto_id: BTO:0000060. mesh_id: D011650,BTO:0000060,CC BY 3.0,D011650,Uberon,http://purl.obolibrary.org/obo/UBERON_0002299
+UBERON:0001773,sclera,sclera (Anatomy). bto_id: BTO:0001606. mesh_id: D012590,BTO:0001606,CC BY 3.0,D012590,Uberon,http://purl.obolibrary.org/obo/UBERON_0001773
+UBERON:0001677,sphenoid bone,sphenoid bone (Anatomy). mesh_id: D013100,,CC BY 3.0,D013100,Uberon,http://purl.obolibrary.org/obo/UBERON_0001677
+UBERON:0002354,purkinje fiber,purkinje fiber (Anatomy). bto_id: BTO:0001735. mesh_id: D011690,BTO:0001735,CC BY 3.0,D011690,Uberon,http://purl.obolibrary.org/obo/UBERON_0002354
+UBERON:0001598,temporalis muscle,temporalis muscle (Anatomy). mesh_id: D013703,,CC BY 3.0,D013703,Uberon,http://purl.obolibrary.org/obo/UBERON_0001598
+UBERON:0001771,pupil,pupil (Anatomy). mesh_id: D011680,,CC BY 3.0,D011680,Uberon,http://purl.obolibrary.org/obo/UBERON_0001771
+UBERON:0002103,hindlimb,hindlimb (Anatomy). bto_id: BTO:0002345. mesh_id: D006614,BTO:0002345,CC BY 3.0,D006614,Uberon,http://purl.obolibrary.org/obo/UBERON_0002103
+UBERON:0001296,myometrium,myometrium (Anatomy). bto_id: BTO:0000907. mesh_id: D009215,BTO:0000907,CC BY 3.0,D009215,Uberon,http://purl.obolibrary.org/obo/UBERON_0001296
+UBERON:0001530,common carotid artery plus branches,common carotid artery plus branches (Anatomy). mesh_id: D017536,,CC BY 3.0,D017536,Uberon,http://purl.obolibrary.org/obo/UBERON_0001530
+UBERON:0002226,basilar membrane of cochlea,basilar membrane of cochlea (Anatomy). mesh_id: D001489,,CC BY 3.0,D001489,Uberon,http://purl.obolibrary.org/obo/UBERON_0002226
+UBERON:0001532,internal carotid artery,internal carotid artery (Anatomy). bto_id: BTO:0004697. mesh_id: D002343,BTO:0004697,CC BY 3.0,D002343,Uberon,http://purl.obolibrary.org/obo/UBERON_0001532
+UBERON:0001132,parathyroid gland,parathyroid gland (Anatomy). bto_id: BTO:0000997. mesh_id: D010280,BTO:0000997,CC BY 3.0,D010280,Uberon,http://purl.obolibrary.org/obo/UBERON_0001132
+UBERON:0001365,sacro-iliac joint,sacro-iliac joint (Anatomy). mesh_id: D012446,,CC BY 3.0,D012446,Uberon,http://purl.obolibrary.org/obo/UBERON_0001365
+UBERON:0002387,pes,pes (Anatomy). bto_id: BTO:0000476. mesh_id: D005528,BTO:0000476,CC BY 3.0,D005528,Uberon,http://purl.obolibrary.org/obo/UBERON_0002387
+UBERON:0002410,autonomic nervous system,autonomic nervous system (Anatomy). bto_id: BTO:0002507. mesh_id: D001341,BTO:0002507,CC BY 3.0,D001341,Uberon,http://purl.obolibrary.org/obo/UBERON_0002410
+UBERON:0001624,anterior cerebral artery,anterior cerebral artery (Anatomy). mesh_id: D020771,,CC BY 3.0,D020771,Uberon,http://purl.obolibrary.org/obo/UBERON_0001624
+UBERON:0001000,vas deferens,vas deferens (Anatomy). bto_id: BTO:0001427. mesh_id: D014649,BTO:0001427,CC BY 3.0,D014649,Uberon,http://purl.obolibrary.org/obo/UBERON_0001000
+UBERON:0001037,strand of hair,strand of hair (Anatomy). bto_id: BTO:0001501. mesh_id: D006197,BTO:0001501,CC BY 3.0,D006197,Uberon,http://purl.obolibrary.org/obo/UBERON_0001037
+UBERON:0001896,medulla oblongata,medulla oblongata (Anatomy). bto_id: BTO:0000041. mesh_id: D008526,BTO:0000041,CC BY 3.0,D008526,Uberon,http://purl.obolibrary.org/obo/UBERON_0001896
+UBERON:0001679,ethmoid bone,ethmoid bone (Anatomy). bto_id: BTO:0004140. mesh_id: D005004,BTO:0004140,CC BY 3.0,D005004,Uberon,http://purl.obolibrary.org/obo/UBERON_0001679
+UBERON:0001968,semen,semen (Anatomy). bto_id: BTO:0001230. mesh_id: D012661,BTO:0001230,CC BY 3.0,D012661,Uberon,http://purl.obolibrary.org/obo/UBERON_0001968
+UBERON:0001322,sciatic nerve,sciatic nerve (Anatomy). bto_id: BTO:0001221. mesh_id: D012584,BTO:0001221,CC BY 3.0,D012584,Uberon,http://purl.obolibrary.org/obo/UBERON_0001322
+UBERON:0001750,lacrimal apparatus,lacrimal apparatus (Anatomy). mesh_id: D007765,,CC BY 3.0,D007765,Uberon,http://purl.obolibrary.org/obo/UBERON_0001750
+UBERON:0001832,sublingual gland,sublingual gland (Anatomy). bto_id: BTO:0001315. mesh_id: D013361,BTO:0001315,CC BY 3.0,D013361,Uberon,http://purl.obolibrary.org/obo/UBERON_0001832
+UBERON:0001288,loop of Henle,loop of Henle (Anatomy). bto_id: BTO:0004608. mesh_id: D008138,BTO:0004608,CC BY 3.0,D008138,Uberon,http://purl.obolibrary.org/obo/UBERON_0001288
+UBERON:0004535,cardiovascular system,cardiovascular system (Anatomy). bto_id: BTO:0000088. mesh_id: D002319,BTO:0000088,CC BY 3.0,D002319,Uberon,http://purl.obolibrary.org/obo/UBERON_0004535
+UBERON:0002368,endocrine gland,endocrine gland (Anatomy). bto_id: BTO:0001488. mesh_id: D004702,BTO:0001488,CC BY 3.0,D004702,Uberon,http://purl.obolibrary.org/obo/UBERON_0002368
+UBERON:0001492,radial nerve,radial nerve (Anatomy). mesh_id: D011826,,CC BY 3.0,D011826,Uberon,http://purl.obolibrary.org/obo/UBERON_0001492
+UBERON:0000013,sympathetic nervous system,sympathetic nervous system (Anatomy). bto_id: BTO:0001832. mesh_id: D013564,BTO:0001832,CC BY 3.0,D013564,Uberon,http://purl.obolibrary.org/obo/UBERON_0000013
+UBERON:0000978,leg,leg (Anatomy). bto_id: BTO:0000721. mesh_id: D035002,BTO:0000721,CC BY 3.0,D035002,Uberon,http://purl.obolibrary.org/obo/UBERON_0000978
+UBERON:0001600,tensor tympani,tensor tympani (Anatomy). mesh_id: D013719,,CC BY 3.0,D013719,Uberon,http://purl.obolibrary.org/obo/UBERON_0001600
+UBERON:0002353,atrioventricular bundle,atrioventricular bundle (Anatomy). mesh_id: D002036,,CC BY 3.0,D002036,Uberon,http://purl.obolibrary.org/obo/UBERON_0002353
+UBERON:0001825,paranasal sinus,paranasal sinus (Anatomy). mesh_id: D010256,,CC BY 3.0,D010256,Uberon,http://purl.obolibrary.org/obo/UBERON_0001825
+UBERON:0002205,manubrium of sternum,manubrium of sternum (Anatomy). mesh_id: D008371,,CC BY 3.0,D008371,Uberon,http://purl.obolibrary.org/obo/UBERON_0002205
+UBERON:0001636,posterior cerebral artery,posterior cerebral artery (Anatomy). mesh_id: D020769,,CC BY 3.0,D020769,Uberon,http://purl.obolibrary.org/obo/UBERON_0001636
+UBERON:0002275,reticular formation,reticular formation (Anatomy). mesh_id: D012154,,CC BY 3.0,D012154,Uberon,http://purl.obolibrary.org/obo/UBERON_0002275
+UBERON:0000042,serous membrane,serous membrane (Anatomy). mesh_id: D012704,,CC BY 3.0,D012704,Uberon,http://purl.obolibrary.org/obo/UBERON_0000042
+UBERON:0001535,vertebral artery,vertebral artery (Anatomy). mesh_id: D014711,,CC BY 3.0,D014711,Uberon,http://purl.obolibrary.org/obo/UBERON_0001535
+UBERON:0001016,nervous system,nervous system (Anatomy). bto_id: BTO:0001484. mesh_id: D009420,BTO:0001484,CC BY 3.0,D009420,Uberon,http://purl.obolibrary.org/obo/UBERON_0001016
+UBERON:0002366,bulbo-urethral gland,bulbo-urethral gland (Anatomy). bto_id: BTO:0001698. mesh_id: D002030,BTO:0001698,CC BY 3.0,D002030,Uberon,http://purl.obolibrary.org/obo/UBERON_0002366
+UBERON:0002053,zona glomerulosa of adrenal gland,zona glomerulosa of adrenal gland (Anatomy). bto_id: BTO:0000048. mesh_id: D015384,BTO:0000048,CC BY 3.0,D015384,Uberon,http://purl.obolibrary.org/obo/UBERON_0002053
+UBERON:0002418,cartilage tissue,cartilage tissue (Anatomy). bto_id: BTO:0000206. mesh_id: D002356,BTO:0000206,CC BY 3.0,D002356,Uberon,http://purl.obolibrary.org/obo/UBERON_0002418
+UBERON:0002028,hindbrain,hindbrain (Anatomy). bto_id: BTO:0000672. mesh_id: D012249,BTO:0000672,CC BY 3.0,D012249,Uberon,http://purl.obolibrary.org/obo/UBERON_0002028
+UBERON:0001711,eyelid,eyelid (Anatomy). bto_id: BTO:0002241. mesh_id: D005143,BTO:0002241,CC BY 3.0,D005143,Uberon,http://purl.obolibrary.org/obo/UBERON_0001711
+UBERON:0002040,bronchial artery,bronchial artery (Anatomy). mesh_id: D001981,,CC BY 3.0,D001981,Uberon,http://purl.obolibrary.org/obo/UBERON_0002040
+UBERON:0001864,scala tympani,scala tympani (Anatomy). mesh_id: D012533,,CC BY 3.0,D012533,Uberon,http://purl.obolibrary.org/obo/UBERON_0001864
+UBERON:0002228,rib,rib (Anatomy). mesh_id: D012272,,CC BY 3.0,D012272,Uberon,http://purl.obolibrary.org/obo/UBERON_0002228
+UBERON:0002113,kidney,kidney (Anatomy). bto_id: BTO:0000671. mesh_id: D007668,BTO:0000671,CC BY 3.0,D007668,Uberon,http://purl.obolibrary.org/obo/UBERON_0002113
+UBERON:0001072,posterior vena cava,posterior vena cava (Anatomy). bto_id: BTO:0002682. mesh_id: D014682,BTO:0002682,CC BY 3.0,D014682,Uberon,http://purl.obolibrary.org/obo/UBERON_0001072
+UBERON:0000996,vagina,vagina (Anatomy). bto_id: BTO:0000243. mesh_id: D014621,BTO:0000243,CC BY 3.0,D014621,Uberon,http://purl.obolibrary.org/obo/UBERON_0000996
+UBERON:0001895,metencephalon,metencephalon (Anatomy). bto_id: BTO:0000673. mesh_id: D020540,BTO:0000673,CC BY 3.0,D020540,Uberon,http://purl.obolibrary.org/obo/UBERON_0001895
+UBERON:0002067,dermis,dermis (Anatomy). bto_id: BTO:0000294. mesh_id: D020405,BTO:0000294,CC BY 3.0,D020405,Uberon,http://purl.obolibrary.org/obo/UBERON_0002067
+UBERON:0002497,acromion,acromion (Anatomy). mesh_id: D000174,,CC BY 3.0,D000174,Uberon,http://purl.obolibrary.org/obo/UBERON_0002497
+UBERON:0002297,cerumen,cerumen (Anatomy). mesh_id: D002571,,CC BY 3.0,D002571,Uberon,http://purl.obolibrary.org/obo/UBERON_0002297
+UBERON:0001031,sheath of Schwann,sheath of Schwann (Anatomy). bto_id: BTO:0003048. mesh_id: D009441,BTO:0003048,CC BY 3.0,D009441,Uberon,http://purl.obolibrary.org/obo/UBERON_0001031
+UBERON:0002030,nipple,nipple (Anatomy). bto_id: BTO:0000821. mesh_id: D009558,BTO:0000821,CC BY 3.0,D009558,Uberon,http://purl.obolibrary.org/obo/UBERON_0002030
+UBERON:0001827,secretion of lacrimal gland,secretion of lacrimal gland (Anatomy). bto_id: BTO:0001499. mesh_id: D013666,BTO:0001499,CC BY 3.0,D013666,Uberon,http://purl.obolibrary.org/obo/UBERON_0001827
+UBERON:0001090,synovial fluid,synovial fluid (Anatomy). bto_id: BTO:0001339. mesh_id: D013582,BTO:0001339,CC BY 3.0,D013582,Uberon,http://purl.obolibrary.org/obo/UBERON_0001090
+UBERON:0001762,turbinate bone,turbinate bone (Anatomy). mesh_id: D014420,,CC BY 3.0,D014420,Uberon,http://purl.obolibrary.org/obo/UBERON_0001762
+UBERON:0003889,fallopian tube,fallopian tube (Anatomy). mesh_id: D005187,,CC BY 3.0,D005187,Uberon,http://purl.obolibrary.org/obo/UBERON_0003889
+UBERON:0001067,vertebral arch joint,vertebral arch joint (Anatomy). mesh_id: D021801,,CC BY 3.0,D021801,Uberon,http://purl.obolibrary.org/obo/UBERON_0001067
+UBERON:0001769,iris,iris (Anatomy). bto_id: BTO:0000653. mesh_id: D007498,BTO:0000653,CC BY 3.0,D007498,Uberon,http://purl.obolibrary.org/obo/UBERON_0001769
+UBERON:0001488,ankle joint,ankle joint (Anatomy). bto_id: BTO:0004706. mesh_id: D000843,BTO:0004706,CC BY 3.0,D000843,Uberon,http://purl.obolibrary.org/obo/UBERON_0001488
+UBERON:0001785,cranial nerve,cranial nerve (Anatomy). bto_id: BTO:0001104. mesh_id: D003391,BTO:0001104,CC BY 3.0,D003391,Uberon,http://purl.obolibrary.org/obo/UBERON_0001785
+UBERON:0001905,pineal body,pineal body (Anatomy). bto_id: BTO:0001067. mesh_id: D010870,BTO:0001067,CC BY 3.0,D010870,Uberon,http://purl.obolibrary.org/obo/UBERON_0001905
+UBERON:0002741,diagonal band of Broca,diagonal band of Broca (Anatomy). bto_id: BTO:0002445. mesh_id: D020667,BTO:0002445,CC BY 3.0,D020667,Uberon,http://purl.obolibrary.org/obo/UBERON_0002741
+UBERON:0001017,central nervous system,central nervous system (Anatomy). bto_id: BTO:0000227. mesh_id: D002490,BTO:0000227,CC BY 3.0,D002490,Uberon,http://purl.obolibrary.org/obo/UBERON_0001017
+UBERON:0001681,nasal bone,nasal bone (Anatomy). mesh_id: D009295,,CC BY 3.0,D009295,Uberon,http://purl.obolibrary.org/obo/UBERON_0001681
+UBERON:0001891,midbrain,midbrain (Anatomy). bto_id: BTO:0000138. mesh_id: D008636,BTO:0000138,CC BY 3.0,D008636,Uberon,http://purl.obolibrary.org/obo/UBERON_0001891
+UBERON:0002223,endolymphatic sac,endolymphatic sac (Anatomy). mesh_id: D004712,,CC BY 3.0,D004712,Uberon,http://purl.obolibrary.org/obo/UBERON_0002223
+UBERON:0001840,semicircular canal,semicircular canal (Anatomy). bto_id: BTO:0003383. mesh_id: D012665,BTO:0003383,CC BY 3.0,D012665,Uberon,http://purl.obolibrary.org/obo/UBERON_0001840
+UBERON:0001638,vein,vein (Anatomy). bto_id: BTO:0000234. mesh_id: D014680,BTO:0000234,CC BY 3.0,D014680,Uberon,http://purl.obolibrary.org/obo/UBERON_0001638
+UBERON:0001970,bile,bile (Anatomy). bto_id: BTO:0000121. mesh_id: D001646,BTO:0000121,CC BY 3.0,D001646,Uberon,http://purl.obolibrary.org/obo/UBERON_0001970
+UBERON:0000045,ganglion,ganglion (Anatomy). bto_id: BTO:0000497. mesh_id: D005724,BTO:0000497,CC BY 3.0,D005724,Uberon,http://purl.obolibrary.org/obo/UBERON_0000045
+UBERON:0002518,otolith organ,otolith organ (Anatomy). mesh_id: D012444,,CC BY 3.0,D012444,Uberon,http://purl.obolibrary.org/obo/UBERON_0002518
+UBERON:0000949,endocrine system,endocrine system (Anatomy). mesh_id: D004703,,CC BY 3.0,D004703,Uberon,http://purl.obolibrary.org/obo/UBERON_0000949
+UBERON:0002298,brainstem,brainstem (Anatomy). bto_id: BTO:0000146. mesh_id: D001933,BTO:0000146,CC BY 3.0,D001933,Uberon,http://purl.obolibrary.org/obo/UBERON_0002298
+UBERON:0001640,celiac artery,celiac artery (Anatomy). mesh_id: D002445,,CC BY 3.0,D002445,Uberon,http://purl.obolibrary.org/obo/UBERON_0001640
+UBERON:0001691,external ear,external ear (Anatomy). bto_id: BTO:0002100. mesh_id: D004431,BTO:0002100,CC BY 3.0,D004431,Uberon,http://purl.obolibrary.org/obo/UBERON_0001691
+UBERON:0000955,brain,brain (Anatomy). bto_id: BTO:0000142. mesh_id: D001921,BTO:0000142,CC BY 3.0,D001921,Uberon,http://purl.obolibrary.org/obo/UBERON_0000955
+UBERON:0002010,celiac nerve plexus,celiac nerve plexus (Anatomy). mesh_id: D002447,,CC BY 3.0,D002447,Uberon,http://purl.obolibrary.org/obo/UBERON_0002010
+UBERON:0001616,maxillary artery,maxillary artery (Anatomy). mesh_id: D008438,,CC BY 3.0,D008438,Uberon,http://purl.obolibrary.org/obo/UBERON_0001616
+UBERON:0001688,incus bone,incus bone (Anatomy). mesh_id: D007188,,CC BY 3.0,D007188,Uberon,http://purl.obolibrary.org/obo/UBERON_0001688
+UBERON:0001193,hepatic artery,hepatic artery (Anatomy). bto_id: BTO:0004307. mesh_id: D006499,BTO:0004307,CC BY 3.0,D006499,Uberon,http://purl.obolibrary.org/obo/UBERON_0001193
+UBERON:0000970,eye,eye (Anatomy). bto_id: BTO:0000439. mesh_id: D005123,BTO:0000439,CC BY 3.0,D005123,Uberon,http://purl.obolibrary.org/obo/UBERON_0000970
+UBERON:0001567,cheek,cheek (Anatomy). bto_id: BTO:0001754. mesh_id: D002610,BTO:0001754,CC BY 3.0,D002610,Uberon,http://purl.obolibrary.org/obo/UBERON_0001567
+UBERON:0001463,manual digit 1,manual digit 1 (Anatomy). mesh_id: D013933,,CC BY 3.0,D013933,Uberon,http://purl.obolibrary.org/obo/UBERON_0001463
+UBERON:0002414,lumbar vertebra,lumbar vertebra (Anatomy). mesh_id: D008159,,CC BY 3.0,D008159,Uberon,http://purl.obolibrary.org/obo/UBERON_0002414
+UBERON:0001490,elbow joint,elbow joint (Anatomy). mesh_id: D004551,,CC BY 3.0,D004551,Uberon,http://purl.obolibrary.org/obo/UBERON_0001490
+UBERON:0001675,trigeminal ganglion,trigeminal ganglion (Anatomy). bto_id: BTO:0001231. mesh_id: D012668,BTO:0001231,CC BY 3.0,D012668,Uberon,http://purl.obolibrary.org/obo/UBERON_0001675
+UBERON:0001646,abducens nerve,abducens nerve (Anatomy). mesh_id: D000010,,CC BY 3.0,D000010,Uberon,http://purl.obolibrary.org/obo/UBERON_0001646
+UBERON:0002165,endocardium,endocardium (Anatomy). bto_id: BTO:0000387. mesh_id: D004699,BTO:0000387,CC BY 3.0,D004699,Uberon,http://purl.obolibrary.org/obo/UBERON_0002165
+UBERON:0001687,stapes bone,stapes bone (Anatomy). mesh_id: D013199,,CC BY 3.0,D013199,Uberon,http://purl.obolibrary.org/obo/UBERON_0001687
+UBERON:0002361,pia mater,pia mater (Anatomy). bto_id: BTO:0001635. mesh_id: D010841,BTO:0001635,CC BY 3.0,D010841,Uberon,http://purl.obolibrary.org/obo/UBERON_0002361
+UBERON:0001479,sesamoid bone,sesamoid bone (Anatomy). mesh_id: D012716,,CC BY 3.0,D012716,Uberon,http://purl.obolibrary.org/obo/UBERON_0001479
+UBERON:0001988,feces,feces (Anatomy). bto_id: BTO:0000440. mesh_id: D005243,BTO:0000440,CC BY 3.0,D005243,Uberon,http://purl.obolibrary.org/obo/UBERON_0001988
+UBERON:0000011,parasympathetic nervous system,parasympathetic nervous system (Anatomy). bto_id: BTO:0001833. mesh_id: D010275,BTO:0001833,CC BY 3.0,D010275,Uberon,http://purl.obolibrary.org/obo/UBERON_0000011
+UBERON:0001577,facial muscle,facial muscle (Anatomy). mesh_id: D005152,,CC BY 3.0,D005152,Uberon,http://purl.obolibrary.org/obo/UBERON_0001577
+UBERON:0000993,oviduct,oviduct (Anatomy). bto_id: BTO:0000980. mesh_id: D010057,BTO:0000980,CC BY 3.0,D010057,Uberon,http://purl.obolibrary.org/obo/UBERON_0000993
+UBERON:0001464,hip,hip (Anatomy). bto_id: BTO:0001457. mesh_id: D006615,BTO:0001457,CC BY 3.0,D006615,Uberon,http://purl.obolibrary.org/obo/UBERON_0001464
+UBERON:0001783,optic disc,optic disc (Anatomy). mesh_id: D009898,,CC BY 3.0,D009898,Uberon,http://purl.obolibrary.org/obo/UBERON_0001783
+UBERON:0000977,pleura,pleura (Anatomy). bto_id: BTO:0001791. mesh_id: D010994,BTO:0001791,CC BY 3.0,D010994,Uberon,http://purl.obolibrary.org/obo/UBERON_0000977
+UBERON:0001780,spinal nerve,spinal nerve (Anatomy). bto_id: BTO:0000870. mesh_id: D013127,BTO:0000870,CC BY 3.0,D013127,Uberon,http://purl.obolibrary.org/obo/UBERON_0001780
+UBERON:0001599,stapedius muscle,stapedius muscle (Anatomy). mesh_id: D013198,,CC BY 3.0,D013198,Uberon,http://purl.obolibrary.org/obo/UBERON_0001599
+UBERON:0000043,tendon,tendon (Anatomy). bto_id: BTO:0001356. mesh_id: D013710,BTO:0001356,CC BY 3.0,D013710,Uberon,http://purl.obolibrary.org/obo/UBERON_0000043
+UBERON:0001235,adrenal cortex,adrenal cortex (Anatomy). bto_id: BTO:0000045. mesh_id: D000302,BTO:0000045,CC BY 3.0,D000302,Uberon,http://purl.obolibrary.org/obo/UBERON_0001235
+UBERON:0001225,cortex of kidney,cortex of kidney (Anatomy). bto_id: BTO:0001166. mesh_id: D007672,BTO:0001166,CC BY 3.0,D007672,Uberon,http://purl.obolibrary.org/obo/UBERON_0001225
+UBERON:0001805,autonomic ganglion,autonomic ganglion (Anatomy). mesh_id: D005725,,CC BY 3.0,D005725,Uberon,http://purl.obolibrary.org/obo/UBERON_0001805
+UBERON:0001734,palatine uvula,palatine uvula (Anatomy). mesh_id: D014609,,CC BY 3.0,D014609,Uberon,http://purl.obolibrary.org/obo/UBERON_0001734
+UBERON:0001343,seminiferous tubule of testis,seminiferous tubule of testis (Anatomy). bto_id: BTO:0001235. mesh_id: D012671,BTO:0001235,CC BY 3.0,D012671,Uberon,http://purl.obolibrary.org/obo/UBERON_0001343
+UBERON:0001914,colostrum,colostrum (Anatomy). bto_id: BTO:0000276. mesh_id: D003126,BTO:0000276,CC BY 3.0,D003126,Uberon,http://purl.obolibrary.org/obo/UBERON_0001914
+UBERON:0002362,arachnoid mater,arachnoid mater (Anatomy). bto_id: BTO:0001636. mesh_id: D001099,BTO:0001636,CC BY 3.0,D001099,Uberon,http://purl.obolibrary.org/obo/UBERON_0002362
+UBERON:0000959,optic chiasma,optic chiasma (Anatomy). mesh_id: D009897,,CC BY 3.0,D009897,Uberon,http://purl.obolibrary.org/obo/UBERON_0000959
+UBERON:0000483,epithelium,epithelium (Anatomy). bto_id: BTO:0000416. mesh_id: D004848,BTO:0000416,CC BY 3.0,D004848,Uberon,http://purl.obolibrary.org/obo/UBERON_0000483
+UBERON:0000007,pituitary gland,pituitary gland (Anatomy). bto_id: BTO:0001073. mesh_id: D010902,BTO:0001073,CC BY 3.0,D010902,Uberon,http://purl.obolibrary.org/obo/UBERON_0000007
+UBERON:0002012,pulmonary artery,pulmonary artery (Anatomy). bto_id: BTO:0000778. mesh_id: D011651,BTO:0000778,CC BY 3.0,D011651,Uberon,http://purl.obolibrary.org/obo/UBERON_0002012
+UBERON:0001089,sweat,sweat (Anatomy). bto_id: BTO:0001254. mesh_id: D013542,BTO:0001254,CC BY 3.0,D013542,Uberon,http://purl.obolibrary.org/obo/UBERON_0001089
+UBERON:0001231,nephron tubule,nephron tubule (Anatomy). bto_id: BTO:0000343. mesh_id: D007684,BTO:0000343,CC BY 3.0,D007684,Uberon,http://purl.obolibrary.org/obo/UBERON_0001231
+UBERON:0001833,lip,lip (Anatomy). bto_id: BTO:0001647. mesh_id: D008046,BTO:0001647,CC BY 3.0,D008046,Uberon,http://purl.obolibrary.org/obo/UBERON_0001833
+UBERON:0001986,endothelium,endothelium (Anatomy). bto_id: BTO:0000393. mesh_id: D004727,BTO:0000393,CC BY 3.0,D004727,Uberon,http://purl.obolibrary.org/obo/UBERON_0001986
+UBERON:0001831,parotid gland,parotid gland (Anatomy). bto_id: BTO:0001004. mesh_id: D010306,BTO:0001004,CC BY 3.0,D010306,Uberon,http://purl.obolibrary.org/obo/UBERON_0001831
+UBERON:0002037,cerebellum,cerebellum (Anatomy). bto_id: BTO:0000232. mesh_id: D002531,BTO:0000232,CC BY 3.0,D002531,Uberon,http://purl.obolibrary.org/obo/UBERON_0002037
+UBERON:0000948,heart,heart (Anatomy). bto_id: BTO:0000562. mesh_id: D006321,BTO:0000562,CC BY 3.0,D006321,Uberon,http://purl.obolibrary.org/obo/UBERON_0000948
+UBERON:0000998,seminal vesicle,seminal vesicle (Anatomy). bto_id: BTO:0001234. mesh_id: D012669,BTO:0001234,CC BY 3.0,D012669,Uberon,http://purl.obolibrary.org/obo/UBERON_0000998
+UBERON:0001224,renal pelvis,renal pelvis (Anatomy). mesh_id: D007682,,CC BY 3.0,D007682,Uberon,http://purl.obolibrary.org/obo/UBERON_0001224
+UBERON:0001285,nephron,nephron (Anatomy). bto_id: BTO:0000924. mesh_id: D009399,BTO:0000924,CC BY 3.0,D009399,Uberon,http://purl.obolibrary.org/obo/UBERON_0001285
+UBERON:0001232,collecting duct of renal tubule,collecting duct of renal tubule (Anatomy). bto_id: BTO:0000761. mesh_id: D007685,BTO:0000761,CC BY 3.0,D007685,Uberon,http://purl.obolibrary.org/obo/UBERON_0001232
+UBERON:0002130,cerebellar nuclear complex,cerebellar nuclear complex (Anatomy). mesh_id: D002529,,CC BY 3.0,D002529,Uberon,http://purl.obolibrary.org/obo/UBERON_0002130
+UBERON:0003216,hard palate,hard palate (Anatomy). mesh_id: D021362,,CC BY 3.0,D021362,Uberon,http://purl.obolibrary.org/obo/UBERON_0003216
+UBERON:0001893,telencephalon,telencephalon (Anatomy). bto_id: BTO:0000239. mesh_id: D013687,BTO:0000239,CC BY 3.0,D013687,Uberon,http://purl.obolibrary.org/obo/UBERON_0001893
+UBERON:0000999,ejaculatory duct,ejaculatory duct (Anatomy). bto_id: BTO:0001580. mesh_id: D004543,BTO:0001580,CC BY 3.0,D004543,Uberon,http://purl.obolibrary.org/obo/UBERON_0000999
+UBERON:0002384,connective tissue,connective tissue (Anatomy). bto_id: BTO:0000421. mesh_id: D003238,BTO:0000421,CC BY 3.0,D003238,Uberon,http://purl.obolibrary.org/obo/UBERON_0002384
+UBERON:0001818,tarsal gland,tarsal gland (Anatomy). bto_id: BTO:0004165. mesh_id: D008537,BTO:0004165,CC BY 3.0,D008537,Uberon,http://purl.obolibrary.org/obo/UBERON_0001818
+UBERON:0001985,corneal endothelium,corneal endothelium (Anatomy). mesh_id: D004728,,CC BY 3.0,D004728,Uberon,http://purl.obolibrary.org/obo/UBERON_0001985
+UBERON:0006849,scapula,scapula (Anatomy). bto_id: BTO:0001218. mesh_id: D012540,BTO:0001218,CC BY 3.0,D012540,Uberon,http://purl.obolibrary.org/obo/UBERON_0006849
+UBERON:0004452,carpal region,carpal region (Anatomy). mesh_id: D014953,,CC BY 3.0,D014953,Uberon,http://purl.obolibrary.org/obo/UBERON_0004452
+UBERON:0001836,saliva,saliva (Anatomy). bto_id: BTO:0001202. mesh_id: D012463,BTO:0001202,CC BY 3.0,D012463,Uberon,http://purl.obolibrary.org/obo/UBERON_0001836
+UBERON:0001855,cochlear duct of membranous labyrinth,cochlear duct of membranous labyrinth (Anatomy). bto_id: BTO:0001692. mesh_id: D003053,BTO:0001692,CC BY 3.0,D003053,Uberon,http://purl.obolibrary.org/obo/UBERON_0001855
+UBERON:0001174,common bile duct,common bile duct (Anatomy). mesh_id: D003135,,CC BY 3.0,D003135,Uberon,http://purl.obolibrary.org/obo/UBERON_0001174
+UBERON:0001710,lower jaw region,lower jaw region (Anatomy). mesh_id: D008334,,CC BY 3.0,D008334,Uberon,http://purl.obolibrary.org/obo/UBERON_0001710
+UBERON:0001398,brachial artery,brachial artery (Anatomy). mesh_id: D001916,,CC BY 3.0,D001916,Uberon,http://purl.obolibrary.org/obo/UBERON_0001398
+UBERON:0001633,basilar artery,basilar artery (Anatomy). mesh_id: D001488,,CC BY 3.0,D001488,Uberon,http://purl.obolibrary.org/obo/UBERON_0001633
+UBERON:0001786,fovea centralis,fovea centralis (Anatomy). mesh_id: D005584,,CC BY 3.0,D005584,Uberon,http://purl.obolibrary.org/obo/UBERON_0001786
+UBERON:0002363,dura mater,dura mater (Anatomy). bto_id: BTO:0001637. mesh_id: D004388,BTO:0001637,CC BY 3.0,D004388,Uberon,http://purl.obolibrary.org/obo/UBERON_0002363
+UBERON:0001361,femoral vein,femoral vein (Anatomy). mesh_id: D005268,,CC BY 3.0,D005268,Uberon,http://purl.obolibrary.org/obo/UBERON_0001361
+UBERON:0002279,vestibular aqueduct,vestibular aqueduct (Anatomy). mesh_id: D014723,,CC BY 3.0,D014723,Uberon,http://purl.obolibrary.org/obo/UBERON_0002279
+UBERON:0001678,temporal bone,temporal bone (Anatomy). mesh_id: D013701,,CC BY 3.0,D013701,Uberon,http://purl.obolibrary.org/obo/UBERON_0001678
+UBERON:0000010,peripheral nervous system,peripheral nervous system (Anatomy). bto_id: BTO:0001028. mesh_id: D017933,BTO:0001028,CC BY 3.0,D017933,Uberon,http://purl.obolibrary.org/obo/UBERON_0000010
+UBERON:0001465,knee,knee (Anatomy). bto_id: BTO:0003595. mesh_id: D007717,BTO:0003595,CC BY 3.0,D007717,Uberon,http://purl.obolibrary.org/obo/UBERON_0001465
+UBERON:0001756,middle ear,middle ear (Anatomy). bto_id: BTO:0002099. mesh_id: D004432,BTO:0002099,CC BY 3.0,D004432,Uberon,http://purl.obolibrary.org/obo/UBERON_0001756
+UBERON:0001516,abdominal aorta,abdominal aorta (Anatomy). bto_id: BTO:0002976. mesh_id: D001012,BTO:0002976,CC BY 3.0,D001012,Uberon,http://purl.obolibrary.org/obo/UBERON_0001516
+UBERON:0003126,trachea,trachea (Anatomy). bto_id: BTO:0001388. mesh_id: D014132,BTO:0001388,CC BY 3.0,D014132,Uberon,http://purl.obolibrary.org/obo/UBERON_0003126
+UBERON:0001911,mammary gland,mammary gland (Anatomy). bto_id: BTO:0000817. mesh_id: D008321,BTO:0000817,CC BY 3.0,D008321,Uberon,http://purl.obolibrary.org/obo/UBERON_0001911
+UBERON:0000026,appendage,appendage (Anatomy). bto_id: BTO:0001492. mesh_id: D005121,BTO:0001492,CC BY 3.0,D005121,Uberon,http://purl.obolibrary.org/obo/UBERON_0000026
+UBERON:0002017,portal vein,portal vein (Anatomy). bto_id: BTO:0001792. mesh_id: D011169,BTO:0001792,CC BY 3.0,D011169,Uberon,http://purl.obolibrary.org/obo/UBERON_0002017
+UBERON:0001103,diaphragm,diaphragm (Anatomy). bto_id: BTO:0000341. mesh_id: D003964,BTO:0000341,CC BY 3.0,D003964,Uberon,http://purl.obolibrary.org/obo/UBERON_0001103
+UBERON:0000975,sternum,sternum (Anatomy). bto_id: BTO:0001302. mesh_id: D013249,BTO:0001302,CC BY 3.0,D013249,Uberon,http://purl.obolibrary.org/obo/UBERON_0000975
+UBERON:0001404,radial artery,radial artery (Anatomy). mesh_id: D017534,,CC BY 3.0,D017534,Uberon,http://purl.obolibrary.org/obo/UBERON_0001404
+UBERON:0002522,tunica media,tunica media (Anatomy). bto_id: BTO:0002011. mesh_id: D017540,BTO:0002011,CC BY 3.0,D017540,Uberon,http://purl.obolibrary.org/obo/UBERON_0002522
+UBERON:0001689,malleus bone,malleus bone (Anatomy). mesh_id: D008307,,CC BY 3.0,D008307,Uberon,http://purl.obolibrary.org/obo/UBERON_0001689
+UBERON:0001643,oculomotor nerve,oculomotor nerve (Anatomy). mesh_id: D009802,,CC BY 3.0,D009802,Uberon,http://purl.obolibrary.org/obo/UBERON_0001643
+UBERON:0001130,vertebral column,vertebral column (Anatomy). bto_id: BTO:0000818. mesh_id: D013131,BTO:0000818,CC BY 3.0,D013131,Uberon,http://purl.obolibrary.org/obo/UBERON_0001130
+UBERON:0003685,cranial suture,cranial suture (Anatomy). mesh_id: D003393,,CC BY 3.0,D003393,Uberon,http://purl.obolibrary.org/obo/UBERON_0003685
+UBERON:0001148,median nerve,median nerve (Anatomy). mesh_id: D008475,,CC BY 3.0,D008475,Uberon,http://purl.obolibrary.org/obo/UBERON_0001148
+UBERON:0001720,cochlear nucleus,cochlear nucleus (Anatomy). mesh_id: D017626,,CC BY 3.0,D017626,Uberon,http://purl.obolibrary.org/obo/UBERON_0001720
+UBERON:0002081,cardiac atrium,cardiac atrium (Anatomy). bto_id: BTO:0000903. mesh_id: D006325,BTO:0000903,CC BY 3.0,D006325,Uberon,http://purl.obolibrary.org/obo/UBERON_0002081
+UBERON:0001723,tongue,tongue (Anatomy). bto_id: BTO:0001385. mesh_id: D014059,BTO:0001385,CC BY 3.0,D014059,Uberon,http://purl.obolibrary.org/obo/UBERON_0001723
+UBERON:0001305,ovarian follicle,ovarian follicle (Anatomy). bto_id: BTO:0000475. mesh_id: D006080,BTO:0000475,CC BY 3.0,D006080,Uberon,http://purl.obolibrary.org/obo/UBERON_0001305
+UBERON:0001910,medial forebrain bundle,medial forebrain bundle (Anatomy). mesh_id: D008474,,CC BY 3.0,D008474,Uberon,http://purl.obolibrary.org/obo/UBERON_0001910
+UBERON:0000997,mammalian vulva,mammalian vulva (Anatomy). bto_id: BTO:0003101. mesh_id: D014844,BTO:0003101,CC BY 3.0,D014844,Uberon,http://purl.obolibrary.org/obo/UBERON_0000997
+UBERON:0001764,maxillary sinus,maxillary sinus (Anatomy). mesh_id: D008443,,CC BY 3.0,D008443,Uberon,http://purl.obolibrary.org/obo/UBERON_0001764
+UBERON:0001544,popliteal vein,popliteal vein (Anatomy). mesh_id: D011152,,CC BY 3.0,D011152,Uberon,http://purl.obolibrary.org/obo/UBERON_0001544
+UBERON:0002146,pulmonary valve,pulmonary valve (Anatomy). mesh_id: D011664,,CC BY 3.0,D011664,Uberon,http://purl.obolibrary.org/obo/UBERON_0002146
+UBERON:0002453,ethmoid sinus,ethmoid sinus (Anatomy). mesh_id: D005005,,CC BY 3.0,D005005,Uberon,http://purl.obolibrary.org/obo/UBERON_0002453
+UBERON:0001093,vertebral bone 2,vertebral bone 2 (Anatomy). mesh_id: D001368,,CC BY 3.0,D001368,Uberon,http://purl.obolibrary.org/obo/UBERON_0001093
+UBERON:0001182,superior mesenteric artery,superior mesenteric artery (Anatomy). bto_id: BTO:0002303. mesh_id: D017538,BTO:0002303,CC BY 3.0,D017538,Uberon,http://purl.obolibrary.org/obo/UBERON_0001182
+UBERON:0000057,urethra,urethra (Anatomy). bto_id: BTO:0001426. mesh_id: D014521,BTO:0001426,CC BY 3.0,D014521,Uberon,http://purl.obolibrary.org/obo/UBERON_0000057
+UBERON:0001088,urine,urine (Anatomy). bto_id: BTO:0001419. mesh_id: D014556,BTO:0001419,CC BY 3.0,D014556,Uberon,http://purl.obolibrary.org/obo/UBERON_0001088
+UBERON:0001394,axillary artery,axillary artery (Anatomy). mesh_id: D001366,,CC BY 3.0,D001366,Uberon,http://purl.obolibrary.org/obo/UBERON_0001394
+UBERON:0001467,shoulder,shoulder (Anatomy). mesh_id: D012782,,CC BY 3.0,D012782,Uberon,http://purl.obolibrary.org/obo/UBERON_0001467
+UBERON:0001406,ulnar artery,ulnar artery (Anatomy). mesh_id: D017535,,CC BY 3.0,D017535,Uberon,http://purl.obolibrary.org/obo/UBERON_0001406
+UBERON:0001070,external carotid artery,external carotid artery (Anatomy). bto_id: BTO:0004696. mesh_id: D002342,BTO:0004696,CC BY 3.0,D002342,Uberon,http://purl.obolibrary.org/obo/UBERON_0001070
+UBERON:0001814,brachial nerve plexus,brachial nerve plexus (Anatomy). mesh_id: D001917,,CC BY 3.0,D001917,Uberon,http://purl.obolibrary.org/obo/UBERON_0001814
+UBERON:0002377,muscle of neck,muscle of neck (Anatomy). mesh_id: D009334,,CC BY 3.0,D009334,Uberon,http://purl.obolibrary.org/obo/UBERON_0002377
+UBERON:0002411,clitoris,clitoris (Anatomy). bto_id: BTO:0002020. mesh_id: D002987,BTO:0002020,CC BY 3.0,D002987,Uberon,http://purl.obolibrary.org/obo/UBERON_0002411
+UBERON:0001461,elbow,elbow (Anatomy). mesh_id: D004550,,CC BY 3.0,D004550,Uberon,http://purl.obolibrary.org/obo/UBERON_0001461
+UBERON:0001694,petrous part of temporal bone,petrous part of temporal bone (Anatomy). mesh_id: D010579,,CC BY 3.0,D010579,Uberon,http://purl.obolibrary.org/obo/UBERON_0001694
+UBERON:0001759,vagus nerve,vagus nerve (Anatomy). bto_id: BTO:0003472. mesh_id: D014630,BTO:0003472,CC BY 3.0,D014630,Uberon,http://purl.obolibrary.org/obo/UBERON_0001759
+UBERON:0002135,mitral valve,mitral valve (Anatomy). mesh_id: D008943,,CC BY 3.0,D008943,Uberon,http://purl.obolibrary.org/obo/UBERON_0002135
+UBERON:0002240,spinal cord,spinal cord (Anatomy). bto_id: BTO:0001279. mesh_id: D013116,BTO:0001279,CC BY 3.0,D013116,Uberon,http://purl.obolibrary.org/obo/UBERON_0002240
+UBERON:0000178,blood,blood (Anatomy). bto_id: BTO:0000089. mesh_id: D001769,BTO:0000089,CC BY 3.0,D001769,Uberon,http://purl.obolibrary.org/obo/UBERON_0000178
+UBERON:0001645,trigeminal nerve,trigeminal nerve (Anatomy). bto_id: BTO:0001072. mesh_id: D014276,BTO:0001072,CC BY 3.0,D014276,Uberon,http://purl.obolibrary.org/obo/UBERON_0001645
+UBERON:0001469,sternoclavicular joint,sternoclavicular joint (Anatomy). mesh_id: D013247,,CC BY 3.0,D013247,Uberon,http://purl.obolibrary.org/obo/UBERON_0001469
+UBERON:0001776,optic choroid,optic choroid (Anatomy). bto_id: BTO:0001829. mesh_id: D002829,BTO:0001829,CC BY 3.0,D002829,Uberon,http://purl.obolibrary.org/obo/UBERON_0001776
+UBERON:0002365,exocrine gland,exocrine gland (Anatomy). bto_id: BTO:0000765. mesh_id: D005088,BTO:0000765,CC BY 3.0,D005088,Uberon,http://purl.obolibrary.org/obo/UBERON_0002365
+UBERON:0001684,mandible,mandible (Anatomy). bto_id: BTO:0001748. mesh_id: D008334,BTO:0001748,CC BY 3.0,D008334,Uberon,http://purl.obolibrary.org/obo/UBERON_0001684
+UBERON:0001650,hypoglossal nerve,hypoglossal nerve (Anatomy). bto_id: BTO:0003386. mesh_id: D007002,BTO:0003386,CC BY 3.0,D007002,Uberon,http://purl.obolibrary.org/obo/UBERON_0001650
+UBERON:0001597,masseter muscle,masseter muscle (Anatomy). bto_id: BTO:0001755. mesh_id: D008406,BTO:0001755,CC BY 3.0,D008406,Uberon,http://purl.obolibrary.org/obo/UBERON_0001597
+UBERON:0002481,bone tissue,bone tissue (Anatomy). mesh_id: D001842,,CC BY 3.0,D001842,Uberon,http://purl.obolibrary.org/obo/UBERON_0002481
+UBERON:0001310,umbilical artery,umbilical artery (Anatomy). bto_id: BTO:0000841. mesh_id: D014469,BTO:0000841,CC BY 3.0,D014469,Uberon,http://purl.obolibrary.org/obo/UBERON_0001310
+UBERON:0002005,enteric nervous system,enteric nervous system (Anatomy). bto_id: BTO:0002506. mesh_id: D017615,BTO:0002506,CC BY 3.0,D017615,Uberon,http://purl.obolibrary.org/obo/UBERON_0002005
+UBERON:0000053,macula lutea,macula lutea (Anatomy). bto_id: BTO:0003015. mesh_id: D008266,BTO:0003015,CC BY 3.0,D008266,Uberon,http://purl.obolibrary.org/obo/UBERON_0000053
+UBERON:0001971,gastric juice,gastric juice (Anatomy). bto_id: BTO:0000501. mesh_id: D005750,BTO:0000501,CC BY 3.0,D005750,Uberon,http://purl.obolibrary.org/obo/UBERON_0001971
+UBERON:0003092,ultimobranchial body,ultimobranchial body (Anatomy). mesh_id: D014460,,CC BY 3.0,D014460,Uberon,http://purl.obolibrary.org/obo/UBERON_0003092
+UBERON:0002073,hair follicle,hair follicle (Anatomy). bto_id: BTO:0000554. mesh_id: D018859,BTO:0000554,CC BY 3.0,D018859,Uberon,http://purl.obolibrary.org/obo/UBERON_0002073
+UBERON:0001775,ciliary body,ciliary body (Anatomy). bto_id: BTO:0000260. mesh_id: D002924,BTO:0000260,CC BY 3.0,D002924,Uberon,http://purl.obolibrary.org/obo/UBERON_0001775
+UBERON:0001637,artery,artery (Anatomy). bto_id: BTO:0000573. mesh_id: D001158,BTO:0000573,CC BY 3.0,D001158,Uberon,http://purl.obolibrary.org/obo/UBERON_0001637
+UBERON:0002097,skin of body,skin of body (Anatomy). bto_id: BTO:0001253. mesh_id: D012867,BTO:0001253,CC BY 3.0,D012867,Uberon,http://purl.obolibrary.org/obo/UBERON_0002097
+UBERON:0001744,lymphoid tissue,lymphoid tissue (Anatomy). bto_id: BTO:0000753. mesh_id: D008221,BTO:0000753,CC BY 3.0,D008221,Uberon,http://purl.obolibrary.org/obo/UBERON_0001744
+UBERON:0000922,embryo,embryo (Anatomy). bto_id: BTO:0000379. mesh_id: D004622,BTO:0000379,CC BY 3.0,D004622,Uberon,http://purl.obolibrary.org/obo/UBERON_0000922
+UBERON:0001777,substantia propria of cornea,substantia propria of cornea (Anatomy). mesh_id: D003319,,CC BY 3.0,D003319,Uberon,http://purl.obolibrary.org/obo/UBERON_0001777
+UBERON:0002061,truncus arteriosus,truncus arteriosus (Anatomy). mesh_id: D014338,,CC BY 3.0,D014338,Uberon,http://purl.obolibrary.org/obo/UBERON_0002061
+UBERON:0001021,nerve,nerve (Anatomy). bto_id: BTO:0000925. mesh_id: D010525,BTO:0000925,CC BY 3.0,D010525,Uberon,http://purl.obolibrary.org/obo/UBERON_0001021
+UBERON:0002369,adrenal gland,adrenal gland (Anatomy). bto_id: BTO:0000047. mesh_id: D000311,BTO:0000047,CC BY 3.0,D000311,Uberon,http://purl.obolibrary.org/obo/UBERON_0002369
+UBERON:0002351,sinoatrial node,sinoatrial node (Anatomy). bto_id: BTO:0004358. mesh_id: D012849,BTO:0004358,CC BY 3.0,D012849,Uberon,http://purl.obolibrary.org/obo/UBERON_0002351
+UBERON:0001264,pancreas,pancreas (Anatomy). bto_id: BTO:0000988. mesh_id: D010179,BTO:0000988,CC BY 3.0,D010179,Uberon,http://purl.obolibrary.org/obo/UBERON_0001264
+UBERON:0001697,orbit of skull,orbit of skull (Anatomy). bto_id: BTO:0004687. mesh_id: D009915,BTO:0004687,CC BY 3.0,D009915,Uberon,http://purl.obolibrary.org/obo/UBERON_0001697
+UBERON:0002500,zygomatic arch,zygomatic arch (Anatomy). mesh_id: D015050,,CC BY 3.0,D015050,Uberon,http://purl.obolibrary.org/obo/UBERON_0002500
+UBERON:0002285,telencephalic ventricle,telencephalic ventricle (Anatomy). bto_id: BTO:0000879. mesh_id: D020547,BTO:0000879,CC BY 3.0,D020547,Uberon,http://purl.obolibrary.org/obo/UBERON_0002285
+UBERON:0001143,hepatic vein,hepatic vein (Anatomy). mesh_id: D006503,,CC BY 3.0,D006503,Uberon,http://purl.obolibrary.org/obo/UBERON_0001143
+UBERON:0001194,splenic artery,splenic artery (Anatomy). mesh_id: D013157,,CC BY 3.0,D013157,Uberon,http://purl.obolibrary.org/obo/UBERON_0001194
+UBERON:0001708,jaw skeleton,jaw skeleton (Anatomy). bto_id: BTO:0001749. mesh_id: D007568,BTO:0001749,CC BY 3.0,D007568,Uberon,http://purl.obolibrary.org/obo/UBERON_0001708
+UBERON:0001004,respiratory system,respiratory system (Anatomy). bto_id: BTO:0000203. mesh_id: D012137,BTO:0000203,CC BY 3.0,D012137,Uberon,http://purl.obolibrary.org/obo/UBERON_0001004
+UBERON:0004288,skeleton,skeleton (Anatomy). mesh_id: D012863,,CC BY 3.0,D012863,Uberon,http://purl.obolibrary.org/obo/UBERON_0004288
+UBERON:0001515,thoracic aorta,thoracic aorta (Anatomy). bto_id: BTO:0000157. mesh_id: D001013,BTO:0000157,CC BY 3.0,D001013,Uberon,http://purl.obolibrary.org/obo/UBERON_0001515
+UBERON:0000038,follicular fluid,follicular fluid (Anatomy). bto_id: BTO:0004383. mesh_id: D015571,BTO:0004383,CC BY 3.0,D015571,Uberon,http://purl.obolibrary.org/obo/UBERON_0000038
+UBERON:0001619,ophthalmic artery,ophthalmic artery (Anatomy). mesh_id: D009880,,CC BY 3.0,D009880,Uberon,http://purl.obolibrary.org/obo/UBERON_0001619
+UBERON:0001796,aqueous humor of eyeball,aqueous humor of eyeball (Anatomy). mesh_id: D001082,,CC BY 3.0,D001082,Uberon,http://purl.obolibrary.org/obo/UBERON_0001796
+UBERON:0001008,renal system,renal system (Anatomy). bto_id: BTO:0001244. mesh_id: D014551,BTO:0001244,CC BY 3.0,D014551,Uberon,http://purl.obolibrary.org/obo/UBERON_0001008
+UBERON:0001135,smooth muscle tissue,smooth muscle tissue (Anatomy). bto_id: BTO:0001260. mesh_id: D009130,BTO:0001260,CC BY 3.0,D009130,Uberon,http://purl.obolibrary.org/obo/UBERON_0001135
+UBERON:0002512,corpus luteum,corpus luteum (Anatomy). bto_id: BTO:0000292. mesh_id: D003338,BTO:0000292,CC BY 3.0,D003338,Uberon,http://purl.obolibrary.org/obo/UBERON_0002512
+UBERON:0001013,adipose tissue,adipose tissue (Anatomy). bto_id: BTO:0001487. mesh_id: D000273,BTO:0001487,CC BY 3.0,D000273,Uberon,http://purl.obolibrary.org/obo/UBERON_0001013
+UBERON:0001886,choroid plexus,choroid plexus (Anatomy). bto_id: BTO:0000258. mesh_id: D002831,BTO:0000258,CC BY 3.0,D002831,Uberon,http://purl.obolibrary.org/obo/UBERON_0001886
+UBERON:0002054,zona fasciculata of adrenal gland,zona fasciculata of adrenal gland (Anatomy). bto_id: BTO:0000050. mesh_id: D015383,BTO:0000050,CC BY 3.0,D015383,Uberon,http://purl.obolibrary.org/obo/UBERON_0002054
+UBERON:0002707,corticospinal tract,corticospinal tract (Anatomy). mesh_id: D011712,,CC BY 3.0,D011712,Uberon,http://purl.obolibrary.org/obo/UBERON_0002707
+UBERON:0000941,cranial nerve II,cranial nerve II (Anatomy). mesh_id: D009900,,CC BY 3.0,D009900,Uberon,http://purl.obolibrary.org/obo/UBERON_0000941
+UBERON:0001820,sweat gland,sweat gland (Anatomy). bto_id: BTO:0001331. mesh_id: D013545,BTO:0001331,CC BY 3.0,D013545,Uberon,http://purl.obolibrary.org/obo/UBERON_0001820
+UBERON:0002204,musculoskeletal system,musculoskeletal system (Anatomy). mesh_id: D009141,,CC BY 3.0,D009141,Uberon,http://purl.obolibrary.org/obo/UBERON_0002204
+UBERON:0002382,rectus abdominis muscle,rectus abdominis muscle (Anatomy). mesh_id: D017568,,CC BY 3.0,D017568,Uberon,http://purl.obolibrary.org/obo/UBERON_0002382
+UBERON:0002519,otolithic part of statoconial membrane,otolithic part of statoconial membrane (Anatomy). mesh_id: D010037,,CC BY 3.0,D010037,Uberon,http://purl.obolibrary.org/obo/UBERON_0002519
+UBERON:0001579,olfactory nerve,olfactory nerve (Anatomy). bto_id: BTO:0003648. mesh_id: D009832,BTO:0003648,CC BY 3.0,D009832,Uberon,http://purl.obolibrary.org/obo/UBERON_0001579
+UBERON:0002407,pericardium,pericardium (Anatomy). bto_id: BTO:0000717. mesh_id: D010496,BTO:0000717,CC BY 3.0,D010496,Uberon,http://purl.obolibrary.org/obo/UBERON_0002407
+UBERON:0001324,common fibular nerve,common fibular nerve (Anatomy). mesh_id: D010543,,CC BY 3.0,D010543,Uberon,http://purl.obolibrary.org/obo/UBERON_0001324
+UBERON:0002378,muscle of abdomen,muscle of abdomen (Anatomy). bto_id: BTO:0001261. mesh_id: D000009,BTO:0001261,CC BY 3.0,D000009,Uberon,http://purl.obolibrary.org/obo/UBERON_0002378
+UBERON:0002385,muscle tissue,muscle tissue (Anatomy). mesh_id: D009132,,CC BY 3.0,D009132,Uberon,http://purl.obolibrary.org/obo/UBERON_0002385
+UBERON:0001044,saliva-secreting gland,saliva-secreting gland (Anatomy). bto_id: BTO:0001203. mesh_id: D012469,BTO:0001203,CC BY 3.0,D012469,Uberon,http://purl.obolibrary.org/obo/UBERON_0001044
+UBERON:0001484,articular capsule,articular capsule (Anatomy). mesh_id: D017746,,CC BY 3.0,D017746,Uberon,http://purl.obolibrary.org/obo/UBERON_0001484
+UBERON:0002352,atrioventricular node,atrioventricular node (Anatomy). mesh_id: D001283,,CC BY 3.0,D001283,Uberon,http://purl.obolibrary.org/obo/UBERON_0002352
+UBERON:0001236,adrenal medulla,adrenal medulla (Anatomy). bto_id: BTO:0000049. mesh_id: D019439,BTO:0000049,CC BY 3.0,D019439,Uberon,http://purl.obolibrary.org/obo/UBERON_0001236
+UBERON:0002389,manual digit,manual digit (Anatomy). bto_id: BTO:0004669. mesh_id: D005385,BTO:0004669,CC BY 3.0,D005385,Uberon,http://purl.obolibrary.org/obo/UBERON_0002389
+UBERON:0001717,spinal nucleus of trigeminal nerve,spinal nucleus of trigeminal nerve (Anatomy). mesh_id: D014279,,CC BY 3.0,D014279,Uberon,http://purl.obolibrary.org/obo/UBERON_0001717
+UBERON:0002347,thoracic vertebra,thoracic vertebra (Anatomy). mesh_id: D013904,,CC BY 3.0,D013904,Uberon,http://purl.obolibrary.org/obo/UBERON_0002347
+UBERON:0001470,glenohumeral joint,glenohumeral joint (Anatomy). mesh_id: D012785,,CC BY 3.0,D012785,Uberon,http://purl.obolibrary.org/obo/UBERON_0001470
+UBERON:0001860,endolymphatic duct,endolymphatic duct (Anatomy). mesh_id: D004711,,CC BY 3.0,D004711,Uberon,http://purl.obolibrary.org/obo/UBERON_0001860
+UBERON:0001676,occipital bone,occipital bone (Anatomy). mesh_id: D009777,,CC BY 3.0,D009777,Uberon,http://purl.obolibrary.org/obo/UBERON_0001676
+UBERON:0000006,islet of Langerhans,islet of Langerhans (Anatomy). bto_id: BTO:0000991. mesh_id: D007515,BTO:0000991,CC BY 3.0,D007515,Uberon,http://purl.obolibrary.org/obo/UBERON_0000006
+UBERON:0001648,vestibulocochlear nerve,vestibulocochlear nerve (Anatomy). bto_id: BTO:0003490. mesh_id: D000159,BTO:0003490,CC BY 3.0,D000159,Uberon,http://purl.obolibrary.org/obo/UBERON_0001648
+UBERON:0001724,sphenoidal sinus,sphenoidal sinus (Anatomy). mesh_id: D013101,,CC BY 3.0,D013101,Uberon,http://purl.obolibrary.org/obo/UBERON_0001724
+UBERON:0000054,macula,macula (Anatomy). mesh_id: D008267,,CC BY 3.0,D008267,Uberon,http://purl.obolibrary.org/obo/UBERON_0000054
+UBERON:0000482,basal lamina of epithelium,basal lamina of epithelium (Anatomy). mesh_id: D001485,,CC BY 3.0,D001485,Uberon,http://purl.obolibrary.org/obo/UBERON_0000482
+UBERON:0000985,axillary vein,axillary vein (Anatomy). mesh_id: D001367,,CC BY 3.0,D001367,Uberon,http://purl.obolibrary.org/obo/UBERON_0000985
+UBERON:0002486,glottis,glottis (Anatomy). bto_id: BTO:0001627. mesh_id: D005931,BTO:0001627,CC BY 3.0,D005931,Uberon,http://purl.obolibrary.org/obo/UBERON_0002486

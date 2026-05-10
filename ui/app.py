@@ -100,6 +100,32 @@ if st.button("🚀 Run All Pipelines", type="primary", use_container_width=True)
     if metric_data:
         st.table(metric_data)
 
+    # ── Usage details from response payload ─────────────────────────────
+    for name in ["LLM-Only", "Basic RAG", "GraphRAG"]:
+        if name in results:
+            r = results[name]
+            usage_payload = {
+                "id": r.response_id,
+                "model": r.model,
+                "created": r.created,
+                "service_tier": r.service_tier,
+                "system_fingerprint": r.system_fingerprint,
+                "finish_reason": r.finish_reason,
+                "prompt_tokens_details": r.prompt_tokens_details,
+                "completion_tokens_details": r.completion_tokens_details,
+                "latency_checkpoint": r.latency_checkpoint,
+            }
+            has_details = any([
+                usage_payload["id"],
+                usage_payload["finish_reason"],
+                usage_payload["prompt_tokens_details"],
+                usage_payload["completion_tokens_details"],
+                usage_payload["latency_checkpoint"],
+            ])
+            if has_details:
+                with st.expander(f"🧾 {name} — Usage Details"):
+                    st.json(usage_payload)
+
     # ── Token reduction highlight ────────────────────────────────────────
     if "Basic RAG" in results and "GraphRAG" in results:
         rag = results["Basic RAG"].total_tokens

@@ -1,0 +1,111 @@
+
+
+[Anatomy]
+  Processing 402 Anatomy vertices …
+  ✅ Upserted 402 Anatomy embeddings
+  💰 Tokens used: 8244, Cost: $0.00016488
+
+[BiologicalProcess]
+  Processing 11,381 BiologicalProcess vertices …
+  ✅ Upserted 11,381 BiologicalProcess embeddings
+  💰 Tokens used: 142936, Cost: $0.0028587199999999995
+
+[CellularComponent]
+  Processing 1,391 CellularComponent vertices …
+  ✅ Upserted 1,391 CellularComponent embeddings
+  💰 Tokens used: 15340, Cost: $0.00030680000000000003
+
+[Compound]
+  Processing 1,552 Compound vertices …
+  ✅ Upserted 1,552 Compound embeddings
+  💰 Tokens used: 222359, Cost: $0.004447179999999999
+
+[Disease]
+  Processing 137 Disease vertices …
+  ✅ Upserted 137 Disease embeddings
+  💰 Tokens used: 1117, Cost: $2.234e-05
+
+[Gene]
+  Processing 20,945 Gene vertices …
+  ✅ Upserted 20,945 Gene embeddings
+  💰 Tokens used: 487511, Cost: $0.009750220000000002
+
+[MolecularFunction]
+  Processing 2,884 MolecularFunction vertices …
+  ✅ Upserted 2,884 MolecularFunction embeddings
+  💰 Tokens used: 39586, Cost: $0.0007917199999999999
+
+[Pathway]
+  Processing 1,822 Pathway vertices …
+  ✅ Upserted 1,822 Pathway embeddings
+  💰 Tokens used: 22508, Cost: $0.00045016
+
+[PharmacologicClass]
+  Processing 345 PharmacologicClass vertices …
+  ✅ Upserted 345 PharmacologicClass embeddings
+  💰 Tokens used: 6855, Cost: $0.0001371
+
+[SideEffect]
+  Processing 5,734 SideEffect vertices …
+  ✅ Upserted 5,734 SideEffect embeddings
+  💰 Tokens used: 49398, Cost: $0.00098796
+
+[Symptom]
+  Processing 438 Symptom vertices …
+  ✅ Upserted 438 Symptom embeddings
+  💰 Tokens used: 3805, Cost: $7.609999999999999e-05
+
+
+✅ --> Total tokens used: 999659, Total cost: $0.019993180000000003
+
+
+
+
+
+
+//   "nodes": [
+//     {
+//       "kind": "Molecular Function",
+//       "identifier": "GO:0031753",
+//       "name": "endothelial differentiation G-protein coupled receptor binding",
+//       "data": {
+//         "source": "Gene Ontology",
+//         "license": "CC BY 4.0",
+//         "url": "http://purl.obolibrary.org/obo/GO_0031753"
+//       }
+//     },
+//     {
+//       "kind": "Side Effect",
+//       "identifier": "C0023448",
+//       "name": "Lymphocytic leukaemia",
+//       "data": {
+//         "source": "UMLS via SIDER 4.1",
+//         "license": "CC BY-NC-SA 4.0",
+//         "url": "http://identifiers.org/umls/C0023448"
+//       }
+//     },
+//     {
+//       "kind": "Gene",
+//       "identifier": 5345,
+//       "name": "SERPINF2",
+//       "data": {
+//         "description": "serpin peptidase inhibitor, clade F (alpha-2 antiplasmin, pigment epithelium derived factor), member 2",
+//         "source": "Entrez Gene",
+//         "license": "CC0 1.0",
+//         "url": "http://identifiers.org/ncbigene/5345",
+//         "chromosome": "17"
+//       }
+//     },
+//     {
+//       "kind": "Gene",
+//       "identifier": 9409,
+//       "name": "PEX16",
+//       "data": {
+//         "description": "peroxisomal biogenesis factor 16",
+//         "source": "Entrez Gene",
+//         "license": "CC0 1.0",
+//         "url": "http://identifiers.org/ncbigene/9409",
+//         "chromosome": "11"
+//       }
+//     },
+// ]

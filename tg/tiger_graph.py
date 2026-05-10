@@ -8,7 +8,7 @@ load_dotenv(override=True)
 
 # TigerGraph instance details
 HOST = "https://tg-b07aa060-e3df-4207-94fc-971616eb7348.tg-2635877100.i.tgcloud.io"
-GRAPH = "HetionetGraph"
+GRAPH = "HetionetGraph_"
 API_KEY = os.getenv("TG_API_KEY")
 
 conn = tg.TigerGraphConnection(
@@ -42,6 +42,38 @@ def schema_upload():
     print("✅ Schema executed")
 
 
+VERTEX_TYPES = [
+    "Anatomy", "BiologicalProcess", "CellularComponent", "Compound",
+    "Disease", "Gene", "MolecularFunction", "Pathway",
+    "PharmacologicClass", "SideEffect", "Symptom",
+]
+
+
+def add_embedding_schema():
+    """Add text_blob STRING and embedding LIST<DOUBLE> to all vertex types via a
+    schema change job.  Safe to re-run -- existing attributes are skipped."""
+    print("Adding embedding attributes via schema change job...")
+    alter_stmts = "\n    ".join(
+        f"ALTER VERTEX {vt} ADD ATTRIBUTE (text_blob STRING, embedding LIST<DOUBLE>);"
+        for vt in VERTEX_TYPES
+    )
+    job_gsql = f"""
+CREATE GLOBAL SCHEMA_CHANGE JOB add_hetionet_embeddings {{
+    {alter_stmts}
+}}
+RUN GLOBAL SCHEMA_CHANGE JOB add_hetionet_embeddings
+"""
+    try:
+        conn.gsql(job_gsql)
+        print("✅ Embedding attributes added")
+    except Exception as e:
+        msg = str(e).lower()
+        if "already exists" in msg or "duplicate" in msg:
+            print("⚠️  Embedding attributes already present, skipping")
+        else:
+            raise
+
+
 def create_and_run_vertex_jobs():
     """Create loading jobs for all vertex CSVs and run them"""
     DATA_DIR = "/home/sidharth/Desktop/GraphRAG/graphRAG-tiger/tg/data/nodes"
@@ -61,7 +93,7 @@ def create_and_run_vertex_jobs():
         USE GRAPH {GRAPH}
         CREATE LOADING JOB {job_name} FOR GRAPH {GRAPH} {{
             DEFINE FILENAME {file_tag};
-            LOAD {file_tag} TO VERTEX {vtype} VALUES ($0, $1) USING SEPARATOR=",";
+            LOAD {file_tag} TO VERTEX {vtype} VALUES ($0, $1) USING SEPARATOR="," HEADER="true";
         }}
         """
         try:
@@ -94,7 +126,7 @@ def create_and_run_edge_jobs():
         USE GRAPH {GRAPH}
         CREATE LOADING JOB {job_name} FOR GRAPH {GRAPH} {{
             DEFINE FILENAME {file_tag};
-            LOAD {file_tag} TO EDGE {etype} VALUES ($0, $1) USING SEPARATOR=",";
+            LOAD {file_tag} TO EDGE {etype} VALUES ($0, $1) USING SEPARATOR="," HEADER="true";
         }}
         """
         try:

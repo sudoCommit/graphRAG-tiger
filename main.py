@@ -79,6 +79,19 @@ def _print_comparison(results: dict[str, PipelineResult]):
             print(f"\n📝 {name} Answer:")
             print(f"   {results[name].answer[:500]}")
 
+            detail_lines: list[str] = []
+            if results[name].finish_reason:
+                detail_lines.append(f"finish_reason={results[name].finish_reason}")
+            if results[name].response_id:
+                detail_lines.append(f"id={results[name].response_id}")
+            if results[name].service_tier:
+                detail_lines.append(f"service_tier={results[name].service_tier}")
+            if results[name].latency_checkpoint:
+                detail_lines.append("latency_checkpoint=available")
+
+            if detail_lines:
+                print(f"   usage_details: {', '.join(detail_lines)}")
+
     # Token reduction metric
     if "Basic RAG" in results and "GraphRAG" in results:
         rag = results["Basic RAG"].total_tokens
