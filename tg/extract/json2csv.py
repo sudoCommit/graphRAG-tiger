@@ -3,10 +3,12 @@ import csv
 import json
 import os
 import re
+import logging
 from collections import defaultdict
 
 
 _DESC_SKIP = {"license", "source", "url", "unbiased"}
+logger = logging.getLogger(__name__)
 
 
 def normalize(name: str) -> str:
@@ -70,7 +72,7 @@ def extract_hetionet(
     nodes = data["nodes"]
     edges = data["edges"]
 
-    # NODES → per type
+    # NODES -> per type
     node_groups = defaultdict(list)
     node_keys_by_type = defaultdict(set)
 
@@ -101,9 +103,9 @@ def extract_hetionet(
                 row = [node_id, name, text_blob] + [_serialize(node_data.get(k, "")) for k in keys]
                 writer.writerow(row)
 
-        print(f"Vertex CSV: {file_path}")
+        logger.info("Vertex CSV: %s", file_path)
 
-    # EDGES → per type
+    # EDGES -> per type
     edge_groups = defaultdict(list)
     edge_keys_by_type = defaultdict(set)
 
@@ -149,10 +151,11 @@ def extract_hetionet(
                 row = [s_id, t_id] + [_serialize(edge_data.get(k, "")) for k in keys]
                 writer.writerow(row)
 
-        print(f"Edge CSV: {file_path}")
+        logger.info("Edge CSV: %s", file_path)
 
-    print("\n✅ Extraction complete (TigerGraph-ready)")
+    logger.info("Extraction complete (TigerGraph-ready)")
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
     extract_hetionet()

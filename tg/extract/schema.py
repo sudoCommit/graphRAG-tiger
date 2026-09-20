@@ -1,5 +1,8 @@
 import json
+import logging
 import re
+
+logger = logging.getLogger(__name__)
 
 
 def normalize(name: str) -> str:
@@ -16,9 +19,6 @@ def generate_tigergraph_schema(meta_path):
     vertex_defs = []
     edge_defs = []
 
-    # -------------------------
-    # VERTICES
-    # -------------------------
     for node in metanodes:
         vtype = normalize(node)
 
@@ -32,9 +32,6 @@ CREATE VERTEX {vtype} (
 """
         vertex_defs.append(stmt.strip())
 
-    # -------------------------
-    # EDGES
-    # -------------------------
     for src, tgt, relation, direction in metaedges:
         src_v = normalize(src)
         tgt_v = normalize(tgt)
@@ -59,9 +56,6 @@ CREATE DIRECTED EDGE {edge_name} (
 
         edge_defs.append(stmt.strip())
 
-    # -------------------------
-    # FINAL GRAPH
-    # -------------------------
     graph_parts = [normalize(n) for n in metanodes]
     graph_parts += [
         f"{normalize(s)}_{normalize(r)}_{normalize(t)}"
@@ -83,10 +77,11 @@ def save_schema(meta_path, out_file="schema.gsql"):
     with open(out_file, "w") as f:
         f.write(schema)
 
-    print(f"✅ Schema saved to {out_file}")
+    logger.info("Schema saved to %s", out_file)
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
     save_schema(
         "data/hetionet-schema.json",
         "data/hetionet_schema.gsql"

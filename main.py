@@ -1,28 +1,32 @@
 import asyncio
+import logging
+import os
 import sys
 
 from llm.ag_llm import PipelineResult
-import tg_llm.api as pipeline1
-import tg_rag.api as pipeline2
-import tg_graph_rag.api as pipeline3
+import tg_llm.api as LlmPipeline
+import tg_rag.api as RagPipeline
+import tg_graph_rag.api as GraphRagPipeline
+
+
+logging.basicConfig(level=logging.INFO, format="%(message)s")
+logger = logging.getLogger(__name__)
 
 
 def run_comparison(question: str, model: str = "gpt-4.1-mini") -> dict[str, PipelineResult]:
     """Run the same question through all 3 pipelines and print comparison."""
-    print(f"\n{'='*80}")
-    print(f"Question: {question}")
-    print(f"{'='*80}\n")
+    logger.info("\n%s\nQuestion: %s\n%s", "=" * 80, question, "=" * 80)
 
     outcomes = asyncio.run(_run_pipelines(question, model))
     results: dict[str, PipelineResult] = {}
     labels = ("LLM-Only", "Basic RAG", "GraphRAG")
     for label, outcome in zip(labels, outcomes):
-        print(f"▶ {label}...")
+        logger.info("Running %s...", label)
         if isinstance(outcome, Exception):
-            print(f"  ❌ Failed: {outcome}")
+            logger.error("%s failed: %s", label, outcome)
         else:
             results[label] = outcome
-            print(f"  ✅ Done ({outcome.latency_s}s)")
+            logger.info("%s done (%ss)", label, outcome.latency_s)
 
     # Comparison table
     _print_comparison(results)
@@ -38,9 +42,9 @@ async def _run_pipelines(
     PipelineResult | Exception,
 ]:
     outcomes = await asyncio.gather(
-        pipeline1.async_query(question, model=model),
-        pipeline2.async_query(question, model=model),
-        pipeline3.async_query(question, model=model),
+        LlmPipeline.async_query(question, model=model),
+        RagPipeline.async_query(question, model=model),
+        GraphRagPipeline.async_query(question, model=model),
         return_exceptions=True,
     )
     return outcomes[0], outcomes[1], outcomes[2]
@@ -49,11 +53,7 @@ async def _run_pipelines(
 def _print_comparison(results: dict[str, PipelineResult]):
     names = ["LLM-Only", "Basic RAG", "GraphRAG"]
 
-    print(f"\n{'─'*80}")
-    print(f"{'Metric':<20}", end="")
-    for name in names:
-        print(f"{name:>18}", end="")
-    print(f"\n{'─'*80}")
+    lines = [f"\n{'─'*80}", f"{'Metric':<20}" + "".join(f"{name:>18}" for name in names), f"{'─'*80}"]
 
     for label, key in [
         ("Prompt Tokens", "prompt_tokens"),
@@ -62,32 +62,32 @@ def _print_comparison(results: dict[str, PipelineResult]):
         ("Latency (s)", "latency_s"),
         ("Cost ($)", "cost"),
     ]:
-        print(f"{label:<20}", end="")
+        line = f"{label:<20}"
         for name in names:
             if name in results:
                 v = getattr(results[name], key)
                 if isinstance(v, float):
-                    print(f"{v:>18.4f}", end="")
+                    line += f"{v:>18.4f}"
                 else:
-                    print(f"{v:>18}", end="")
+                    line += f"{v:>18}"
             else:
-                print(f"{'N/A':>18}", end="")
-        print()
+                line += f"{'N/A':>18}"
+        lines.append(line)
 
-    print(f"{'─'*80}")
+    lines.append(f"{'─'*80}")
+    logger.info("\n".join(lines))
 
     # Answers
     for name in names:
         if name in results:
-            print(f"\n📝 {name} Answer:")
-            print(f"   {results[name].answer[:500]}")
+            logger.info("\n%s answer:\n%s", name, results[name].answer[:500])
 
             detail_lines: list[str] = []
             if results[name].finish_reason:
                 detail_lines.append(f"finish_reason={results[name].finish_reason}")
 
             if detail_lines:
-                print(f"   usage_details: {', '.join(detail_lines)}")
+                logger.info("%s usage details: %s", name, ", ".join(detail_lines))
 
     # Token reduction metric
     if "Basic RAG" in results and "GraphRAG" in results:
@@ -95,7 +95,7 @@ def _print_comparison(results: dict[str, PipelineResult]):
         graph = results["GraphRAG"].total_tokens
         if rag > 0:
             reduction = ((rag - graph) / rag) * 100
-            print(f"\n📊 Token Reduction (GraphRAG vs Basic RAG): {reduction:.1f}%")
+            logger.info("Token reduction (GraphRAG vs Basic RAG): %.1f%%", reduction)
 
 
 if __name__ == "__main__":

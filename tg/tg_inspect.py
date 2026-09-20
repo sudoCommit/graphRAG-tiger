@@ -1,8 +1,11 @@
 """Inspect an existing Savanna graph without modifying its schema or data."""
 
-from __future__ import annotations
+import logging
 
-from tg.base import GRAPH, get_connection
+from tg.load.base import get_connection
+from tg.load.constants import GRAPH
+
+logger = logging.getLogger(__name__)
 
 
 def inspect_graph() -> dict[str, int]:
@@ -18,9 +21,9 @@ def inspect_graph() -> dict[str, int]:
 
 def main() -> None:
     counts = inspect_graph()
-    print(f"Connected to existing Savanna graph: {GRAPH}")
+    logger.info("Connected to existing Savanna graph: %s", GRAPH)
     for vertex_type, count in counts.items():
-        print(f"{vertex_type}: {count}")
+        logger.info("%s: %s", vertex_type, count)
 
 
 if __name__ == "__main__":

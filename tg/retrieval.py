@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import asyncio
 import os
 from collections import Counter
@@ -7,11 +5,15 @@ from dataclasses import dataclass
 from typing import Any
 
 from langchain_core.documents import Document
-from langchain_core.embeddings import Embeddings
-from langchain_openai import OpenAIEmbeddings
+from llm.ag_llm import LLMClient
 from pyTigerGraph import TigerGraphConnection
 
-from tg.base import get_connection
+from tg.load.base import get_connection
+from tg.load.constants import EMBED_MODEL
+
+
+# Maximum number of characters to include from each document in the retrieval context.
+MAX_CHARACTERS = 1000
 
 
 @dataclass(frozen=True)
@@ -26,32 +28,22 @@ class SavannaRetriever:
     def __init__(
         self,
         connection: TigerGraphConnection | None = None,
-        embeddings: Embeddings | None = None,
-        candidate_limit: int | None = None,
-        edge_limit: int | None = None,
+        llm_client: LLMClient | None = None,
     ) -> None:
         self.connection = connection or get_connection()
-        self.embeddings = embeddings or OpenAIEmbeddings(
-            model=os.getenv("EMBEDDING_MODEL", "text-embedding-3-small"),
-            api_key=os.getenv("LLM_API_KEY") or os.getenv("OPENAI_API_KEY"),
-            base_url=os.getenv("LLM_HOST_URL") or None,
-        )
-        self.edge_limit = edge_limit or int(
-            os.getenv("TG_EDGES_PER_VERTEX", "25")
-        )
+        self.llm_client = llm_client or LLMClient()
         self._vertex_types_cache: list[str] | None = None
         self._documents_by_vertex: dict[tuple[str, str], Document] = {}
         self._retrieval_cache: dict[tuple[str, int], RetrievalResult] = {}
         self._expansion_cache: dict[
-            tuple[tuple[tuple[str, str], ...], int, int], RetrievalResult
+            tuple[tuple[tuple[str, str], ...], int, int, int | None], RetrievalResult
         ] = {}
 
-    def retrieve(self, question: str, top_k: int) -> RetrievalResult:
-        query_vector = self.embeddings.embed_query(question)
-        return self._retrieve_vector_results(question, top_k, query_vector)
-
-    async def aretrieve(self, question: str, top_k: int) -> RetrievalResult:
-        query_vector = await self.embeddings.aembed_query(question)
+    async def retrieve(self, question: str, top_k: int) -> RetrievalResult:
+        query_vector = await self.llm_client.embed(
+            question,
+            model=EMBED_MODEL,
+        )
         return await asyncio.to_thread(
             self._retrieve_vector_results,
             question,
@@ -93,30 +85,37 @@ class SavannaRetriever:
         self._cache_put(self._retrieval_cache, cache_key, result)
         return RetrievalResult(list(result.documents), result.context)
 
-    async def aexpand(
+    async def expand(
         self,
         seeds: list[Document],
         num_hops: int,
         num_seen_min: int = 1,
+        edge_limit: int | None = None,
     ) -> RetrievalResult:
         return await asyncio.to_thread(
-            self.expand,
+            self._expand,
             seeds,
             num_hops,
             num_seen_min,
+            edge_limit,
         )
 
-    def expand(
+    def _expand(
         self,
         seeds: list[Document],
         num_hops: int,
         num_seen_min: int = 1,
+        edge_limit: int | None = None,
     ) -> RetrievalResult:
+        if edge_limit is None:
+            raise ValueError("edge_limit is required for GraphRAG expansion")
+        if edge_limit < 1:
+            raise ValueError("edge_limit must be at least 1")
         seed_key = tuple(sorted(
             (str(doc.metadata["vertex_type"]), str(doc.metadata["vertex_id"]))
             for doc in seeds
         ))
-        cache_key = (seed_key, num_hops, num_seen_min)
+        cache_key = (seed_key, num_hops, num_seen_min, edge_limit)
         cached = self._expansion_cache.get(cache_key)
         if cached is not None:
             return RetrievalResult(list(cached.documents), cached.context)
@@ -130,7 +129,10 @@ class SavannaRetriever:
         relationships: list[str] = []
 
         for _ in range(max(0, num_hops)):
-            next_frontier, hop_relationships = self._walk_one_hop(frontier)
+            next_frontier, hop_relationships = self._walk_one_hop(
+                frontier,
+                edge_limit,
+            )
 
             accepted = {
                 key
@@ -219,7 +221,9 @@ class SavannaRetriever:
         return hits
 
     def _walk_one_hop(
-        self, frontier: set[tuple[str, str]]
+        self,
+        frontier: set[tuple[str, str]],
+        edge_limit: int,
     ) -> tuple[Counter[tuple[str, str]], list[tuple[tuple[str, str], str]]]:
         targets: Counter[tuple[str, str]] = Counter()
         relationships: list[tuple[tuple[str, str], str]] = []
@@ -227,7 +231,7 @@ class SavannaRetriever:
             edges = self.connection.getEdges(
                 source_type,
                 source_id,
-                limit=self.edge_limit,
+                limit=edge_limit,
                 withType=True,
             )
             for edge in edges if isinstance(edges, list) else []:
@@ -258,16 +262,14 @@ class SavannaRetriever:
             return None
         fields = [f"type: {vertex_type}", f"id: {vertex_id}"]
         for name, value in attributes.items():
-            if name.lower() in {"embedding", "vector"} or value in (
-                None,
-                "",
-                [],
-                {},
-            ):
+            if name.lower() in {"id", "embedding", "vector"} or value in (None, "", [], {}):
                 continue
             rendered = str(value)
-            if len(rendered) <= 1000:
-                fields.append(f"{name}: {rendered}")
+
+            if len(rendered) > MAX_CHARACTERS:
+                rendered = rendered[:MAX_CHARACTERS] + "..."
+            fields.append(f"{name}: {rendered}")
+
         return Document(
             page_content="; ".join(fields),
             metadata={"vertex_type": vertex_type, "vertex_id": str(vertex_id)},

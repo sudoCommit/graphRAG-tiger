@@ -9,20 +9,17 @@ GRAPH_RAG_SYSTEM_PROMPT = load_system_prompt(str(PROMPTY_PATH))
 
 def render_graph_rag_prompt(
     question: str,
-    retrieval_method: str,
     retrieved_context: str,
 ) -> str:
     return render_prompt(
         GRAPH_RAG_SYSTEM_PROMPT,
         question=question,
-        retrieval_method=retrieval_method,
         retrieved_context=retrieved_context,
     )
 
 
 def build_graph_rag_prompt(
     question: str,
-    retrieval_method: str,
     context: str,
 ) -> list[dict[str, str]]:
     """Build the GraphRAG messages from the checked-in prompt template."""
@@ -30,7 +27,6 @@ def build_graph_rag_prompt(
         "role": "system",
         "content": render_graph_rag_prompt(
             question=question,
-            retrieval_method=retrieval_method,
             retrieved_context=context,
         ),
     }]
