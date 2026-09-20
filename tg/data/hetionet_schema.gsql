@@ -1,136 +1,125 @@
-CREATE VERTEX Anatomy (
+CREATE GRAPH HetionetGraph()
+
+USE GRAPH HetionetGraph
+CREATE SCHEMA_CHANGE JOB add_hetionet_schema FOR GRAPH HetionetGraph {
+ADD VERTEX Anatomy (
     PRIMARY_ID id STRING,
     name STRING,
-    text_blob STRING,
-    embedding LIST<DOUBLE>
+    text_blob STRING
 ) WITH primary_id_as_attribute="true";
 
-CREATE VERTEX BiologicalProcess (
+ADD VERTEX BiologicalProcess (
     PRIMARY_ID id STRING,
     name STRING,
-    text_blob STRING,
-    embedding LIST<DOUBLE>
+    text_blob STRING
 ) WITH primary_id_as_attribute="true";
 
-CREATE VERTEX CellularComponent (
+ADD VERTEX CellularComponent (
     PRIMARY_ID id STRING,
     name STRING,
-    text_blob STRING,
-    embedding LIST<DOUBLE>
+    text_blob STRING
 ) WITH primary_id_as_attribute="true";
 
-CREATE VERTEX Compound (
+ADD VERTEX Compound (
     PRIMARY_ID id STRING,
     name STRING,
-    text_blob STRING,
-    embedding LIST<DOUBLE>
+    text_blob STRING
 ) WITH primary_id_as_attribute="true";
 
-CREATE VERTEX Disease (
+ADD VERTEX Disease (
     PRIMARY_ID id STRING,
     name STRING,
-    text_blob STRING,
-    embedding LIST<DOUBLE>
+    text_blob STRING
 ) WITH primary_id_as_attribute="true";
 
-CREATE VERTEX Gene (
+ADD VERTEX Gene (
     PRIMARY_ID id STRING,
     name STRING,
-    text_blob STRING,
-    embedding LIST<DOUBLE>
+    text_blob STRING
 ) WITH primary_id_as_attribute="true";
 
-CREATE VERTEX MolecularFunction (
+ADD VERTEX MolecularFunction (
     PRIMARY_ID id STRING,
     name STRING,
-    text_blob STRING,
-    embedding LIST<DOUBLE>
+    text_blob STRING
 ) WITH primary_id_as_attribute="true";
 
-CREATE VERTEX Pathway (
+ADD VERTEX Pathway (
     PRIMARY_ID id STRING,
     name STRING,
-    text_blob STRING,
-    embedding LIST<DOUBLE>
+    text_blob STRING
 ) WITH primary_id_as_attribute="true";
 
-CREATE VERTEX PharmacologicClass (
+ADD VERTEX PharmacologicClass (
     PRIMARY_ID id STRING,
     name STRING,
-    text_blob STRING,
-    embedding LIST<DOUBLE>
+    text_blob STRING
 ) WITH primary_id_as_attribute="true";
 
-CREATE VERTEX SideEffect (
+ADD VERTEX SideEffect (
     PRIMARY_ID id STRING,
     name STRING,
-    text_blob STRING,
-    embedding LIST<DOUBLE>
+    text_blob STRING
 ) WITH primary_id_as_attribute="true";
 
-CREATE VERTEX Symptom (
+ADD VERTEX Symptom (
     PRIMARY_ID id STRING,
     name STRING,
-    text_blob STRING,
-    embedding LIST<DOUBLE>
+    text_blob STRING
 ) WITH primary_id_as_attribute="true";
 
-CREATE DIRECTED EDGE Anatomy_localizes_Disease (FROM Anatomy, TO Disease);
-CREATE DIRECTED EDGE Anatomy_upregulates_Gene (FROM Anatomy, TO Gene);
-CREATE UNDIRECTED EDGE Anatomy_expresses_Gene (FROM Anatomy, TO Gene);
-CREATE DIRECTED EDGE Anatomy_downregulates_Gene (FROM Anatomy, TO Gene);
+ADD DIRECTED EDGE Anatomy_localizes_Disease (FROM Anatomy, TO Disease);
+ADD DIRECTED EDGE Anatomy_upregulates_Gene (FROM Anatomy, TO Gene);
+ADD UNDIRECTED EDGE Anatomy_expresses_Gene (FROM Anatomy, TO Gene);
+ADD DIRECTED EDGE Anatomy_downregulates_Gene (FROM Anatomy, TO Gene);
 
-CREATE DIRECTED EDGE SideEffect_causes_Compound (FROM SideEffect, TO Compound);
+ADD DIRECTED EDGE SideEffect_causes_Compound (FROM SideEffect, TO Compound);
 
-CREATE DIRECTED EDGE Gene_downregulates_Disease (FROM Gene, TO Disease);
-CREATE DIRECTED EDGE Gene_upregulates_Disease (FROM Gene, TO Disease);
-CREATE DIRECTED EDGE Gene_associates_Disease (FROM Gene, TO Disease);
-CREATE DIRECTED EDGE Gene_downregulates_Compound (FROM Gene, TO Compound);
-CREATE DIRECTED EDGE Gene_upregulates_Compound (FROM Gene, TO Compound);
-CREATE DIRECTED EDGE Gene_binds_Compound (FROM Gene, TO Compound);
-CREATE DIRECTED EDGE Gene_regulates_Gene (FROM Gene, TO Gene);
-CREATE UNDIRECTED EDGE Gene_interacts_Gene (FROM Gene, TO Gene);
-CREATE UNDIRECTED EDGE Gene_covaries_Gene (FROM Gene, TO Gene);
-CREATE DIRECTED EDGE Gene_downregulates_Anatomy (FROM Gene, TO Anatomy);
-CREATE DIRECTED EDGE Gene_upregulates_Anatomy (FROM Gene, TO Anatomy);
-CREATE UNDIRECTED EDGE Gene_expresses_Anatomy (FROM Gene, TO Anatomy);
-CREATE UNDIRECTED EDGE Gene_participates_BiologicalProcess (FROM Gene, TO BiologicalProcess);
-CREATE UNDIRECTED EDGE Gene_participates_MolecularFunction (FROM Gene, TO MolecularFunction);
-CREATE UNDIRECTED EDGE Gene_participates_CellularComponent (FROM Gene, TO CellularComponent);
-CREATE UNDIRECTED EDGE Gene_participates_Pathway (FROM Gene, TO Pathway);
+ADD DIRECTED EDGE Gene_downregulates_Disease (FROM Gene, TO Disease);
+ADD DIRECTED EDGE Gene_upregulates_Disease (FROM Gene, TO Disease);
+ADD DIRECTED EDGE Gene_associates_Disease (FROM Gene, TO Disease);
+ADD DIRECTED EDGE Gene_downregulates_Compound (FROM Gene, TO Compound);
+ADD DIRECTED EDGE Gene_upregulates_Compound (FROM Gene, TO Compound);
+ADD DIRECTED EDGE Gene_binds_Compound (FROM Gene, TO Compound);
+ADD DIRECTED EDGE Gene_regulates_Gene (FROM Gene, TO Gene);
+ADD UNDIRECTED EDGE Gene_interacts_Gene (FROM Gene, TO Gene);
+ADD UNDIRECTED EDGE Gene_covaries_Gene (FROM Gene, TO Gene);
+ADD DIRECTED EDGE Gene_downregulates_Anatomy (FROM Gene, TO Anatomy);
+ADD DIRECTED EDGE Gene_upregulates_Anatomy (FROM Gene, TO Anatomy);
+ADD UNDIRECTED EDGE Gene_expresses_Anatomy (FROM Gene, TO Anatomy);
+ADD UNDIRECTED EDGE Gene_participates_BiologicalProcess (FROM Gene, TO BiologicalProcess);
+ADD UNDIRECTED EDGE Gene_participates_MolecularFunction (FROM Gene, TO MolecularFunction);
+ADD UNDIRECTED EDGE Gene_participates_CellularComponent (FROM Gene, TO CellularComponent);
+ADD UNDIRECTED EDGE Gene_participates_Pathway (FROM Gene, TO Pathway);
 
-CREATE UNDIRECTED EDGE PharmacologicClass_includes_Compound (FROM PharmacologicClass, TO Compound);
+ADD UNDIRECTED EDGE PharmacologicClass_includes_Compound (FROM PharmacologicClass, TO Compound);
 
-CREATE UNDIRECTED EDGE Compound_includes_PharmacologicClass (FROM Compound, TO PharmacologicClass);
-CREATE DIRECTED EDGE Compound_treats_Disease (FROM Compound, TO Disease);
-CREATE DIRECTED EDGE Compound_palliates_Disease (FROM Compound, TO Disease);
-CREATE DIRECTED EDGE Compound_causes_SideEffect (FROM Compound, TO SideEffect);
-CREATE DIRECTED EDGE Compound_binds_Gene (FROM Compound, TO Gene);
-CREATE UNDIRECTED EDGE Compound_resembles_Compound (FROM Compound, TO Compound);
-CREATE DIRECTED EDGE Compound_upregulates_Gene (FROM Compound, TO Gene);
-CREATE DIRECTED EDGE Compound_downregulates_Gene (FROM Compound, TO Gene);
+ADD UNDIRECTED EDGE Compound_includes_PharmacologicClass (FROM Compound, TO PharmacologicClass);
+ADD DIRECTED EDGE Compound_treats_Disease (FROM Compound, TO Disease);
+ADD DIRECTED EDGE Compound_palliates_Disease (FROM Compound, TO Disease);
+ADD DIRECTED EDGE Compound_causes_SideEffect (FROM Compound, TO SideEffect);
+ADD DIRECTED EDGE Compound_binds_Gene (FROM Compound, TO Gene);
+ADD UNDIRECTED EDGE Compound_resembles_Compound (FROM Compound, TO Compound);
+ADD DIRECTED EDGE Compound_upregulates_Gene (FROM Compound, TO Gene);
+ADD DIRECTED EDGE Compound_downregulates_Gene (FROM Compound, TO Gene);
 
-CREATE DIRECTED EDGE Disease_downregulates_Gene (FROM Disease, TO Gene);
-CREATE DIRECTED EDGE Disease_upregulates_Gene (FROM Disease, TO Gene);
-CREATE DIRECTED EDGE Disease_associates_Gene (FROM Disease, TO Gene);
-CREATE DIRECTED EDGE Disease_presents_Symptom (FROM Disease, TO Symptom);
-CREATE UNDIRECTED EDGE Disease_resembles_Disease (FROM Disease, TO Disease);
-CREATE DIRECTED EDGE Disease_localizes_Anatomy (FROM Disease, TO Anatomy);
-CREATE DIRECTED EDGE Disease_treats_Compound (FROM Disease, TO Compound);
-CREATE DIRECTED EDGE Disease_palliates_Compound (FROM Disease, TO Compound);
+ADD DIRECTED EDGE Disease_downregulates_Gene (FROM Disease, TO Gene);
+ADD DIRECTED EDGE Disease_upregulates_Gene (FROM Disease, TO Gene);
+ADD DIRECTED EDGE Disease_associates_Gene (FROM Disease, TO Gene);
+ADD DIRECTED EDGE Disease_presents_Symptom (FROM Disease, TO Symptom);
+ADD UNDIRECTED EDGE Disease_resembles_Disease (FROM Disease, TO Disease);
+ADD DIRECTED EDGE Disease_localizes_Anatomy (FROM Disease, TO Anatomy);
+ADD DIRECTED EDGE Disease_treats_Compound (FROM Disease, TO Compound);
+ADD DIRECTED EDGE Disease_palliates_Compound (FROM Disease, TO Compound);
 
-CREATE DIRECTED EDGE Symptom_presents_Disease (FROM Symptom, TO Disease);
+ADD DIRECTED EDGE Symptom_presents_Disease (FROM Symptom, TO Disease);
 
-CREATE UNDIRECTED EDGE CellularComponent_participates_Gene (FROM CellularComponent, TO Gene);
+ADD UNDIRECTED EDGE CellularComponent_participates_Gene (FROM CellularComponent, TO Gene);
 
-CREATE UNDIRECTED EDGE MolecularFunction_participates_Gene (FROM MolecularFunction, TO Gene);
+ADD UNDIRECTED EDGE MolecularFunction_participates_Gene (FROM MolecularFunction, TO Gene);
 
-CREATE UNDIRECTED EDGE BiologicalProcess_participates_Gene (FROM BiologicalProcess, TO Gene);
+ADD UNDIRECTED EDGE BiologicalProcess_participates_Gene (FROM BiologicalProcess, TO Gene);
 
-CREATE UNDIRECTED EDGE Pathway_participates_Gene (FROM Pathway, TO Gene);
-
-
-CREATE GRAPH HetionetGraph ( 
-    Anatomy, BiologicalProcess, CellularComponent, Compound, Disease, Gene, MolecularFunction, Pathway, PharmacologicClass, SideEffect, Symptom,
-    Anatomy_localizes_Disease,Anatomy_upregulates_Gene,Anatomy_expresses_Gene,Anatomy_downregulates_Gene,SideEffect_causes_Compound,Gene_downregulates_Disease,Gene_upregulates_Disease,Gene_associates_Disease,Gene_downregulates_Compound,Gene_upregulates_Compound,Gene_binds_Compound,Gene_regulates_Gene,Gene_interacts_Gene,Gene_covaries_Gene,Gene_downregulates_Anatomy,Gene_upregulates_Anatomy,Gene_expresses_Anatomy,Gene_participates_BiologicalProcess,Gene_participates_MolecularFunction,Gene_participates_CellularComponent,Gene_participates_Pathway,PharmacologicClass_includes_Compound,Compound_includes_PharmacologicClass,Compound_treats_Disease,Compound_palliates_Disease,Compound_causes_SideEffect,Compound_binds_Gene,Compound_resembles_Compound,Compound_upregulates_Gene,Compound_downregulates_Gene,Disease_downregulates_Gene,Disease_upregulates_Gene,Disease_associates_Gene,Disease_presents_Symptom,Disease_resembles_Disease,Disease_localizes_Anatomy,Disease_treats_Compound,Disease_palliates_Compound,Symptom_presents_Disease,CellularComponent_participates_Gene,MolecularFunction_participates_Gene,BiologicalProcess_participates_Gene,Pathway_participates_Gene
-);
+ADD UNDIRECTED EDGE Pathway_participates_Gene (FROM Pathway, TO Gene);
+}
+RUN SCHEMA_CHANGE JOB add_hetionet_schema

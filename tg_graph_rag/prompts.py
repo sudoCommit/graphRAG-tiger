@@ -18,3 +18,19 @@ def render_graph_rag_prompt(
         retrieval_method=retrieval_method,
         retrieved_context=retrieved_context,
     )
+
+
+def build_graph_rag_prompt(
+    question: str,
+    retrieval_method: str,
+    context: str,
+) -> list[dict[str, str]]:
+    """Build the GraphRAG messages from the checked-in prompt template."""
+    return [{
+        "role": "system",
+        "content": render_graph_rag_prompt(
+            question=question,
+            retrieval_method=retrieval_method,
+            retrieved_context=context,
+        ),
+    }]

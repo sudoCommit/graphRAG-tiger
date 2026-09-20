@@ -1,3 +1,4 @@
+import asyncio
 import sys
 
 from llm.ag_llm import PipelineResult
@@ -12,35 +13,37 @@ def run_comparison(question: str, model: str = "gpt-4.1-mini") -> dict[str, Pipe
     print(f"Question: {question}")
     print(f"{'='*80}\n")
 
+    outcomes = asyncio.run(_run_pipelines(question, model))
     results: dict[str, PipelineResult] = {}
-
-    # Pipeline 1: LLM-Only
-    print("▶ Running Pipeline 1: LLM-Only...")
-    try:
-        results["LLM-Only"] = pipeline1.query(question, model=model)
-        print(f"  ✅ Done ({results['LLM-Only'].latency_s}s)")
-    except Exception as e:
-        print(f"  ❌ Failed: {e}")
-
-    # Pipeline 2: Basic RAG (vector-only)
-    print("▶ Running Pipeline 2: Basic RAG (vector-only)...")
-    try:
-        results["Basic RAG"] = pipeline2.query(question, model=model)
-        print(f"  ✅ Done ({results['Basic RAG'].latency_s}s)")
-    except Exception as e:
-        print(f"  ❌ Failed: {e}")
-
-    # Pipeline 3: GraphRAG (hybrid)
-    print("▶ Running Pipeline 3: GraphRAG (hybrid)...")
-    try:
-        results["GraphRAG"] = pipeline3.query(question, model=model)
-        print(f"  ✅ Done ({results['GraphRAG'].latency_s}s)")
-    except Exception as e:
-        print(f"  ❌ Failed: {e}")
+    labels = ("LLM-Only", "Basic RAG", "GraphRAG")
+    for label, outcome in zip(labels, outcomes):
+        print(f"▶ {label}...")
+        if isinstance(outcome, Exception):
+            print(f"  ❌ Failed: {outcome}")
+        else:
+            results[label] = outcome
+            print(f"  ✅ Done ({outcome.latency_s}s)")
 
     # Comparison table
     _print_comparison(results)
     return results
+
+
+async def _run_pipelines(
+    question: str,
+    model: str,
+) -> tuple[
+    PipelineResult | Exception,
+    PipelineResult | Exception,
+    PipelineResult | Exception,
+]:
+    outcomes = await asyncio.gather(
+        pipeline1.async_query(question, model=model),
+        pipeline2.async_query(question, model=model),
+        pipeline3.async_query(question, model=model),
+        return_exceptions=True,
+    )
+    return outcomes[0], outcomes[1], outcomes[2]
 
 
 def _print_comparison(results: dict[str, PipelineResult]):
@@ -82,12 +85,6 @@ def _print_comparison(results: dict[str, PipelineResult]):
             detail_lines: list[str] = []
             if results[name].finish_reason:
                 detail_lines.append(f"finish_reason={results[name].finish_reason}")
-            if results[name].response_id:
-                detail_lines.append(f"id={results[name].response_id}")
-            if results[name].service_tier:
-                detail_lines.append(f"service_tier={results[name].service_tier}")
-            if results[name].latency_checkpoint:
-                detail_lines.append("latency_checkpoint=available")
 
             if detail_lines:
                 print(f"   usage_details: {', '.join(detail_lines)}")

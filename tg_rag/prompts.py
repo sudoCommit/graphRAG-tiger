@@ -7,8 +7,8 @@ PROMPTY_PATH = Path(__file__).with_name("basic_rag.prompty")
 RAG_SYSTEM_PROMPT = load_system_prompt(str(PROMPTY_PATH))
 
 
-def build_rag_prompt(question: str, context: str) -> list[dict]:
-    """Build a RAG prompt with retrieved context injected."""
+def build_rag_prompt(question: str, context: str) -> list[dict[str, str]]:
+    """Build the Basic RAG messages from the checked-in prompt template."""
     return [
         {
             "role": "system",

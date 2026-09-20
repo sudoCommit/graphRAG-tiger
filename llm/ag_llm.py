@@ -1,11 +1,12 @@
+from __future__ import annotations
 
 import time
 import os
 import logging
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Any
 
-from openai import OpenAI
+from openai import AsyncOpenAI, OpenAI
 from dotenv import load_dotenv
 
 load_dotenv(override=True)
@@ -32,14 +33,7 @@ class PipelineResult:
     cost: float = 0.0
     model: str = ""
     retrieved_context: str = ""
-    response_id: str = ""
-    created: int | None = None
-    service_tier: str = ""
-    system_fingerprint: str = ""
     finish_reason: str = ""
-    completion_tokens_details: dict[str, Any] = field(default_factory=dict)
-    prompt_tokens_details: dict[str, Any] = field(default_factory=dict)
-    latency_checkpoint: dict[str, Any] = field(default_factory=dict)
 
 
 def _to_dict(value: Any) -> dict[str, Any]:
@@ -86,22 +80,6 @@ def extract_usage_metrics(payload: Any) -> dict[str, Any]:
     if total_tokens is None:
         total_tokens = _read_field(payload, "total_tokens", 0)
 
-    completion_details = _read_field(
-        usage,
-        "completion_tokens_details",
-        usage_dict.get("completion_tokens_details", {}),
-    )
-    prompt_details = _read_field(
-        usage,
-        "prompt_tokens_details",
-        usage_dict.get("prompt_tokens_details", {}),
-    )
-    latency_checkpoint = _read_field(
-        usage,
-        "latency_checkpoint",
-        usage_dict.get("latency_checkpoint", {}),
-    )
-
     choices = _read_field(payload, "choices", []) or []
     first_choice = choices[0] if choices else None
 
@@ -109,15 +87,6 @@ def extract_usage_metrics(payload: Any) -> dict[str, Any]:
         "prompt_tokens": int(prompt_tokens or 0),
         "completion_tokens": int(completion_tokens or 0),
         "total_tokens": int(total_tokens or 0),
-        "completion_tokens_details": _to_dict(completion_details),
-        "prompt_tokens_details": _to_dict(prompt_details),
-        "latency_checkpoint": _to_dict(latency_checkpoint),
-        "response_id": str(_read_field(payload, "id", "") or ""),
-        "created": _read_field(payload, "created", None),
-        "service_tier": str(_read_field(payload, "service_tier", "") or ""),
-        "system_fingerprint": str(
-            _read_field(payload, "system_fingerprint", "") or ""
-        ),
         "model": str(_read_field(payload, "model", "") or ""),
         "finish_reason": str(_read_field(first_choice, "finish_reason", "") or ""),
     }
@@ -127,6 +96,11 @@ class LLMClient:
     """LLM client with token tracking and cost calculation."""
     def __init__(self, model: str = "gpt-4.1-mini"):
         self.client = OpenAI(
+            api_key=os.getenv("LLM_API_KEY"),
+            base_url=os.getenv("LLM_HOST_URL"),
+            timeout=60,
+        )
+        self.async_client = AsyncOpenAI(
             api_key=os.getenv("LLM_API_KEY"),
             base_url=os.getenv("LLM_HOST_URL"),
             timeout=60,
@@ -166,14 +140,40 @@ class LLMClient:
             latency_s=round(latency, 3),
             cost=round(cost, 6),
             model=usage_data["model"] or self.model,
-            response_id=usage_data["response_id"],
-            created=usage_data["created"],
-            service_tier=usage_data["service_tier"],
-            system_fingerprint=usage_data["system_fingerprint"],
             finish_reason=usage_data["finish_reason"],
-            completion_tokens_details=usage_data["completion_tokens_details"],
-            prompt_tokens_details=usage_data["prompt_tokens_details"],
-            latency_checkpoint=usage_data["latency_checkpoint"],
+        )
+
+    async def async_query(
+        self,
+        messages: list[dict],
+        temperature: float = 0,
+    ) -> PipelineResult:
+        start = time.perf_counter()
+        response = await self.async_client.chat.completions.create(
+            model=self.model,
+            messages=messages,
+            temperature=temperature,
+        )
+        latency = time.perf_counter() - start
+        usage_data = extract_usage_metrics(response)
+        prompt_tokens = usage_data["prompt_tokens"]
+        completion_tokens = usage_data["completion_tokens"]
+        total_tokens = usage_data["total_tokens"]
+        pricing = PRICING.get(self.model, {"input": 0.0, "output": 0.0})
+        cost = (
+            prompt_tokens * pricing["input"]
+            + completion_tokens * pricing["output"]
+        ) / 1_000_000
+        message = response.choices[0].message if response.choices else None
+        return PipelineResult(
+            answer=getattr(message, "content", "") or "",
+            prompt_tokens=prompt_tokens,
+            completion_tokens=completion_tokens,
+            total_tokens=total_tokens,
+            latency_s=round(latency, 3),
+            cost=round(cost, 6),
+            model=usage_data["model"] or self.model,
+            finish_reason=usage_data["finish_reason"],
         )
 
     def embed(self, text: str, model: str = "text-embedding-3-small") -> list[float]:

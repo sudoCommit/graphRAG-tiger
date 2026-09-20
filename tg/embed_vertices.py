@@ -5,9 +5,7 @@ Steps executed by main():
   1. add_embedding_schema()   – schema change job: adds text_blob STRING and
                                 embedding LIST<DOUBLE> to every vertex type
                                 (safe to re-run; skips if already present).
-  2. create_vector_indexes()  – GSQL CREATE VECTOR INDEX for each vertex type
-                                (TigerGraph 4.x); gracefully skips on older
-                                versions or if the index already exists.
+    2. TigerGraph manages the native vector indexes for those attributes.
   3. embed_all_vertex_types() – reads every nodes/VType.csv, builds a text
                                 blob from meaningful columns, calls the OpenAI
                                 embeddings API in batches, then upserts
@@ -26,6 +24,7 @@ Usage:
 import csv
 import os
 import time
+import argparse
 from pathlib import Path
 from typing import Iterator
 
@@ -36,12 +35,15 @@ from openai import OpenAI
 load_dotenv(override=True)
 
 
-TG_HOST = "https://tg-b07aa060-e3df-4207-94fc-971616eb7348.tg-2635877100.i.tgcloud.io"
+TG_HOST = os.getenv(
+    "TG_HOST",
+    "https://tg-02fe439b-55d1-49dd-b079-f3dccc2364d4.tg-2635877100.i.tgcloud.io",
+)
 GRAPH = "HetionetGraph"
 EMBED_MODEL = "text-embedding-3-small"
 EMBED_DIM = 1536
 BATCH_SIZE = 100  # OpenAI supports up to 2048 items per call; 100 is safe
-DATA_DIR = Path("tg/data/nodes")
+DATA_DIR = Path(__file__).resolve().parent / "data" / "nodes"
 # All vertex types in HetionetGraph
 VERTEX_TYPES = [
     "Anatomy",
@@ -79,14 +81,14 @@ def _iter_batches(items: list, size: int) -> Iterator[list]:
 
 
 def add_embedding_schema(conn: tg.TigerGraphConnection) -> None:
-    """Add text_blob STRING and embedding LIST<DOUBLE> to all vertex types.
+    """Add the native TigerGraph vector attribute to every vertex type.
 
     Runs as a single schema change job so all alterations are atomic.
     Safe to re-run: if the attributes already exist the exception is caught.
     """
     print("Step 1 – adding embedding schema attributes...")
     alter_stmts = "\n    ".join(
-        f"ALTER VERTEX {vt} ADD ATTRIBUTE (text_blob STRING, embedding LIST<DOUBLE>);"
+        f'ALTER VERTEX {vt} ADD VECTOR ATTRIBUTE embedding(DIMENSION={EMBED_DIM}, METRIC="COSINE");'
         for vt in VERTEX_TYPES
     )
     gsql = f"""
@@ -106,43 +108,18 @@ RUN GLOBAL SCHEMA_CHANGE JOB add_hetionet_embeddings
             raise
 
 
-def create_vector_indexes(conn: tg.TigerGraphConnection) -> None:
-    """Create a HNSW vector index on the embedding attribute for each vertex
-    type.  Requires TigerGraph 4.x; on older versions the call is skipped
-    gracefully.
-    """
-    print("Step 2 – creating vector indexes (TigerGraph 4.x)...")
-    for vtype in VERTEX_TYPES:
-        idx_name = f"{vtype}_embedding_idx"
-        gsql = (
-            f"USE GRAPH {GRAPH}\n"
-            f"CREATE VECTOR INDEX {idx_name} ON VERTEX {vtype} "
-            f"EMBEDDING ATTRIBUTE embedding DIMENSION {EMBED_DIM};"
-        )
-        try:
-            conn.gsql(gsql)
-            print(f"  ✅ Vector index created: {idx_name}")
-        except Exception as exc:
-            msg = str(exc).lower()
-            if "already exists" in msg:
-                print(f"  ⚠️  Index {idx_name} already exists – skipping")
-            elif "not supported" in msg or "syntax error" in msg or "unknown" in msg:
-                print(
-                    f"  ℹ️  Vector indexes not supported on this TigerGraph version "
-                    f"(embeddings are stored as LIST<DOUBLE> attributes – "
-                    f"exact cosine search still works via GSQL query)"
-                )
-                break  # no point trying the other types
-            else:
-                print(f"  ⚠️  Could not create index {idx_name}: {exc}")
+def create_vector_indexes() -> None:
+    """Native vector attributes create and maintain their own indexes."""
+    print("Step 2 – native vector indexes are managed by TigerGraph")
 
 
 def embed_vertex_type(
     conn: tg.TigerGraphConnection,
     openai_client: OpenAI,
     vtype: str,
+    limit: int | None = 10,
 ) -> tuple[int, float]:
-    """Generate embeddings for every vertex of *vtype* and upsert them."""
+    """Generate embeddings for up to ``limit`` vertices of *vtype*."""
     total_tokens_used = 0
     total_cost = 0.0
     model_cost = _MODEL_COST_PER_TOKEN.get(EMBED_MODEL)
@@ -158,6 +135,9 @@ def embed_vertex_type(
 
     with open(csv_path, newline="", encoding="utf-8") as fh:
         rows = list(csv.DictReader(fh))
+
+    if limit is not None:
+        rows = rows[:limit]
 
     if not rows:
         print(f"  ⚠️  {csv_path} is empty – skipping {vtype}")
@@ -202,13 +182,14 @@ def embed_vertex_type(
 def embed_all_vertex_types(
     conn: tg.TigerGraphConnection,
     openai_client: OpenAI,
+    limit: int | None = 10,
 ) -> None:
     print("Step 3 – generating and upserting embeddings …")
     tokens = 0
     cost = 0.0
     for vtype in VERTEX_TYPES:
         print(f"\n[{vtype}]")
-        v_tokens, v_cost = embed_vertex_type(conn, openai_client, vtype)
+        v_tokens, v_cost = embed_vertex_type(conn, openai_client, vtype, limit=limit)
         tokens += v_tokens
         cost += v_cost
 
@@ -231,7 +212,9 @@ def wait_for_vector_indexes(
         all_ready = True
         for vtype in VERTEX_TYPES:
             try:
-                ready = conn.getVectorStatus(vtype, "embedding")
+                ready = conn.getVectorIndexStatus(
+                    graphName=GRAPH, vertexType=vtype, vectorName="embedding"
+                )
                 if not ready:
                     all_ready = False
                     break
@@ -249,6 +232,18 @@ def wait_for_vector_indexes(
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Generate embeddings for loaded TigerGraph vertices.")
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=10,
+        help="Maximum vertices to embed per type; use 0 for all vertices.",
+    )
+    args = parser.parse_args()
+    if args.limit < 0:
+        parser.error("--limit must be zero or greater")
+    limit = args.limit or None
+
     conn = _get_connection()
     openai_client = OpenAI(
         api_key=os.getenv("LLM_API_KEY"),
@@ -256,12 +251,12 @@ def main() -> None:
         timeout=60,
     )
 
-    add_embedding_schema(conn)
-    time.sleep(3)  # let schema propagate
+    # add_embedding_schema(conn)
+    # time.sleep(3)  # let schema propagate
 
-    create_vector_indexes(conn)
+    create_vector_indexes()
 
-    embed_all_vertex_types(conn, openai_client)
+    embed_all_vertex_types(conn, openai_client, limit=limit)
 
     wait_for_vector_indexes(conn)
 
