@@ -1,4 +1,4 @@
-# graphRAG-tiger
+# GraphRAG Embedding and Retrieval over TigerGraph
 
 GraphRAG pipelines over an existing TigerGraph/Savanna biomedical graph.
 The application compares three executions:
@@ -98,11 +98,19 @@ uv run python -m tg.load.tg_load --load-data --limit 100
 
 `--limit` applies independently to each vertex and edge CSV. Edge rows are loaded only when both endpoint vertices are present in the selected vertex sample.
 
+To load every vertex and edge row:
+
+```bash
+uv run python -m tg.load.tg_load --load-data --all
+```
+
 You can combine schema creation and data loading:
 
 ```bash
 uv run python -m tg.load.tg_load --schema --load-data --limit 100
 ```
+
+Use `--schema --load-data --all` to create the schema and load the complete dataset.
 
 ### 3. Generate and load document embeddings
 
@@ -260,6 +268,9 @@ uv run python -m tg.load.tg_load --schema --load-data --limit 2
 
 # Load data into an existing graph.
 uv run python -m tg.load.tg_load --load-data --limit 100
+
+# Load all vertices and edges into an existing graph.
+uv run python -m tg.load.tg_load --load-data --all
 
 # Generate embeddings for all rows.
 uv run python -m tg.load.embed_vertices --limit 0

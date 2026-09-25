@@ -12,11 +12,14 @@ from tg.load.schema import run_gsql
 logger = logging.getLogger(__name__)
 
 
-def _limited_rows(path: Path, limit: int) -> list[list[str]]:
+def _limited_rows(path: Path, limit: int | None) -> list[list[str]]:
     with path.open(newline="", encoding="utf-8") as source:
         reader = csv.reader(source)
         next(reader, None)
-        return [row[:2] for _, row in zip(range(limit), reader) if len(row) >= 2]
+        rows = (row for row in reader if len(row) >= 2)
+        if limit is not None:
+            rows = (row for _, row in zip(range(limit), rows))
+        return [row[:2] for row in rows]
 
 
 def _write_subset(header: list[str], rows: list[list[str]]) -> str:
@@ -33,7 +36,7 @@ def _write_subset(header: list[str], rows: list[list[str]]) -> str:
 def load_vertices(
     conn: tg.TigerGraphConnection,
     data_dir: Path,
-    limit: int,
+    limit: int | None,
 ) -> dict[str, set[str]]:
     logger.info("Loading up to %s vertices per type", limit)
     loaded_ids: dict[str, set[str]] = {}
@@ -55,7 +58,7 @@ def load_vertices(
 def _matching_edge_rows(
     path: Path,
     loaded_ids: dict[str, set[str]],
-    limit: int,
+    limit: int | None,
 ) -> list[list[str]]:
     from_type = next(
         (vertex_type for vertex_type in VERTEX_TYPES if path.stem.startswith(f"{vertex_type}_")),
@@ -78,7 +81,7 @@ def _matching_edge_rows(
                 and row[1] in loaded_ids.get(to_type, set())
             ):
                 rows.append(row[:2])
-                if len(rows) >= limit:
+                if limit is not None and len(rows) >= limit:
                     break
     return rows
 
@@ -87,7 +90,7 @@ def load_edges(
     conn: tg.TigerGraphConnection,
     data_dir: Path,
     loaded_ids: dict[str, set[str]],
-    limit: int,
+    limit: int | None,
 ) -> None:
     logger.info("Loading up to %s edges per type", limit)
     for source_path in sorted((data_dir / "edges").glob("*.csv")):

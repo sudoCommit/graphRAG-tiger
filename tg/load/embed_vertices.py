@@ -57,12 +57,20 @@ class EmbeddingClient:
         texts: list[str],
         model: str,
     ) -> tuple[list[list[float]], int]:
-        response = self.client.embeddings.create(
-            model=model,
-            input=texts,
-            dimensions=EMBED_DIM,
-            encoding_format="float",
-        )
+        try:
+            response = self.client.embeddings.create(
+                model=model,
+                input=texts,
+                dimensions=EMBED_DIM,
+                encoding_format="float",
+            )
+        except Exception as exc:
+            logger.exception(
+                "Embedding request failed (%s: %s)",
+                type(exc).__name__,
+                str(exc),
+            )
+            raise
         tokens = int(getattr(response.usage, "total_tokens", 0) or 0)
         return [item.embedding for item in response.data], tokens
 
