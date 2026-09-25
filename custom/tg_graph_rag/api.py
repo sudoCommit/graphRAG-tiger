@@ -1,6 +1,6 @@
 from llm.ag_llm import PipelineResult
 from llm.rag_pipeline import run_rag
-from tg_graph_rag.config import (
+from custom.tg_graph_rag.config import (
     DEFAULT_TOP_K,
     DEFAULT_NUM_HOPS,
     DEFAULT_NUM_SEEN_MIN,

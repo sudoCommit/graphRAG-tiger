@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from langchain_core.embeddings import Embeddings
 
-from tg.retrieval import SavannaRetriever
+from custom.tg.retrieval import SavannaRetriever
 
 
 class FakeEmbeddings(Embeddings):

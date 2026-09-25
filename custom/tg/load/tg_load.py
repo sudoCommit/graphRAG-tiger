@@ -4,10 +4,11 @@ from pathlib import Path
 
 import pyTigerGraph as tg
 
-from tg.load import data, schema
-from tg.load.base import get_connection
-from tg.load.constants import GRAPH
-from tg.load.vector_queries import install_vector_search_queries
+from custom.tg.load import data
+from custom.tg.load import schema
+from custom.tg.load.base import get_connection
+from custom.tg.load.constants import GRAPH
+from custom.tg.load.vector_queries import install_vector_search_queries
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)

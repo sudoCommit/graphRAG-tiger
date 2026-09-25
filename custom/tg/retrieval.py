@@ -8,8 +8,8 @@ from langchain_core.documents import Document
 from llm.ag_llm import LLMClient
 from pyTigerGraph import TigerGraphConnection
 
-from tg.load.base import get_connection
-from tg.load.constants import EMBED_MODEL
+from custom.tg.load.base import get_connection
+from custom.tg.load.constants import EMBED_MODEL
 
 
 # Maximum number of characters to include from each document in the retrieval context.

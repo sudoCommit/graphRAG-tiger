@@ -4,9 +4,9 @@ import os
 import sys
 
 from llm.ag_llm import PipelineResult
-import tg_llm.api as LlmPipeline
-import tg_rag.api as RagPipeline
-import tg_graph_rag.api as GraphRagPipeline
+import custom.tg_llm.api as LlmPipeline
+import custom.tg_rag.api as RagPipeline
+import custom.tg_graph_rag.api as GraphRagPipeline
 
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")

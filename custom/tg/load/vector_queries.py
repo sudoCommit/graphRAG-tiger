@@ -2,8 +2,8 @@ import logging
 
 import pyTigerGraph as tg
 
-from tg.load.constants import GRAPH, VERTEX_TYPES
-from tg.load.schema import run_gsql
+from custom.tg.load.constants import GRAPH, VERTEX_TYPES
+from custom.tg.load.schema import run_gsql
 
 logger = logging.getLogger(__name__)
 

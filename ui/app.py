@@ -15,6 +15,7 @@ from ui.pipelines import run_all
 from ui.styles import render_page_header
 from ui.views import render_context, render_metrics, render_pipeline_slot, render_result_cards
 
+
 SIDEBAR_WIDGET_KEYS = ("model_select", "top_k", "num_hops", "num_seen_min", "edge_limit")
 
 

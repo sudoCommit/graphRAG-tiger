@@ -4,7 +4,7 @@ from langchain_core.documents import Document
 from langchain_core.messages import AIMessage
 
 from llm.rag_pipeline import run_rag
-from tg.retrieval import RetrievalResult
+from custom.tg.retrieval import RetrievalResult
 
 
 class FakeRetriever:

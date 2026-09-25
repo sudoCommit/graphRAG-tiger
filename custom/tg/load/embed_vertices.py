@@ -22,8 +22,8 @@ import pyTigerGraph as tg
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from tg.load.base import get_connection
-from tg.load.constants import (
+from custom.tg.load.base import get_connection
+from custom.tg.load.constants import (
     BATCH_SIZE,
     EMBED_DIM,
     EMBED_MODEL,

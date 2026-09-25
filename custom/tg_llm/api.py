@@ -1,7 +1,7 @@
 from functools import lru_cache
 
 from llm.ag_llm import LLMClient, PipelineResult
-from tg_llm.prompts import build_llm_only_prompt
+from custom.tg_llm.prompts import build_llm_only_prompt
 
 
 @lru_cache(maxsize=8)

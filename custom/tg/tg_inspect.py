@@ -2,8 +2,8 @@
 
 import logging
 
-from tg.load.base import get_connection
-from tg.load.constants import GRAPH
+from custom.tg.load.base import get_connection
+from custom.tg.load.constants import GRAPH
 
 logger = logging.getLogger(__name__)
 

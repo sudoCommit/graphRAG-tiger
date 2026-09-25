@@ -3,7 +3,7 @@ import time
 
 import pyTigerGraph as tg
 
-from tg.load.constants import EMBED_DIM, GRAPH, VERTEX_TYPES
+from custom.tg.load.constants import EMBED_DIM, GRAPH, VERTEX_TYPES
 
 logger = logging.getLogger(__name__)
 

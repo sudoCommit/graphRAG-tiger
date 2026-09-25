@@ -1,6 +1,6 @@
 import pyTigerGraph as tg
 
-from tg.load.constants import TG_HOST, GRAPH, API_KEY
+from custom.tg.load.constants import TG_HOST, GRAPH, API_KEY
 
 
 def get_connection() -> tg.TigerGraphConnection:

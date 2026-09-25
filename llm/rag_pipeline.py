@@ -3,9 +3,9 @@ from functools import lru_cache
 from typing import Literal
 
 from llm.ag_llm import LLMClient, PipelineResult
-from tg.retrieval import SavannaRetriever
-from tg_graph_rag.prompts import build_graph_rag_prompt
-from tg_rag.prompts import build_rag_prompt
+from custom.tg.retrieval import SavannaRetriever
+from custom.tg_graph_rag.prompts import build_graph_rag_prompt
+from custom.tg_rag.prompts import build_rag_prompt
 
 
 @lru_cache(maxsize=1)
