@@ -1,0 +1,80 @@
+# GraphRAG Deployment — configured for TigerGraph Savanna (no local TG container)
+# Usage: cd graphrag_deploy && docker compose up -d
+# Configure configs/server_config.json before starting the services.
+
+services:
+  graphrag:
+    image: tigergraph/graphrag:latest
+    platform: linux/amd64
+    container_name: graphrag
+    env_file:
+      - path: ../../.env
+        format: raw
+    ports:
+      - "8000:8000"
+    depends_on:
+      - graphrag-ecc
+      - chat-history
+    environment:
+      SERVER_CONFIG: "/tmp/server_config.json"
+      LOGLEVEL: "INFO"
+      USE_CYPHER: "true"
+    volumes:
+      - ./configs/:/code/configs
+      - ./render_config.py:/code/render_config.py:ro
+    command: ["sh", "-c", "sed -i 's/sslPort=14240/sslPort=int(db_config.get(\"gsPort\", \"14240\"))/g' /code/common/db/connections.py && sed -i 's/asyncio.run(conn.gsql(\"USE GRAPH \" + graphname))/asyncio.run(conn.gsql(\"USE GRAPH \" + graphname)); conn._async_client = None/' /code/common/db/connections.py && python /code/render_config.py /code/configs/server_config.json /tmp/server_config.json && exec uvicorn main:app --host 0.0.0.0 --port 8000 --ws websockets-sansio"]
+
+  graphrag-ecc:
+    image: tigergraph/graphrag-ecc:latest
+    platform: linux/amd64
+    container_name: graphrag-ecc
+    env_file:
+      - path: ../../.env
+        format: raw
+    ports:
+      - "8001:8001"
+    environment:
+      SERVER_CONFIG: "/tmp/server_config.json"
+      LOGLEVEL: "INFO"
+      INIT_EMBED_STORE: "false"
+    volumes:
+      - ./configs/:/code/configs
+      - ./render_config.py:/code/render_config.py:ro
+    command: ["sh", "-c", "sed -i 's/sslPort=14240/sslPort=int(db_config.get(\"gsPort\", \"14240\"))/g' /code/common/db/connections.py && sed -i 's/asyncio.run(conn.gsql(\"USE GRAPH \" + graphname))/asyncio.run(conn.gsql(\"USE GRAPH \" + graphname)); conn._async_client = None/' /code/common/db/connections.py && sed -i 's/maj, minor, patch = conn.getVer().split(\".\")/maj, minor, patch = asyncio.run(conn.getVer()).split(\".\")/' /code/main.py && python /code/render_config.py /code/configs/server_config.json /tmp/server_config.json && exec uvicorn main:app --host 0.0.0.0 --port 8001"]
+
+  chat-history:
+    image: tigergraph/chat-history:latest
+    platform: linux/amd64
+    container_name: chat-history
+    env_file:
+      - path: ../../.env
+        format: raw
+    ports:
+      - "8002:8002"
+    environment:
+      CONFIG_FILES: "/tmp/server_config.json"
+      LOGLEVEL: "INFO"
+    volumes:
+      - ./configs/:/configs
+      - ./render_config.py:/code/render_config.py:ro
+    command: ["sh", "-c", "python /code/render_config.py /configs/server_config.json /tmp/server_config.json && exec ./server"]
+
+  graphrag-ui:
+    image: tigergraph/graphrag-ui:latest
+    platform: linux/amd64
+    container_name: graphrag-ui
+    ports:
+      - "3000:3000"
+    depends_on:
+      - graphrag
+
+  nginx:
+    container_name: nginx
+    image: nginx
+    volumes:
+      - ./configs/nginx.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - "80:80"
+    depends_on:
+      - graphrag-ui
+      - graphrag

@@ -1,0 +1,73 @@
+{
+  "db_config": {
+    "hostname": "${TG_HOST}",
+    "restppPort": "${TG_RESTPP_PORT}",
+    "gsPort": "${TG_GS_PORT}",
+    "getToken": true,
+    "apiToken": "${TG_API_KEY}",
+    "username": "${TG_USERNAME}",
+    "password": "${TG_PASSWORD}",
+    "graphname": "${PREDEFINED_GRAPH}",
+    "default_timeout": 300,
+    "default_mem_threshold": 5000,
+    "default_thread_limit": 8
+  },
+  "graphrag_config": {
+    "reuse_embedding": true,
+    "ecc": "http://graphrag-ecc:8001",
+    "chat_history_api": "http://chat-history:8002",
+    "enable_consistency_checker": false,
+    "graph_names": [],
+    "process_interval_seconds": 30,
+    "checker_batch_size": 100,
+    "load_batch_size": 100,
+    "default_concurrency": 3,
+    "entity_extraction_switch": true,
+    "community_detection_switch": true,
+    "chunker": "characters",
+    "extractor": "llm",
+    "top_k": 5,
+    "num_hops": 2,
+    "chunker_config": {
+      "chunk_size": 1200,
+      "overlap_size": 150
+    }
+  },
+  "llm_config": {
+    "token_limit": 0,
+    "authentication_configuration": {
+      "OPENAI_API_KEY": "${LLM_API_KEY}"
+    },
+    "embedding_service": {
+      "embedding_model_service": "openai",
+      "model_name": "${LLM_EMBEDDING_MODEL}",
+      "base_url": "${LLM_BASE_URL}"
+    },
+    "completion_service": {
+      "llm_service": "openai",
+      "llm_model": "${LLM_COMPLETION_MODEL}",
+      "base_url": "${LLM_BASE_URL}",
+      "model_kwargs": {
+        "temperature": 0
+      },
+      "prompt_path": "./common/prompts/openai_gpt4/"
+    },
+    "multimodal_service": {
+      "llm_service": "openai",
+      "llm_model": "gpt-4o-mini",
+      "model_kwargs": {
+        "temperature": 0
+      }
+    }
+  },
+  "chat_config": {
+    "apiPort": "8002",
+    "dbPath": "chats.db",
+    "dbLogPath": "db.log",
+    "logPath": "requestLogs.jsonl",
+    "conversationAccessRoles": [
+      "superuser",
+      "globaldesigner"
+    ]
+  }
+}
