@@ -63,3 +63,28 @@ uv run python pre_defined/main.py \
 
 Use `--method similarity` or `--method community` to compare GraphRAG
 retrieval modes.
+## Benchmark pipelines
+
+```bash
+uv run python -m pre_defined.benchmark --dataset eval_public --limit 10
+```
+
+The benchmark compares five rows:
+
+- `LLM-Only`: parametric baseline with no retrieval.
+- `RAG`: Savanna similarity retrieval followed by LLM generation.
+- `GraphRAG`: Savanna hybrid graph retrieval followed by LLM generation.
+- `Agentic GraphRAG`: LLM planner/evaluator/synthesizer with similarity, graph,
+  community and exhaustive `event_category_scan` retrieval tools.
+- `Structured Graph`: exact graph-field count/rank baseline; no answer-generation LLM call.
+
+RAG and GraphRAG do not receive a hidden structured-scan shortcut. Agentic GraphRAG
+must select the scan tool for exhaustive count/rank and unique venue/date questions;
+the benchmark trace records that choice and any coverage-policy override. Structured
+Graph is applicable only to those supported question forms; other rows are marked N/A
+and excluded from its accuracy denominator. This separates retrieval/generation quality
+from the exact structured baseline.
+
+LLM tokens and cost come from API responses. Graph retrieval time and estimated context
+tokens are recorded separately. Per-operation traces, strategy changes, N/A status and
+stop reasons are written to `pre_defined/data/benchmark_results.json`.

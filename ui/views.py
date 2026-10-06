@@ -23,6 +23,8 @@ def render_pipeline_slot(slot, name: str, status: str, result: PipelineResult | 
             st.info("Running...")
         elif status == "error":
             st.error(f"Failed: {error}")
+        elif status == "done" and result is not None and not result.applicable:
+            st.caption("Not applicable to this question")
         elif status == "done" and result is not None:
             st.success(f"Done in {result.latency_s:.2f}s")
             answer = html.escape(result.answer).replace("\n", "<br>")
@@ -80,7 +82,7 @@ def render_metrics(results: dict[str, PipelineResult]) -> None:
 
 
 def render_context(results: dict[str, PipelineResult]) -> None:
-    names = [name for name in ("Basic RAG", "GraphRAG") if name in results and results[name].retrieved_context]
+    names = [name for name in results if results[name].retrieved_context]
     if not names:
         st.info("No retrieved context available for this run.")
         return

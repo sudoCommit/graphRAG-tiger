@@ -26,6 +26,14 @@ QUESTIONS_ROOT = Path(__file__).resolve().parent / "data" / "questions"
 # aggregation/lookup answers are counts; everything else is a name or title.
 NUMERIC_QTYPES = {"aggregation", "lookup"}
 FUZZY_MATCH_THRESHOLD = 0.85
+MIN_FUZZY_LENGTH = 8
+_FINAL_ANSWER_RE = re.compile(r"final answer\s*:\s*(.+)", re.IGNORECASE)
+_REFUSAL_RE = re.compile(
+    r"\b(?:cannot|can't|unable to|do not|don't)\s+(?:be\s+)?(?:determine|determined|have access|provide|find)"
+    r"|\binsufficient\b|\bnot (?:provided|enough)\b",
+    re.IGNORECASE,
+)
+_TITLE_SEPARATOR_RE = re.compile(r"\s[\u2013\u2014-]\s")
 
 _NUMBER_WORDS = {
     "zero": 0, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5,
@@ -35,10 +43,13 @@ _NUMBER_WORDS = {
 }
 
 
-def load_questions(dataset: str) -> list[dict[str, Any]]:
+def load_questions(dataset: str, limit: int | None = 10) -> list[dict[str, Any]]:
+    if limit is not None and limit < 1:
+        raise ValueError("limit must be greater than zero")
     path = QUESTIONS_ROOT / f"{dataset}.jsonl"
     with path.open(encoding="utf-8") as questions_file:
-        return [json.loads(line) for line in questions_file if line.strip()][:10]
+        questions = [json.loads(line) for line in questions_file if line.strip()]
+    return questions[:limit] if limit is not None else questions
 
 
 def normalize_answer(value: str) -> str:
@@ -48,6 +59,11 @@ def normalize_answer(value: str) -> str:
     value = "".join(char for char in value if not unicodedata.combining(char))
     value = re.sub(r"[^a-z0-9 ]", " ", value.lower())
     return re.sub(r"\s+", " ", value).strip()
+
+
+def _distinguishing_part(expected: str) -> str:
+    """'Sailing at the 2000 Summer Olympics - Soling' -> 'Soling'; the shared prefix must not count as a match."""
+    return _TITLE_SEPARATOR_RE.split(expected)[-1]
 
 
 def _extract_numbers(text: str) -> list[int]:
@@ -80,14 +96,19 @@ def _score_numeric(prediction: str, expected_answers: list[str]) -> dict[str, An
 
 def _score_text(prediction: str, expected_answers: list[str]) -> dict[str, Any]:
     normalized_prediction = normalize_answer(prediction)
+    padded_prediction = f" {normalized_prediction} "
     best_confidence = 0.0
     for expected in expected_answers:
-        normalized_expected = normalize_answer(expected)
-        if not normalized_expected:
+        key = normalize_answer(_distinguishing_part(expected))
+        if not key:
             continue
-        if normalized_expected in normalized_prediction:
+        if f" {key} " in padded_prediction:
             return {"correct": True, "method": "contains", "confidence": 1.0}
-        best_confidence = max(best_confidence, _partial_ratio(normalized_expected, normalized_prediction))
+        # Fuzzy matching only for typos in longer keys, and never across different numbers.
+        digits = set(re.findall(r"\d+", key))
+        if len(key) < MIN_FUZZY_LENGTH or not digits <= set(re.findall(r"\d+", normalized_prediction)):
+            continue
+        best_confidence = max(best_confidence, _partial_ratio(key, normalized_prediction))
     return {
         "correct": best_confidence >= FUZZY_MATCH_THRESHOLD,
         "method": "fuzzy",
@@ -95,10 +116,20 @@ def _score_text(prediction: str, expected_answers: list[str]) -> dict[str, Any]:
     }
 
 
+def _final_answer(prediction: str) -> str:
+    """Text after the last 'Final answer:' marker (citations removed), else the whole answer."""
+    matches = _FINAL_ANSWER_RE.findall(prediction)
+    text = matches[-1] if matches else prediction
+    return re.sub(r"\[[^\]]*\]", " ", text).strip()
+
+
 def score_answer(prediction: str, expected_answers: list[str], qtype: str) -> dict[str, Any]:
     """Qtype-aware scoring. Returns {'correct': bool | None, 'method': str, 'confidence': float}."""
     if not expected_answers or not prediction:
         return {"correct": None, "method": "n/a", "confidence": 0.0}
+    answer = _final_answer(prediction)
+    if _REFUSAL_RE.search(answer):
+        return {"correct": False, "method": "refusal", "confidence": 0.0}
     if qtype in NUMERIC_QTYPES:
-        return _score_numeric(prediction, expected_answers)
-    return _score_text(prediction, expected_answers)
+        return _score_numeric(answer, expected_answers)
+    return _score_text(answer, expected_answers)

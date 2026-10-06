@@ -56,10 +56,12 @@ def _connection() -> tg.TigerGraphConnection:
     return connection
 
 
-def _read_documents(limit: int | None = None) -> Iterator[dict]:
+def _read_documents(limit: int | None = None, offset: int = 0) -> Iterator[dict]:
     with CORPUS_PATH.open(encoding="utf-8") as corpus:
         for line_number, line in enumerate(corpus, start=1):
-            if limit is not None and line_number > limit:
+            if line_number <= offset:
+                continue
+            if limit is not None and line_number > offset + limit:
                 break
             document = json.loads(line)
             for field in ("doc_id", "title", "url", "text"):
@@ -68,7 +70,7 @@ def _read_documents(limit: int | None = None) -> Iterator[dict]:
             yield document
 
 
-def _normalized_documents(limit: int | None) -> tuple[Path, int]:
+def _normalized_documents(limit: int | None, offset: int = 0) -> tuple[Path, int]:
     handle = tempfile.NamedTemporaryFile(
         mode="w", encoding="utf-8", suffix=".jsonl", delete=False
     )
@@ -76,7 +78,7 @@ def _normalized_documents(limit: int | None) -> tuple[Path, int]:
     count = 0
     try:
         with handle:
-            for document in _read_documents(limit):
+            for document in _read_documents(limit, offset):
                 metadata = [
                     f"Title: {document['title']}",
                     f"Source URL: {document['url']}",
@@ -109,8 +111,8 @@ def initialize_graph(connection: tg.TigerGraphConnection) -> None:
     print(f"GraphRAG initialized on {graph}")
 
 
-def load_corpus(connection: tg.TigerGraphConnection, limit: int | None) -> None:
-    upload_path, count = _normalized_documents(limit)
+def load_corpus(connection: tg.TigerGraphConnection, limit: int | None, offset: int = 0) -> None:
+    upload_path, count = _normalized_documents(limit, offset)
     try:
         ingest = connection.ai.createDocumentIngest(
             data_source="local",
@@ -208,10 +210,11 @@ def _document_ids(value: object) -> set[str]:
         for item in value:
             ids.update(_document_ids(item))
     elif isinstance(value, dict):
-        for key in ("doc_id", "document_id", "id", "docId"):
+        for key in ("doc_id", "document_id", "id", "docId", "v"):
             identifier = value.get(key)
             if identifier is not None:
-                ids.add(str(identifier))
+                identifier = str(identifier)
+                ids.add(identifier.split("_chunk_", 1)[0])
         for item in value.values():
             if isinstance(item, (dict, list)):
                 ids.update(_document_ids(item))
@@ -224,6 +227,7 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument("--load", action="store_true", help="Load corpus documents into GraphRAG")
     parser.add_argument("--refresh", action="store_true", help="Refresh GraphRAG indexes and communities")
     parser.add_argument("--limit", type=int, help="Load only this many documents")
+    parser.add_argument("--offset", type=int, default=0, help="Skip this many documents before loading")
     parser.add_argument("--query", help="Ask a question using GraphRAG")
     parser.add_argument(
         "--method",
@@ -237,6 +241,8 @@ def _parse_args() -> argparse.Namespace:
     args = parser.parse_args()
     if args.limit is not None and args.limit < 1:
         parser.error("--limit must be greater than zero")
+    if args.offset < 0:
+        parser.error("--offset cannot be negative")
     if args.top_k < 1 or args.num_hops < 0 or args.num_seen_min < 1:
         parser.error("--top-k and --num-seen-min must be greater than zero; --num-hops cannot be negative")
     if not any((args.init, args.load, args.refresh, args.query)):
@@ -250,7 +256,7 @@ def main() -> None:
     if args.init or args.load:
         initialize_graph(connection)
     if args.load:
-        load_corpus(connection, args.limit)
+        load_corpus(connection, args.limit, args.offset)
     if args.refresh:
         refresh_graph(connection)
     if args.query:

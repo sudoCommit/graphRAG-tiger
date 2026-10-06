@@ -1,7 +1,7 @@
 import time
 import os
 import logging
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Any
 
 from openai import AsyncOpenAI
@@ -31,7 +31,17 @@ class PipelineResult:
     cost: float = 0.0
     model: str = ""
     retrieved_context: str = ""
+    retrieved_doc_ids: list[str] = field(default_factory=list)
+    graph_used: bool = False
+    graph_reason: str = ""
     finish_reason: str = ""
+    context_tokens: int = 0
+    chunks: int = 0
+    citations: list[str] = field(default_factory=list)
+    steps: list[dict[str, Any]] = field(default_factory=list)
+    strategy_changes: list[dict[str, Any]] = field(default_factory=list)
+    stop_reason: str = ""
+    applicable: bool = True
 
 
 class LLMClient:

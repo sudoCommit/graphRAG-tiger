@@ -6,6 +6,9 @@ PIPELINE_META = {
     "LLM-Only": {"desc": "Parametric model knowledge", "color": "#8dc274", "icon": "🧠"},
     "Basic RAG": {"desc": "Native vector top-k retrieval", "color": "#5dd6e6", "icon": "🔎"},
     "GraphRAG": {"desc": "Vector seeds plus graph hops", "color": "#fda367", "icon": "🐯"},
+    "RAG": {"desc": "Savanna similarity top-k retrieval", "color": "#5dd6e6", "icon": "🔎"},
+    "Agentic GraphRAG": {"desc": "Planner, retrievers, evaluator, synthesizer", "color": "#c792ea", "icon": "🤖"},
+    "Structured Graph": {"desc": "Exhaustive graph scan and deterministic count/rank", "color": "#e76f51", "icon": "∑"},
 }
 
 EXAMPLE_QUESTIONS = [
@@ -19,3 +22,7 @@ DEFAULT_TOP_K = 5
 DEFAULT_NUM_HOPS = 2
 DEFAULT_NUM_SEEN_MIN = 1
 DEFAULT_EDGE_LIMIT = 5
+
+PREDEFINED_SECTION = "Pre-defined corpus"
+COMPARISON_SECTION = "Pipeline comparison"
+EMPTY_QUESTION_WARNING = "Please enter a question."
